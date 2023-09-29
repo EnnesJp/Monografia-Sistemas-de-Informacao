@@ -1,338 +1,3 @@
-HEADER    RNA BINDING PROTEIN/RNA                 27-JUN-11   2RS2              
-TITLE     1H, 13C, AND 15N CHEMICAL SHIFT ASSIGNMENTS FOR MUSASHI1 RBD1:R(GUAGU)
-TITLE    2 COMPLEX                                                              
-COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: RNA-BINDING PROTEIN MUSASHI HOMOLOG 1;                     
-COMPND   3 CHAIN: A;                                                            
-COMPND   4 FRAGMENT: RRM 1 DOMAIN, UNP RESIDUES 20-103;                         
-COMPND   5 SYNONYM: MUSASHI-1;                                                  
-COMPND   6 ENGINEERED: YES;                                                     
-COMPND   7 MOL_ID: 2;                                                           
-COMPND   8 MOLECULE: RNA (5'-R(*GP*UP*AP*GP*U)-3');                             
-COMPND   9 CHAIN: B;                                                            
-COMPND  10 ENGINEERED: YES                                                      
-SOURCE    MOL_ID: 1;                                                            
-SOURCE   2 ORGANISM_SCIENTIFIC: MUS MUSCULUS;                                   
-SOURCE   3 ORGANISM_COMMON: MOUSE;                                              
-SOURCE   4 ORGANISM_TAXID: 10090;                                               
-SOURCE   5 GENE: MSI1, MSI1H;                                                   
-SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;                                        
-SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: VECTOR;                               
-SOURCE   9 EXPRESSION_SYSTEM_VECTOR: PET15B;                                    
-SOURCE  10 MOL_ID: 2;                                                           
-SOURCE  11 SYNTHETIC: YES;                                                      
-SOURCE  12 OTHER_DETAILS: SYNTHETIC RNA                                         
-KEYWDS    MUSASHI, PROTEIN-RNA COMPLEX, RRM, RBD, RNA BINDING PROTEIN-RNA       
-KEYWDS   2 COMPLEX                                                              
-EXPDTA    SOLUTION NMR                                                          
-NUMMDL    20                                                                    
-AUTHOR    T.OHYAMA,T.NAGATA,K.TSUDA,T.IMAI,H.OKANO,T.YAMAZAKI,M.KATAHIRA        
-REVDAT   1   28-DEC-11 2RS2    0                                                
-JRNL        AUTH   T.OHYAMA,T.NAGATA,K.TSUDA,N.KOBAYASHI,T.IMAI,H.OKANO,        
-JRNL        AUTH 2 T.YAMAZAKI,M.KATAHIRA                                        
-JRNL        TITL   STRUCTURE OF MUSASHI1 IN A COMPLEX WITH TARGET RNA: THE ROLE 
-JRNL        TITL 2 OF AROMATIC STACKING INTERACTIONS                            
-JRNL        REF    NUCLEIC ACIDS RES.                         2011              
-JRNL        REFN                   ESSN 1362-4962                               
-JRNL        PMID   22140116                                                     
-JRNL        DOI    10.1093/NAR/GKR1139                                          
-REMARK   2                                                                      
-REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
-REMARK   3                                                                      
-REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : AMBER                                                
-REMARK   3   AUTHORS     : CASE, DARDEN, CHEATHAM, III, SIMMERLING, WANG,       
-REMARK   3                 DUKE, LUO, ... AND KOLLM                             
-REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
-REMARK   4                                                                      
-REMARK   4 2RS2 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
-REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 13-JUL-11.                  
-REMARK 100 THE RCSB ID CODE IS RCSB150218.                                      
-REMARK 210                                                                      
-REMARK 210 EXPERIMENTAL DETAILS                                                 
-REMARK 210  EXPERIMENT TYPE                : NMR                                
-REMARK 210  TEMPERATURE           (KELVIN) : 298                                
-REMARK 210  PH                             : 6.0                                
-REMARK 210  IONIC STRENGTH                 : NULL                               
-REMARK 210  PRESSURE                       : AMBIENT                            
-REMARK 210  SAMPLE CONTENTS                : 300 UM [U-13C; U-15N] MSI1 RBD1-   
-REMARK 210                                   1, 300 UM RNA-2, 20 MM MES-3, 5    
-REMARK 210                                   MM DTT-4, 95% H2O/5% D2O           
-REMARK 210                                                                      
-REMARK 210  NMR EXPERIMENTS CONDUCTED      : 2D 1H-15N HSQC; 2D 1H-13C HSQC;    
-REMARK 210                                   2D 1H-1H TOCSY; 2D DQF-COSY; 3D    
-REMARK 210                                   1H-15N NOESY; 3D 1H-13C NOESY; 3D  
-REMARK 210                                   HNCO; 3D HNCA; 3D HNCACB; 3D       
-REMARK 210                                   CBCA(CO)NH; 3D HBHA(CO)NH; 3D      
-REMARK 210                                   HCCH-TOCSY; 3D HN(CO)CA; 2D 13C-   
-REMARK 210                                   15N [F1,F2]-FILTERED NOESY; 2D     
-REMARK 210                                   13C-15N [F2]-FILTERED NOESY        
-REMARK 210  SPECTROMETER FIELD STRENGTH    : 800 MHZ; 600 MHZ                   
-REMARK 210  SPECTROMETER MODEL             : AVANCE                             
-REMARK 210  SPECTROMETER MANUFACTURER      : BRUKER                             
-REMARK 210                                                                      
-REMARK 210  STRUCTURE DETERMINATION.                                            
-REMARK 210   SOFTWARE USED                 : AMBER 9, CYANA 2.1                 
-REMARK 210   METHOD USED                   : SIMULATED ANNEALING                
-REMARK 210                                                                      
-REMARK 210 CONFORMERS, NUMBER CALCULATED   : 200                                
-REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 20                                 
-REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LEAST          
-REMARK 210                                   RESTRAINT VIOLATIONS               
-REMARK 210                                                                      
-REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
-REMARK 210                                                                      
-REMARK 210 REMARK: NULL                                                         
-REMARK 215                                                                      
-REMARK 215 NMR STUDY                                                            
-REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
-REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
-REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
-REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
-REMARK 300                                                                      
-REMARK 300 BIOMOLECULE: 1                                                       
-REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
-REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
-REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 350                                                                      
-REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
-REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
-REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
-REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
-REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
-REMARK 350                                                                      
-REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B                                  
-REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
-REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
-REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
-REMARK 465                                                                      
-REMARK 465 MISSING RESIDUES                                                     
-REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
-REMARK 465 EXPERIMENT. (RES=RESIDUE NAME; C=CHAIN IDENTIFIER;                   
-REMARK 465 SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                            
-REMARK 465   MODELS 1-20                                                        
-REMARK 465     RES C SSSEQI                                                     
-REMARK 465     MET A    -5                                                      
-REMARK 465     GLY A    -4                                                      
-REMARK 465     SER A    -3                                                      
-REMARK 465     SER A    -2                                                      
-REMARK 465     HIS A    -1                                                      
-REMARK 465     HIS A     0                                                      
-REMARK 465     HIS A     1                                                      
-REMARK 465     HIS A     2                                                      
-REMARK 465     HIS A     3                                                      
-REMARK 465     HIS A     4                                                      
-REMARK 465     SER A     5                                                      
-REMARK 465     SER A     6                                                      
-REMARK 465     GLY A     7                                                      
-REMARK 465     LEU A     8                                                      
-REMARK 465     VAL A     9                                                      
-REMARK 465     PRO A    10                                                      
-REMARK 465     ARG A    11                                                      
-REMARK 465     GLY A    12                                                      
-REMARK 465     SER A    13                                                      
-REMARK 465     HIS A    14                                                      
-REMARK 465     MET A    15                                                      
-REMARK 465     GLY A    16                                                      
-REMARK 465     SER A    17                                                      
-REMARK 465     SER A    18                                                      
-REMARK 465     GLY A    19                                                      
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
-REMARK 500                                                                      
-REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
-REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
-REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
-REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500  1 ARG A  82   NE  -  CZ  -  NH1 ANGL. DEV. =   3.4 DEGREES          
-REMARK 500  1   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.3 DEGREES          
-REMARK 500  1   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.6 DEGREES          
-REMARK 500  1   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.5 DEGREES          
-REMARK 500  1   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   5.0 DEGREES          
-REMARK 500  2   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.5 DEGREES          
-REMARK 500  2   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.6 DEGREES          
-REMARK 500  2   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.6 DEGREES          
-REMARK 500  2   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   6.1 DEGREES          
-REMARK 500  3 ARG A  61   NE  -  CZ  -  NH1 ANGL. DEV. =   3.1 DEGREES          
-REMARK 500  3 ARG A  82   NE  -  CZ  -  NH1 ANGL. DEV. =   3.7 DEGREES          
-REMARK 500  3   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.2 DEGREES          
-REMARK 500  3   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.6 DEGREES          
-REMARK 500  3   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.2 DEGREES          
-REMARK 500  3   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   4.9 DEGREES          
-REMARK 500  4   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.4 DEGREES          
-REMARK 500  4   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.6 DEGREES          
-REMARK 500  4   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.6 DEGREES          
-REMARK 500  4   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   5.8 DEGREES          
-REMARK 500  5   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.4 DEGREES          
-REMARK 500  5   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.5 DEGREES          
-REMARK 500  5   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.6 DEGREES          
-REMARK 500  5   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   5.1 DEGREES          
-REMARK 500  6 ARG A  59   NE  -  CZ  -  NH1 ANGL. DEV. =   3.1 DEGREES          
-REMARK 500  6   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.2 DEGREES          
-REMARK 500  6   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.6 DEGREES          
-REMARK 500  6   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.4 DEGREES          
-REMARK 500  6   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   4.7 DEGREES          
-REMARK 500  7   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.3 DEGREES          
-REMARK 500  7   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.7 DEGREES          
-REMARK 500  7   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.5 DEGREES          
-REMARK 500  7   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   4.9 DEGREES          
-REMARK 500  8   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.3 DEGREES          
-REMARK 500  8   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.5 DEGREES          
-REMARK 500  8   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.3 DEGREES          
-REMARK 500  8   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   4.2 DEGREES          
-REMARK 500  9   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.4 DEGREES          
-REMARK 500  9   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.6 DEGREES          
-REMARK 500  9   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.6 DEGREES          
-REMARK 500  9   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   6.3 DEGREES          
-REMARK 500 10 ARG A  61   NE  -  CZ  -  NH1 ANGL. DEV. =   3.1 DEGREES          
-REMARK 500 10 ARG A  82   NE  -  CZ  -  NH1 ANGL. DEV. =   3.5 DEGREES          
-REMARK 500 10   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.2 DEGREES          
-REMARK 500 10   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.5 DEGREES          
-REMARK 500 10   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.4 DEGREES          
-REMARK 500 10   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   5.6 DEGREES          
-REMARK 500 11   A B 106   C4  -  C5  -  C6  ANGL. DEV. =  -3.4 DEGREES          
-REMARK 500 11   A B 106   C5  -  C6  -  N1  ANGL. DEV. =   3.5 DEGREES          
-REMARK 500 11   A B 106   N1  -  C6  -  N6  ANGL. DEV. =  -5.4 DEGREES          
-REMARK 500 11   G B 107   O4' -  C1' -  N9  ANGL. DEV. =   4.9 DEGREES          
-REMARK 500                                                                      
-REMARK 500 THIS ENTRY HAS      94 ANGLE DEVIATIONS.                             
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: TORSION ANGLES                                             
-REMARK 500                                                                      
-REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
-REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        PSI       PHI                                   
-REMARK 500  1 LYS A  21      135.41     85.82                                   
-REMARK 500  2 MET A  52       54.83    -91.77                                   
-REMARK 500  3 MET A  52       49.29    -90.54                                   
-REMARK 500  4 LYS A  21      135.73     91.65                                   
-REMARK 500  4 MET A  52       43.62    -88.10                                   
-REMARK 500  5 LYS A  21      139.02     97.84                                   
-REMARK 500  5 MET A  52       47.33    -93.56                                   
-REMARK 500  6 ALA A 100     -167.94     60.23                                   
-REMARK 500  7 MET A  52       43.03    -90.83                                   
-REMARK 500  7 ALA A 100     -166.94     60.71                                   
-REMARK 500  8 MET A  52       44.60    -89.54                                   
-REMARK 500  9 LYS A  21      139.02    143.32                                   
-REMARK 500 10 TRP A  29       -7.38    -59.67                                   
-REMARK 500 11 MET A  52       42.49    -91.83                                   
-REMARK 500 12 GLU A  48      -85.02   -147.37                                   
-REMARK 500 12 CYS A  49      130.37     70.22                                   
-REMARK 500 12 MET A  52       49.11    -86.06                                   
-REMARK 500 13 GLU A  48      102.51   -168.16                                   
-REMARK 500 13 MET A  52       45.66    -93.96                                   
-REMARK 500 13 LYS A  58       -1.45     66.89                                   
-REMARK 500 14 LYS A  21      137.65     87.28                                   
-REMARK 500 14 MET A  52       46.40    -89.73                                   
-REMARK 500 15 MET A  52       44.90    -90.26                                   
-REMARK 500 16 LYS A  21      138.37     97.76                                   
-REMARK 500 16 GLU A  48      140.49   -170.93                                   
-REMARK 500 16 MET A  52       42.59    -95.46                                   
-REMARK 500 17 MET A  52       49.80    -88.73                                   
-REMARK 500 18 MET A  52       51.61    -92.32                                   
-REMARK 500 20 LYS A  21      136.63     92.30                                   
-REMARK 500 20 LYS A  58       -0.63     68.73                                   
-REMARK 500 20 ARG A  61       11.99     57.74                                   
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: PLANAR GROUPS                                              
-REMARK 500                                                                      
-REMARK 500 PLANAR GROUPS IN THE FOLLOWING RESIDUES HAVE A TOTAL                 
-REMARK 500 RMS DISTANCE OF ALL ATOMS FROM THE BEST-FIT PLANE                    
-REMARK 500 BY MORE THAN AN EXPECTED VALUE OF 6*RMSD, WITH AN                    
-REMARK 500 RMSD 0.02 ANGSTROMS, OR AT LEAST ONE ATOM HAS                        
-REMARK 500 AN RMSD GREATER THAN THIS VALUE                                      
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500  5   U B 108         0.07    SIDE CHAIN                              
-REMARK 500 11 ARG A  37         0.10    SIDE CHAIN                              
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 900                                                                      
-REMARK 900 RELATED ENTRIES                                                      
-REMARK 900 RELATED ID: 11450   RELATED DB: BMRB                                 
-DBREF  2RS2 A   20   103  UNP    Q61474   MSI1H_MOUSE     20    103             
-DBREF  2RS2 B  104   108  PDB    2RS2     2RS2           104    108             
-SEQADV 2RS2 MET A   -5  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 GLY A   -4  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 SER A   -3  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 SER A   -2  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 HIS A   -1  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 HIS A    0  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 HIS A    1  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 HIS A    2  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 HIS A    3  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 HIS A    4  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 SER A    5  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 SER A    6  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 GLY A    7  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 LEU A    8  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 VAL A    9  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 PRO A   10  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 ARG A   11  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 GLY A   12  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 SER A   13  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 HIS A   14  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 MET A   15  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 GLY A   16  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 SER A   17  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 SER A   18  UNP  Q61474              EXPRESSION TAG                 
-SEQADV 2RS2 GLY A   19  UNP  Q61474              EXPRESSION TAG                 
-SEQRES   1 A  109  MET GLY SER SER HIS HIS HIS HIS HIS HIS SER SER GLY          
-SEQRES   2 A  109  LEU VAL PRO ARG GLY SER HIS MET GLY SER SER GLY CYS          
-SEQRES   3 A  109  LYS MET PHE ILE GLY GLY LEU SER TRP GLN THR THR GLN          
-SEQRES   4 A  109  GLU GLY LEU ARG GLU TYR PHE GLY GLN PHE GLY GLU VAL          
-SEQRES   5 A  109  LYS GLU CYS LEU VAL MET ARG ASP PRO LEU THR LYS ARG          
-SEQRES   6 A  109  SER ARG GLY PHE GLY PHE VAL THR PHE MET ASP GLN ALA          
-SEQRES   7 A  109  GLY VAL ASP LYS VAL LEU ALA GLN SER ARG HIS GLU LEU          
-SEQRES   8 A  109  ASP SER LYS THR ILE ASP PRO LYS VAL ALA PHE PRO ARG          
-SEQRES   9 A  109  ARG ALA GLN PRO LYS                                          
-SEQRES   1 B    5    G   U   A   G   U                                          
-HELIX    1   1 THR A   32  GLY A   41  1                                  10    
-HELIX    2   2 ASP A   70  GLN A   80  1                                  11    
-SHEET    1   A 5 VAL A  46  VAL A  51  0                                        
-SHEET    2   A 5 GLY A  64  PHE A  68 -1  O  THR A  67   N  GLU A  48           
-SHEET    3   A 5 MET A  22  GLY A  25 -1  N  ILE A  24   O  GLY A  64           
-SHEET    4   A 5 LYS A  88  VAL A  94 -1  O  ASP A  91   N  GLY A  25           
-SHEET    5   A 5 HIS A  83  LEU A  85 -1  N  LEU A  85   O  LYS A  88           
-CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
-ORIGX1      1.000000  0.000000  0.000000        0.00000                         
-ORIGX2      0.000000  1.000000  0.000000        0.00000                         
-ORIGX3      0.000000  0.000000  1.000000        0.00000                         
-SCALE1      1.000000  0.000000  0.000000        0.00000                         
-SCALE2      0.000000  1.000000  0.000000        0.00000                         
-SCALE3      0.000000  0.000000  1.000000        0.00000                         
-MODEL        1                                                                  
 ATOM      1  N   CYS A  20      10.573  -5.678   6.952  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       9.182  -5.604   6.438  1.00  0.00           C  
 ATOM      3  C   CYS A  20       8.969  -4.343   5.571  1.00  0.00           C  
@@ -1682,7 +1347,6 @@ ATOM   1346  HE3 LYS A 103       7.336  18.425   9.399  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103       9.336  19.775   9.671  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103       8.029  20.670  10.057  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103       8.992  20.075  11.237  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -4.893  -0.800 -11.864  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -4.591  -0.373 -13.188  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.912   1.114 -13.400  1.00  0.00           C  
@@ -1843,9 +1507,6 @@ ATOM   1507  H1'   U B 108       9.917  10.241   4.854  1.00  0.00           H
 ATOM   1508  H3    U B 108       5.985  10.250   7.094  1.00  0.00           H  
 ATOM   1509  H5    U B 108       4.751   9.769   3.122  1.00  0.00           H  
 ATOM   1510  H6    U B 108       7.090   9.899   2.424  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL        2                                                                  
 ATOM      1  N   CYS A  20      10.079  -4.491   7.381  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.873  -5.278   7.009  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.833  -4.389   6.307  1.00  0.00           C  
@@ -3195,7 +2856,6 @@ ATOM   1346  HE3 LYS A 103       8.575  14.644   5.165  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103       6.292  14.809   4.199  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103       6.315  13.976   5.592  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103       5.761  15.526   5.563  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -6.007  -0.738 -12.776  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -5.272   0.198 -11.997  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.857   1.403 -12.858  1.00  0.00           C  
@@ -3356,9 +3016,6 @@ ATOM   1507  H1'   U B 108      10.909   8.516   3.975  1.00  0.00           H
 ATOM   1508  H3    U B 108       7.874  10.722   6.530  1.00  0.00           H  
 ATOM   1509  H5    U B 108       6.656  11.669   2.635  1.00  0.00           H  
 ATOM   1510  H6    U B 108       8.489  10.321   1.759  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL        3                                                                  
 ATOM      1  N   CYS A  20      10.031  -4.538   7.543  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.862  -5.346   7.101  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.835  -4.468   6.364  1.00  0.00           C  
@@ -4708,7 +4365,6 @@ ATOM   1346  HE3 LYS A 103      15.542  16.459  16.170  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      16.872  18.056  14.919  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      16.949  16.603  14.183  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      16.017  17.791  13.555  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -4.386  -0.175 -11.786  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -4.009   0.267 -13.084  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.271   1.768 -13.281  1.00  0.00           C  
@@ -4869,9 +4525,6 @@ ATOM   1507  H1'   U B 108      10.095   8.519   4.433  1.00  0.00           H
 ATOM   1508  H3    U B 108       5.996   7.302   5.972  1.00  0.00           H  
 ATOM   1509  H5    U B 108       5.137  10.331   3.214  1.00  0.00           H  
 ATOM   1510  H6    U B 108       7.494  10.382   2.585  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL        4                                                                  
 ATOM      1  N   CYS A  20      10.576  -5.729   6.880  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       9.184  -5.640   6.371  1.00  0.00           C  
 ATOM      3  C   CYS A  20       8.982  -4.388   5.491  1.00  0.00           C  
@@ -6221,7 +5874,6 @@ ATOM   1346  HE3 LYS A 103      11.826  16.814  14.441  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      13.029  18.626  13.319  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      12.324  17.601  12.265  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      11.664  19.086  12.543  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -5.389  -0.810 -11.625  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -5.068  -0.525 -12.983  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -5.145   0.979 -13.290  1.00  0.00           C  
@@ -6382,9 +6034,6 @@ ATOM   1507  H1'   U B 108       9.635   8.875   5.363  1.00  0.00           H
 ATOM   1508  H3    U B 108       6.070   9.898   7.977  1.00  0.00           H  
 ATOM   1509  H5    U B 108       4.788  11.128   4.186  1.00  0.00           H  
 ATOM   1510  H6    U B 108       6.940  10.429   3.268  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL        5                                                                  
 ATOM      1  N   CYS A  20      10.649  -5.748   6.994  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       9.266  -5.683   6.455  1.00  0.00           C  
 ATOM      3  C   CYS A  20       9.054  -4.432   5.579  1.00  0.00           C  
@@ -7734,7 +7383,6 @@ ATOM   1346  HE3 LYS A 103      15.940  18.444  18.515  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      18.209  18.643  19.354  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      17.389  17.573  20.271  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      18.479  17.044  19.173  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -6.008   0.197 -11.438  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -5.202   0.100 -12.609  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.911   1.471 -13.245  1.00  0.00           C  
@@ -7895,9 +7543,6 @@ ATOM   1507  H1'   U B 108       9.659   7.770   5.694  1.00  0.00           H
 ATOM   1508  H3    U B 108       5.481   6.471   7.142  1.00  0.00           H  
 ATOM   1509  H5    U B 108       4.841  10.035   5.031  1.00  0.00           H  
 ATOM   1510  H6    U B 108       7.123   9.915   4.178  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL        6                                                                  
 ATOM      1  N   CYS A  20      10.072  -4.730   7.389  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.821  -5.449   7.030  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.879  -4.536   6.222  1.00  0.00           C  
@@ -9247,7 +8892,6 @@ ATOM   1346  HE3 LYS A 103      23.794   7.852  14.136  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      25.575   6.878  15.467  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      24.974   5.743  14.462  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      26.414   6.446  14.138  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -5.938  -0.759 -12.841  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -5.153   0.177 -12.108  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.705   1.347 -13.002  1.00  0.00           C  
@@ -9408,9 +9052,6 @@ ATOM   1507  H1'   U B 108       9.122  10.156   4.601  1.00  0.00           H
 ATOM   1508  H3    U B 108       5.094   9.976   6.677  1.00  0.00           H  
 ATOM   1509  H5    U B 108       4.017  10.422   2.657  1.00  0.00           H  
 ATOM   1510  H6    U B 108       6.390  10.455   2.065  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL        7                                                                  
 ATOM      1  N   CYS A  20      10.077  -4.565   7.307  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.874  -5.356   6.934  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.836  -4.469   6.228  1.00  0.00           C  
@@ -10760,7 +10401,6 @@ ATOM   1346  HE3 LYS A 103      12.011  15.901   9.918  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      13.243  17.881  10.578  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      12.155  18.286   9.432  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      11.877  18.666  10.997  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -6.504  -0.827 -12.601  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -5.692   0.088 -11.874  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -5.250   1.266 -12.763  1.00  0.00           C  
@@ -10921,9 +10561,6 @@ ATOM   1507  H1'   U B 108       9.815  10.099   4.637  1.00  0.00           H
 ATOM   1508  H3    U B 108       6.673  12.524   6.812  1.00  0.00           H  
 ATOM   1509  H5    U B 108       5.064  12.205   2.941  1.00  0.00           H  
 ATOM   1510  H6    U B 108       7.053  10.987   2.254  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL        8                                                                  
 ATOM      1  N   CYS A  20       9.987  -4.737   7.477  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.743  -5.474   7.133  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.766  -4.574   6.351  1.00  0.00           C  
@@ -12273,7 +11910,6 @@ ATOM   1346  HE3 LYS A 103      13.776  11.627  18.526  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      11.715  12.628  17.723  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      12.710  12.362  16.458  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      11.430  11.377  16.715  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -4.442  -0.300 -11.850  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -4.030   0.099 -13.151  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.275   1.595 -13.395  1.00  0.00           C  
@@ -12434,9 +12070,6 @@ ATOM   1507  H1'   U B 108      10.980   8.189   4.205  1.00  0.00           H
 ATOM   1508  H3    U B 108       7.346  10.182   6.453  1.00  0.00           H  
 ATOM   1509  H5    U B 108       5.854   7.136   4.020  1.00  0.00           H  
 ATOM   1510  H6    U B 108       8.033   6.949   2.956  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL        9                                                                  
 ATOM      1  N   CYS A  20      10.583  -5.382   7.233  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       9.243  -5.323   6.598  1.00  0.00           C  
 ATOM      3  C   CYS A  20       8.976  -3.955   5.943  1.00  0.00           C  
@@ -13786,7 +13419,6 @@ ATOM   1346  HE3 LYS A 103      12.600  19.176  10.718  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      14.093  19.863  12.517  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      13.178  18.615  13.026  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      14.744  18.372  12.620  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -6.235  -0.698 -12.706  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -5.446   0.242 -11.985  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -5.040   1.429 -12.878  1.00  0.00           C  
@@ -13947,9 +13579,6 @@ ATOM   1507  H1'   U B 108      11.052   8.468   3.126  1.00  0.00           H
 ATOM   1508  H3    U B 108       7.362   7.359   5.544  1.00  0.00           H  
 ATOM   1509  H5    U B 108       5.833  10.014   2.693  1.00  0.00           H  
 ATOM   1510  H6    U B 108       8.072  10.213   1.731  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       10                                                                  
 ATOM      1  N   CYS A  20       9.882  -5.283   6.896  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.429  -5.602   6.845  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.570  -4.602   6.034  1.00  0.00           C  
@@ -15299,7 +14928,6 @@ ATOM   1346  HE3 LYS A 103      27.263   3.970  11.891  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      26.553   2.500  10.093  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      27.030   1.602  11.367  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      25.438   1.782  11.043  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -5.698  -1.258 -12.832  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -4.903  -0.285 -12.160  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.644   0.941 -13.055  1.00  0.00           C  
@@ -15460,9 +15088,6 @@ ATOM   1507  H1'   U B 108      10.482   8.655   3.893  1.00  0.00           H
 ATOM   1508  H3    U B 108       6.521   7.555   5.853  1.00  0.00           H  
 ATOM   1509  H5    U B 108       5.372  10.088   2.724  1.00  0.00           H  
 ATOM   1510  H6    U B 108       7.692  10.152   1.969  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       11                                                                  
 ATOM      1  N   CYS A  20       9.996  -4.951   7.575  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.741  -5.635   7.166  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.806  -4.661   6.428  1.00  0.00           C  
@@ -16812,7 +16437,6 @@ ATOM   1346  HE3 LYS A 103      15.730   9.538  15.840  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      17.626   9.404  14.296  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      16.458   8.352  13.856  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      16.651   9.747  13.021  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -3.960  -0.194 -11.946  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -3.497   0.315 -13.191  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -3.820   1.807 -13.354  1.00  0.00           C  
@@ -16973,9 +16597,6 @@ ATOM   1507  H1'   U B 108      11.367   8.914   3.813  1.00  0.00           H
 ATOM   1508  H3    U B 108       8.125   7.625   6.705  1.00  0.00           H  
 ATOM   1509  H5    U B 108       5.981   9.848   3.880  1.00  0.00           H  
 ATOM   1510  H6    U B 108       8.070  10.284   2.692  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       12                                                                  
 ATOM      1  N   CYS A  20       9.966  -4.663   7.434  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.698  -5.390   7.162  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.713  -4.503   6.381  1.00  0.00           C  
@@ -18325,7 +17946,6 @@ ATOM   1346  HE3 LYS A 103      15.677  14.461  10.123  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      17.112  15.167   8.297  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      15.624  15.805   8.086  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      16.850  16.744   8.622  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -5.425  -1.418 -12.898  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -4.699  -0.401 -12.213  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.673   0.910 -13.015  1.00  0.00           C  
@@ -18486,9 +18106,6 @@ ATOM   1507  H1'   U B 108       9.779   8.597   4.856  1.00  0.00           H
 ATOM   1508  H3    U B 108       5.864   7.992   7.104  1.00  0.00           H  
 ATOM   1509  H5    U B 108       4.652  10.046   3.666  1.00  0.00           H  
 ATOM   1510  H6    U B 108       6.953   9.955   2.839  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       13                                                                  
 ATOM      1  N   CYS A  20      10.031  -4.795   7.505  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.793  -5.516   7.106  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.812  -4.569   6.395  1.00  0.00           C  
@@ -19838,7 +19455,6 @@ ATOM   1346  HE3 LYS A 103      17.386   5.602  18.354  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      17.166   6.025  16.003  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      18.758   5.842  16.346  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      17.948   4.646  15.590  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -4.454  -0.936 -13.433  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -3.975   0.016 -12.492  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.161   1.451 -13.009  1.00  0.00           C  
@@ -19999,9 +19615,6 @@ ATOM   1507  H1'   U B 108      10.200   9.103   4.899  1.00  0.00           H
 ATOM   1508  H3    U B 108       7.504   6.701   7.640  1.00  0.00           H  
 ATOM   1509  H5    U B 108       4.836   8.337   4.864  1.00  0.00           H  
 ATOM   1510  H6    U B 108       6.737   9.197   3.590  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       14                                                                  
 ATOM      1  N   CYS A  20      10.762  -5.845   6.520  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       9.312  -5.660   6.257  1.00  0.00           C  
 ATOM      3  C   CYS A  20       9.052  -4.495   5.279  1.00  0.00           C  
@@ -21351,7 +20964,6 @@ ATOM   1346  HE3 LYS A 103      21.436   5.390  15.983  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      20.540   4.980  18.258  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      19.556   4.443  17.079  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      20.470   3.378  17.948  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -5.769   0.329 -11.372  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -4.981   0.224 -12.555  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.672   1.595 -13.188  1.00  0.00           C  
@@ -21512,9 +21124,6 @@ ATOM   1507  H1'   U B 108       9.921   8.753   4.613  1.00  0.00           H
 ATOM   1508  H3    U B 108       5.913   7.548   6.417  1.00  0.00           H  
 ATOM   1509  H5    U B 108       4.853  10.142   3.309  1.00  0.00           H  
 ATOM   1510  H6    U B 108       7.187  10.196   2.597  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       15                                                                  
 ATOM      1  N   CYS A  20      10.001  -4.786   7.550  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.749  -5.485   7.155  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.800  -4.530   6.411  1.00  0.00           C  
@@ -22864,7 +22473,6 @@ ATOM   1346  HE3 LYS A 103      11.712   9.706  19.782  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103       9.529  10.706  19.457  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      10.369  10.790  18.061  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103       9.176   9.685  18.236  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -3.889  -0.700 -12.228  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -3.535  -0.162 -13.499  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -3.870   1.333 -13.612  1.00  0.00           C  
@@ -23025,9 +22633,6 @@ ATOM   1507  H1'   U B 108      10.150   8.376   4.772  1.00  0.00           H
 ATOM   1508  H3    U B 108       6.012   7.880   6.583  1.00  0.00           H  
 ATOM   1509  H5    U B 108       5.284  10.340   3.278  1.00  0.00           H  
 ATOM   1510  H6    U B 108       7.657  10.217   2.704  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       16                                                                  
 ATOM      1  N   CYS A  20      10.573  -5.553   7.067  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       9.168  -5.534   6.584  1.00  0.00           C  
 ATOM      3  C   CYS A  20       8.924  -4.381   5.589  1.00  0.00           C  
@@ -24377,7 +23982,6 @@ ATOM   1346  HE3 LYS A 103       9.672  15.960  12.488  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103       9.052  14.296  10.821  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103       8.404  13.869  12.262  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103       7.463  14.531  11.097  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -4.333  -0.567 -11.962  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -3.966  -0.137 -13.268  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.197   1.368 -13.469  1.00  0.00           C  
@@ -24538,9 +24142,6 @@ ATOM   1507  H1'   U B 108      10.527   9.149   4.530  1.00  0.00           H
 ATOM   1508  H3    U B 108       6.555  11.112   6.203  1.00  0.00           H  
 ATOM   1509  H5    U B 108       5.655   7.359   4.605  1.00  0.00           H  
 ATOM   1510  H6    U B 108       7.847   7.288   3.588  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       17                                                                  
 ATOM      1  N   CYS A  20       9.921  -5.701   6.519  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.460  -5.700   6.806  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.626  -4.681   6.000  1.00  0.00           C  
@@ -25890,7 +25491,6 @@ ATOM   1346  HE3 LYS A 103      14.697  15.429  12.829  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      14.812  17.402  11.397  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      13.257  16.941  11.559  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      13.819  18.238  12.383  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -5.977   0.177 -11.218  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -5.111   0.055 -12.342  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.864   1.402 -13.046  1.00  0.00           C  
@@ -26051,9 +25651,6 @@ ATOM   1507  H1'   U B 108      11.067   8.769   3.381  1.00  0.00           H
 ATOM   1508  H3    U B 108       7.428   7.419   5.756  1.00  0.00           H  
 ATOM   1509  H5    U B 108       5.778  10.005   2.908  1.00  0.00           H  
 ATOM   1510  H6    U B 108       8.004  10.305   1.943  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       18                                                                  
 ATOM      1  N   CYS A  20       9.909  -5.372   6.870  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.453  -5.675   6.946  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.546  -4.703   6.153  1.00  0.00           C  
@@ -27403,7 +27000,6 @@ ATOM   1346  HE3 LYS A 103      11.475  13.578  13.865  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      12.950  14.048  12.022  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      11.885  15.276  12.171  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      13.432  15.464  12.670  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -4.996  -0.409 -11.700  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -4.642  -0.095 -13.041  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.799   1.403 -13.345  1.00  0.00           C  
@@ -27564,9 +27160,6 @@ ATOM   1507  H1'   U B 108       9.868   8.441   4.496  1.00  0.00           H
 ATOM   1508  H3    U B 108       5.802   7.681   6.377  1.00  0.00           H  
 ATOM   1509  H5    U B 108       4.904  10.197   3.159  1.00  0.00           H  
 ATOM   1510  H6    U B 108       7.232  10.078   2.456  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       19                                                                  
 ATOM      1  N   CYS A  20      10.004  -4.757   7.432  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       8.716  -5.429   7.117  1.00  0.00           C  
 ATOM      3  C   CYS A  20       7.774  -4.477   6.355  1.00  0.00           C  
@@ -28916,7 +28509,6 @@ ATOM   1346  HE3 LYS A 103      26.045  -7.283   4.455  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      24.418  -8.761   5.479  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      24.475  -9.057   3.876  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      25.186 -10.089   4.925  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -5.803   0.282 -11.367  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -4.919   0.197 -12.481  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -4.604   1.573 -13.096  1.00  0.00           C  
@@ -29077,9 +28669,6 @@ ATOM   1507  H1'   U B 108       9.823   8.057   4.944  1.00  0.00           H
 ATOM   1508  H3    U B 108       6.085   7.952   7.479  1.00  0.00           H  
 ATOM   1509  H5    U B 108       4.679   9.564   3.883  1.00  0.00           H  
 ATOM   1510  H6    U B 108       6.921   9.348   2.945  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MODEL       20                                                                  
 ATOM      1  N   CYS A  20      10.681  -5.706   6.983  1.00  0.00           N  
 ATOM      2  CA  CYS A  20       9.287  -5.649   6.472  1.00  0.00           C  
 ATOM      3  C   CYS A  20       9.078  -4.440   5.534  1.00  0.00           C  
@@ -30429,7 +30018,6 @@ ATOM   1346  HE3 LYS A 103      17.449  16.062  16.661  1.00  0.00           H
 ATOM   1347  HZ1 LYS A 103      19.840  16.015  16.235  1.00  0.00           H  
 ATOM   1348  HZ2 LYS A 103      19.301  14.489  16.445  1.00  0.00           H  
 ATOM   1349  HZ3 LYS A 103      19.648  15.036  14.943  1.00  0.00           H  
-TER    1350      LYS A 103                                                      
 ATOM   1351  O5'   G B 104      -5.428  -0.546 -11.423  1.00  0.00           O  
 ATOM   1352  C5'   G B 104      -5.046  -0.309 -12.773  1.00  0.00           C  
 ATOM   1353  C4'   G B 104      -5.144   1.180 -13.140  1.00  0.00           C  
@@ -30590,7 +30178,3 @@ ATOM   1507  H1'   U B 108       9.812   9.973   4.601  1.00  0.00           H
 ATOM   1508  H3    U B 108       6.093   9.079   7.006  1.00  0.00           H  
 ATOM   1509  H5    U B 108       4.597   9.309   3.104  1.00  0.00           H  
 ATOM   1510  H6    U B 108       6.871   9.725   2.298  1.00  0.00           H  
-TER    1511        U B 108                                                      
-ENDMDL                                                                          
-MASTER      244    0    0    2    5    0    0    6  779    2    0   10          
-END                                                                             

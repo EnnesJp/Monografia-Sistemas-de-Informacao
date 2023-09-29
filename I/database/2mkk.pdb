@@ -1,330 +1,3 @@
-HEADER    TRANSLATION REGULATOR/RNA               07-FEB-14   2MKK              
-TITLE     STRUCTURAL MODEL OF TANDEM RRM DOMAINS OF CYTOPLASMIC POLYADENYLATION 
-TITLE    2 ELEMENT BINDING PROTEIN 1 (CPEB1) IN COMPLEX WITH RNA                
-COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: CYTOPLASMIC POLYADENYLATION ELEMENT-BINDING PROTEIN 1;     
-COMPND   3 CHAIN: A;                                                            
-COMPND   4 FRAGMENT: UNP RESIDUES 219-430;                                      
-COMPND   5 SYNONYM: CPE-BP1, CPE-BINDING PROTEIN 1, H-CEBP, HCPEB-1;            
-COMPND   6 ENGINEERED: YES;                                                     
-COMPND   7 MOL_ID: 2;                                                           
-COMPND   8 MOLECULE: RNA (5'-R(*UP*UP*UP*UP*A)-3');                             
-COMPND   9 CHAIN: B;                                                            
-COMPND  10 ENGINEERED: YES                                                      
-SOURCE    MOL_ID: 1;                                                            
-SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
-SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
-SOURCE   4 ORGANISM_TAXID: 9606;                                                
-SOURCE   5 GENE: CPEB1, CPEB;                                                   
-SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;                                        
-SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: VECTOR;                               
-SOURCE   9 EXPRESSION_SYSTEM_VECTOR: PET28A(+);                                 
-SOURCE  10 MOL_ID: 2;                                                           
-SOURCE  11 SYNTHETIC: YES                                                       
-KEYWDS    CPEB1, RNA RECOGNITION MOTIF (RRM), CYTOPLASMIC POLYADENYLATION,      
-KEYWDS   2 PROTEIN-RNA INTERACTION, TRANSLATION REGULATION, TRANSLATION         
-KEYWDS   3 REGULATOR-RNA COMPLEX                                                
-EXPDTA    SOLUTION NMR                                                          
-NUMMDL    10                                                                    
-AUTHOR    T.AFROZ,L.SKRISOVSKA,E.BELLOC,J.G.BOIXET,R.MENDEZ,F.H.-T.ALLAIN       
-REVDAT   1   23-JUL-14 2MKK    0                                                
-JRNL        AUTH   T.AFROZ,L.SKRISOVSKA,E.BELLOC,J.GUILLEN-BOIXET,R.MENDEZ,     
-JRNL        AUTH 2 F.H.-T.ALLAIN                                                
-JRNL        TITL   A FLY TRAP MECHANISM PROVIDES SEQUENCE-SPECIFIC RNA          
-JRNL        TITL 2 RECOGNITION BY CPEB PROTEINS                                 
-JRNL        REF    GENES DEV.                    V.  28  1498 2014              
-JRNL        REFN                   ISSN 0890-9369                               
-JRNL        PMID   24990967                                                     
-JRNL        DOI    10.1101/GAD.241133.114                                       
-REMARK   2                                                                      
-REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
-REMARK   3                                                                      
-REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : AMBER                                                
-REMARK   3   AUTHORS     : CASE, DARDEN, CHEATHAM, III, SIMMERLING, WANG,       
-REMARK   3                 DUKE, LUO, ... AND KOLLMAN                           
-REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
-REMARK   4                                                                      
-REMARK   4 2MKK COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
-REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 13-FEB-14.                  
-REMARK 100 THE RCSB ID CODE IS RCSB103725.                                      
-REMARK 210                                                                      
-REMARK 210 EXPERIMENTAL DETAILS                                                 
-REMARK 210  EXPERIMENT TYPE                : NMR                                
-REMARK 210  TEMPERATURE           (KELVIN) : 313                                
-REMARK 210  PH                             : 6.5                                
-REMARK 210  IONIC STRENGTH                 : 0.15                               
-REMARK 210  PRESSURE                       : AMBIENT ATM                        
-REMARK 210  SAMPLE CONTENTS                : 0.4-0.6 MM [U-100% 13C; U-100%     
-REMARK 210                                   15N; U-80% 2H] CPEB1RRM12-1, 0.4-  
-REMARK 210                                   0.6 MM 5'-UUUUA-3'-2, 100 MM       
-REMARK 210                                   SODIUM CHLORIDE-3, 50 MM SODIUM    
-REMARK 210                                   PHOSPHATE-4, 1 MM DTT-5, 1 MM      
-REMARK 210                                   MAGNESIUM SULFATE-6, 90% H2O/10%   
-REMARK 210                                   D2O; 0.4-0.6 MM [U-100% 13C; U-    
-REMARK 210                                   100% 15N] CPEB1RRM12-7, 0.4-0.6    
-REMARK 210                                   MM 5'-UUUUA-3'-8, 100 MM SODIUM    
-REMARK 210                                   CHLORIDE-9, 50 MM SODIUM           
-REMARK 210                                   PHOSPHATE-10, 1 MM DTT-11, 1 MM    
-REMARK 210                                   MAGNESIUM SULFATE-12, 90% H2O/10%  
-REMARK 210                                   D2O; 0.4-0.6 MM [U-100% 13C; U-    
-REMARK 210                                   100% 15N] CPEB1RRM12-13, 0.4-0.6   
-REMARK 210                                   MM 5'-UUUUA-3'-14, 100 MM SODIUM   
-REMARK 210                                   CHLORIDE-15, 50 MM SODIUM          
-REMARK 210                                   PHOSPHATE-16, 1 MM DTT-17, 1 MM    
-REMARK 210                                   MAGNESIUM SULFATE-18, 100% D2O;    
-REMARK 210                                   0.4-0.6 MM [U-100% 15N]            
-REMARK 210                                   CPEB1RRM12-19, 0.4-0.6 MM 5'-      
-REMARK 210                                   UUUUA-3'-20, 100 MM SODIUM         
-REMARK 210                                   CHLORIDE-21, 50 MM SODIUM          
-REMARK 210                                   PHOSPHATE-22, 1 MM DTT-23, 1 MM    
-REMARK 210                                   MAGNESIUM SULFATE-24, 90% H2O/10%  
-REMARK 210                                   D2O; 0.4-0.6 MM [U-100% 15N]       
-REMARK 210                                   CPEB1RRM12-25, 0.4-0.6 MM 5'-      
-REMARK 210                                   UUUUA-3'-26, 100 MM SODIUM         
-REMARK 210                                   CHLORIDE-27, 50 MM SODIUM          
-REMARK 210                                   PHOSPHATE-28, 1 MM DTT-29, 1 MM    
-REMARK 210                                   MAGNESIUM SULFATE-30, 100% D2O;    
-REMARK 210                                   0.4-0.6 MM [U-100% 15N]            
-REMARK 210                                   CPEB1RRM12-31, 0.4-0.6 MM 5'-      
-REMARK 210                                   CUUUA-3'-32, 100 MM SODIUM         
-REMARK 210                                   CHLORIDE-33, 50 MM SODIUM          
-REMARK 210                                   PHOSPHATE-34, 1 MM DTT-35, 1 MM    
-REMARK 210                                   MAGNESIUM SULFATE-36, 100% D2O;    
-REMARK 210                                   0.4-0.6 MM [U-100% 13C; U-100%     
-REMARK 210                                   15N] CPEB1RRM12-37, 0.4-0.6 MM 5'  
-REMARK 210                                   -CUUUA-3'-38, 100 MM SODIUM        
-REMARK 210                                   CHLORIDE-39, 50 MM SODIUM          
-REMARK 210                                   PHOSPHATE-40, 1 MM DTT-41, 1 MM    
-REMARK 210                                   MAGNESIUM SULFATE-42, 100% D2O     
-REMARK 210                                                                      
-REMARK 210  NMR EXPERIMENTS CONDUCTED      : 2D 1H-15N HSQC; 2D TROSY; 2D 1H-   
-REMARK 210                                   13C HSQC; 2D 1H-13C HSQC           
-REMARK 210                                   ALIPHATIC; 2D 1H-13C HSQC          
-REMARK 210                                   AROMATIC; 2D 1H-1H TOCSY; 2D 1H-   
-REMARK 210                                   1H NOESY; 3D TRHNCA; 3D TRHN(CO)   
-REMARK 210                                   CA; 3D TRCBCA(CO)NH; 3D TRHNCACB;  
-REMARK 210                                   3D TRHNCACO; 3D TRHNCO; 3D HCCH-   
-REMARK 210                                   TOCSY; 3D HCCH-TOCSY; 3D 1H-15N    
-REMARK 210                                   NOESY; 3D 1H-13C NOESY ALIPHATIC;  
-REMARK 210                                   3D 1H-13C NOESY AROMATIC; 2D 13C-  
-REMARK 210                                   F1-FILTERED F2-FILTERED NOESY; 2D  
-REMARK 210                                   1H-1H F1-13C-FILTERED F2-13C-      
-REMARK 210                                   EDITED NOESY; 3D 13C-F1-EDITED     
-REMARK 210                                   F3-FILTERED NOESY HSQC             
-REMARK 210  SPECTROMETER FIELD STRENGTH    : 900 MHZ; 700 MHZ; 600 MHZ; 500     
-REMARK 210                                   MHZ                                
-REMARK 210  SPECTROMETER MODEL             : AVANCE                             
-REMARK 210  SPECTROMETER MANUFACTURER      : BRUKER                             
-REMARK 210                                                                      
-REMARK 210  STRUCTURE DETERMINATION.                                            
-REMARK 210   SOFTWARE USED                 : TOPSPIN, CYANA, SPARKY             
-REMARK 210   METHOD USED                   : SIMULATED ANNEALING                
-REMARK 210                                                                      
-REMARK 210 CONFORMERS, NUMBER CALCULATED   : 20                                 
-REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 10                                 
-REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LOWEST ENERGY  
-REMARK 210                                                                      
-REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
-REMARK 210                                                                      
-REMARK 210 REMARK: NULL                                                         
-REMARK 215                                                                      
-REMARK 215 NMR STUDY                                                            
-REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
-REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
-REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
-REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
-REMARK 300                                                                      
-REMARK 300 BIOMOLECULE: 1                                                       
-REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
-REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
-REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 350                                                                      
-REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
-REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
-REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
-REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
-REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
-REMARK 350                                                                      
-REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B                                  
-REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
-REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
-REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
-REMARK 500                                                                      
-REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
-REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
-REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
-REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500  1   U B   4   O4' -  C1' -  N1  ANGL. DEV. =   4.8 DEGREES          
-REMARK 500  2   U B   4   O4' -  C1' -  N1  ANGL. DEV. =   6.2 DEGREES          
-REMARK 500  3   U B   4   O4' -  C1' -  N1  ANGL. DEV. =   4.5 DEGREES          
-REMARK 500  4   U B   3   O4' -  C1' -  N1  ANGL. DEV. =   5.6 DEGREES          
-REMARK 500  5   U B   3   O4' -  C1' -  N1  ANGL. DEV. =   5.6 DEGREES          
-REMARK 500  6   U B   1   O4' -  C1' -  N1  ANGL. DEV. =   4.7 DEGREES          
-REMARK 500  6   U B   3   O4' -  C1' -  N1  ANGL. DEV. =   4.9 DEGREES          
-REMARK 500  7   U B   3   O4' -  C1' -  N1  ANGL. DEV. =   4.8 DEGREES          
-REMARK 500  9   A B   5   O4' -  C1' -  N9  ANGL. DEV. =   5.1 DEGREES          
-REMARK 500 10   U B   3   O4' -  C1' -  N1  ANGL. DEV. =   5.7 DEGREES          
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: TORSION ANGLES                                             
-REMARK 500                                                                      
-REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
-REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        PSI       PHI                                   
-REMARK 500  1 TRP A 245       33.26    -97.48                                   
-REMARK 500  1 GLU A 249       -9.44    -59.07                                   
-REMARK 500  1 ASP A 270       19.67     55.16                                   
-REMARK 500  1 CYS A 276       59.01   -145.18                                   
-REMARK 500  1 HIS A 301      -53.78   -166.51                                   
-REMARK 500  1 PRO A 303       32.96    -77.61                                   
-REMARK 500  1 ASP A 307       34.78    -76.58                                   
-REMARK 500  1 SER A 318       10.46   -147.69                                   
-REMARK 500  1 ARG A 322       25.19    -76.07                                   
-REMARK 500  1 LEU A 333        1.36    -68.45                                   
-REMARK 500  1 ALA A 356       13.46     57.13                                   
-REMARK 500  1 PHE A 374      -32.07   -160.14                                   
-REMARK 500  1 LYS A 386      -17.34     61.02                                   
-REMARK 500  1 PRO A 390     -179.79    -58.46                                   
-REMARK 500  1 ILE A 391      154.34     54.82                                   
-REMARK 500  1 TYR A 404      -73.98    -59.50                                   
-REMARK 500  1 ALA A 411       42.31    -71.60                                   
-REMARK 500  1 PHE A 412        0.99    -66.90                                   
-REMARK 500  1 LYS A 419        5.18   -150.42                                   
-REMARK 500  2 SER A 261       43.16    -81.61                                   
-REMARK 500  2 GLU A 287       29.15    -79.39                                   
-REMARK 500  2 HIS A 301     -154.43     65.06                                   
-REMARK 500  2 PRO A 306       -8.75    -58.72                                   
-REMARK 500  2 SER A 318        9.10   -152.87                                   
-REMARK 500  2 ARG A 320      -37.16   -148.06                                   
-REMARK 500  2 MET A 321       56.01   -142.87                                   
-REMARK 500  2 ARG A 322       44.12    -75.67                                   
-REMARK 500  2 GLN A 344      -24.32   -142.98                                   
-REMARK 500  2 LEU A 357      -22.28     52.22                                   
-REMARK 500  2 HIS A 358      -35.21   -171.70                                   
-REMARK 500  2 PHE A 374      -26.47   -159.66                                   
-REMARK 500  2 LYS A 386       14.90     50.77                                   
-REMARK 500  2 PRO A 390      171.12    -46.37                                   
-REMARK 500  2 THR A 417     -151.48   -137.57                                   
-REMARK 500  2 THR A 418       86.31    -68.92                                   
-REMARK 500  3 ASP A 246       44.16    -76.76                                   
-REMARK 500  3 THR A 248      -17.33   -142.24                                   
-REMARK 500  3 GLU A 249      -25.89   -164.19                                   
-REMARK 500  3 HIS A 301     -151.18     63.75                                   
-REMARK 500  3 PHE A 314     -167.23   -160.94                                   
-REMARK 500  3 ARG A 320        2.10    -69.49                                   
-REMARK 500  3 ARG A 322       32.47    -70.72                                   
-REMARK 500  3 PHE A 374      -18.98   -147.32                                   
-REMARK 500  3 LYS A 386       19.54     49.01                                   
-REMARK 500  3 PRO A 390     -113.66    -76.44                                   
-REMARK 500  3 ALA A 411       31.71    -91.73                                   
-REMARK 500  3 PHE A 412       20.21    -75.71                                   
-REMARK 500  3 LYS A 419      -30.70   -135.80                                   
-REMARK 500  4 VAL A 243      161.37     52.22                                   
-REMARK 500  4 PRO A 244      168.88    -48.86                                   
-REMARK 500                                                                      
-REMARK 500 THIS ENTRY HAS     170 RAMACHANDRAN OUTLIERS.                        
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: PLANAR GROUPS                                              
-REMARK 500                                                                      
-REMARK 500 PLANAR GROUPS IN THE FOLLOWING RESIDUES HAVE A TOTAL                 
-REMARK 500 RMS DISTANCE OF ALL ATOMS FROM THE BEST-FIT PLANE                    
-REMARK 500 BY MORE THAN AN EXPECTED VALUE OF 6*RMSD, WITH AN                    
-REMARK 500 RMSD 0.02 ANGSTROMS, OR AT LEAST ONE ATOM HAS                        
-REMARK 500 AN RMSD GREATER THAN THIS VALUE                                      
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500  5   U B   1         0.06    SIDE CHAIN                              
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 900                                                                      
-REMARK 900 RELATED ENTRIES                                                      
-REMARK 900 RELATED ID: 19778   RELATED DB: BMRB                                 
-REMARK 900 RELATED ID: 2MKE   RELATED DB: PDB                                   
-REMARK 900 RELATED ID: 2MKH   RELATED DB: PDB                                   
-REMARK 900 RELATED ID: 2MKI   RELATED DB: PDB                                   
-REMARK 900 RELATED ID: 2MKJ   RELATED DB: PDB                                   
-REMARK 999                                                                      
-REMARK 999 SEQUENCE                                                             
-REMARK 999 THIS PROTEIN SEQUENCE IS ISOFORM 4 OF CPEB1_HUMAN.                   
-DBREF  2MKK A  219   430  UNP    Q9BZB8   CPEB1_HUMAN    219    430             
-DBREF  2MKK B    1     5  PDB    2MKK     2MKK             1      5             
-SEQADV 2MKK MET A  218  UNP  Q9BZB8              EXPRESSION TAG                 
-SEQRES   1 A  213  MET THR TRP SER GLY GLN LEU PRO PRO ARG ASN TYR LYS          
-SEQRES   2 A  213  ASN PRO ILE TYR SER CYS LYS VAL PHE LEU GLY GLY VAL          
-SEQRES   3 A  213  PRO TRP ASP ILE THR GLU ALA GLY LEU VAL ASN THR PHE          
-SEQRES   4 A  213  ARG VAL PHE GLY SER LEU SER VAL GLU TRP PRO GLY LYS          
-SEQRES   5 A  213  ASP GLY LYS HIS PRO ARG CYS PRO PRO LYS GLY TYR VAL          
-SEQRES   6 A  213  TYR LEU VAL PHE GLU LEU GLU LYS SER VAL ARG SER LEU          
-SEQRES   7 A  213  LEU GLN ALA CYS SER HIS ASP PRO LEU SER PRO ASP GLY          
-SEQRES   8 A  213  LEU SER GLU TYR TYR PHE LYS MET SER SER ARG ARG MET          
-SEQRES   9 A  213  ARG CYS LYS GLU VAL GLN VAL ILE PRO TRP VAL LEU ALA          
-SEQRES  10 A  213  ASP SER ASN PHE VAL ARG SER PRO SER GLN ARG LEU ASP          
-SEQRES  11 A  213  PRO SER ARG THR VAL PHE VAL GLY ALA LEU HIS GLY MET          
-SEQRES  12 A  213  LEU ASN ALA GLU ALA LEU ALA ALA ILE LEU ASN ASP LEU          
-SEQRES  13 A  213  PHE GLY GLY VAL VAL TYR ALA GLY ILE ASP THR ASP LYS          
-SEQRES  14 A  213  HIS LYS TYR PRO ILE GLY SER GLY ARG VAL THR PHE ASN          
-SEQRES  15 A  213  ASN GLN ARG SER TYR LEU LYS ALA VAL SER ALA ALA PHE          
-SEQRES  16 A  213  VAL GLU ILE LYS THR THR LYS PHE THR LYS LYS VAL GLN          
-SEQRES  17 A  213  ILE ASP PRO TYR LEU                                          
-SEQRES   1 B    5    U   U   U   U   A                                          
-HELIX    1   1 GLU A  249  PHE A  256  1                                   8    
-HELIX    2   2 PRO A  267  LYS A  272  5                                   6    
-HELIX    3   3 LEU A  288  GLN A  297  1                                  10    
-HELIX    4   4 ASN A  362  LEU A  373  1                                  12    
-HELIX    5   5 ASN A  400  ALA A  411  1                                  12    
-SHEET    1   A 5 SER A 263  GLU A 265  0                                        
-SHEET    2   A 5 VAL A 282  VAL A 285 -1  O  VAL A 285   N  SER A 263           
-SHEET    3   A 5 TYR A 234  LEU A 240 -1  N  LEU A 240   O  VAL A 282           
-SHEET    4   A 5 VAL A 326  VAL A 332 -1  O  ILE A 329   N  PHE A 239           
-SHEET    5   A 5 TYR A 312  PHE A 314 -1  N  TYR A 312   O  VAL A 328           
-SHEET    1   B 5 ASN A 337  PHE A 338  0                                        
-SHEET    2   B 5 TYR A 379  THR A 384 -1  O  ALA A 380   N  PHE A 338           
-SHEET    3   B 5 GLY A 392  THR A 397 -1  O  SER A 393   N  ASP A 383           
-SHEET    4   B 5 THR A 351  GLY A 355 -1  N  VAL A 354   O  GLY A 394           
-SHEET    5   B 5 GLN A 425  ASP A 427 -1  O  ASP A 427   N  PHE A 353           
-SHEET    1   C 2 ILE A 415  LYS A 416  0                                        
-SHEET    2   C 2 THR A 421  LYS A 422 -1  O  LYS A 422   N  ILE A 415           
-CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
-ORIGX1      1.000000  0.000000  0.000000        0.00000                         
-ORIGX2      0.000000  1.000000  0.000000        0.00000                         
-ORIGX3      0.000000  0.000000  1.000000        0.00000                         
-SCALE1      1.000000  0.000000  0.000000        0.00000                         
-SCALE2      0.000000  1.000000  0.000000        0.00000                         
-SCALE3      0.000000  0.000000  1.000000        0.00000                         
-MODEL        1                                                                  
 ATOM      1  N   MET A 218       6.895   3.460 -24.777  1.00  0.00           N  
 ATOM      2  CA  MET A 218       7.846   3.025 -23.737  1.00  0.00           C  
 ATOM      3  C   MET A 218       7.103   2.361 -22.582  1.00  0.00           C  
@@ -3705,7 +3378,6 @@ ATOM   3377 HD13 LEU A 430       5.088  22.215   2.197  1.00  0.00           H
 ATOM   3378 HD21 LEU A 430       9.155  22.969   1.106  1.00  0.00           H  
 ATOM   3379 HD22 LEU A 430       8.280  24.066   2.198  1.00  0.00           H  
 ATOM   3380 HD23 LEU A 430       8.772  22.451   2.763  1.00  0.00           H  
-TER    3381      LEU A 430                                                      
 ATOM   3382  O5'   U B   1     -14.664   0.539  -2.974  1.00  0.00           O  
 ATOM   3383  C5'   U B   1     -15.876   0.234  -3.630  1.00  0.00           C  
 ATOM   3384  C4'   U B   1     -15.574  -0.409  -4.981  1.00  0.00           C  
@@ -3858,9 +3530,6 @@ ATOM   3530  H8    A B   5       1.170   9.263   2.461  1.00  0.00           H
 ATOM   3531  H61   A B   5       1.732  13.864  -1.683  1.00  0.00           H  
 ATOM   3532  H62   A B   5       0.979  12.305  -1.367  1.00  0.00           H  
 ATOM   3533  H2    A B   5       4.180  14.880   1.872  1.00  0.00           H  
-TER    3534        A B   5                                                      
-ENDMDL                                                                          
-MODEL        2                                                                  
 ATOM      1  N   MET A 218      13.747   1.198 -21.130  1.00  0.00           N  
 ATOM      2  CA  MET A 218      12.750   2.128 -20.566  1.00  0.00           C  
 ATOM      3  C   MET A 218      11.351   1.512 -20.588  1.00  0.00           C  
@@ -7241,7 +6910,6 @@ ATOM   3377 HD13 LEU A 430       9.139  19.318   0.878  1.00  0.00           H
 ATOM   3378 HD21 LEU A 430       6.413  19.944   3.329  1.00  0.00           H  
 ATOM   3379 HD22 LEU A 430       5.543  18.421   3.018  1.00  0.00           H  
 ATOM   3380 HD23 LEU A 430       7.123  18.392   3.826  1.00  0.00           H  
-TER    3381      LEU A 430                                                      
 ATOM   3382  O5'   U B   1     -16.593   0.409  -2.214  1.00  0.00           O  
 ATOM   3383  C5'   U B   1     -17.812   0.052  -2.831  1.00  0.00           C  
 ATOM   3384  C4'   U B   1     -17.556  -0.897  -4.002  1.00  0.00           C  
@@ -7394,9 +7062,6 @@ ATOM   3530  H8    A B   5       0.113   8.930  -0.088  1.00  0.00           H
 ATOM   3531  H61   A B   5       0.077  14.999  -1.473  1.00  0.00           H  
 ATOM   3532  H62   A B   5      -0.575  13.431  -1.926  1.00  0.00           H  
 ATOM   3533  H2    A B   5       2.760  14.377   1.986  1.00  0.00           H  
-TER    3534        A B   5                                                      
-ENDMDL                                                                          
-MODEL        3                                                                  
 ATOM      1  N   MET A 218       9.631   2.494 -25.214  1.00  0.00           N  
 ATOM      2  CA  MET A 218       9.711   3.121 -23.879  1.00  0.00           C  
 ATOM      3  C   MET A 218       8.644   2.543 -22.949  1.00  0.00           C  
@@ -10777,7 +10442,6 @@ ATOM   3377 HD13 LEU A 430      12.710  15.975  -0.449  1.00  0.00           H
 ATOM   3378 HD21 LEU A 430      15.474  19.202  -0.084  1.00  0.00           H  
 ATOM   3379 HD22 LEU A 430      15.680  17.914  -1.294  1.00  0.00           H  
 ATOM   3380 HD23 LEU A 430      14.412  19.144  -1.513  1.00  0.00           H  
-TER    3381      LEU A 430                                                      
 ATOM   3382  O5'   U B   1     -19.327   0.042  -2.737  1.00  0.00           O  
 ATOM   3383  C5'   U B   1     -18.209  -0.809  -2.606  1.00  0.00           C  
 ATOM   3384  C4'   U B   1     -17.883  -1.549  -3.909  1.00  0.00           C  
@@ -10930,9 +10594,6 @@ ATOM   3530  H8    A B   5       0.221  11.910   1.429  1.00  0.00           H
 ATOM   3531  H61   A B   5       3.290  17.317   1.503  1.00  0.00           H  
 ATOM   3532  H62   A B   5       1.787  16.532   1.045  1.00  0.00           H  
 ATOM   3533  H2    A B   5       5.902  14.213   3.291  1.00  0.00           H  
-TER    3534        A B   5                                                      
-ENDMDL                                                                          
-MODEL        4                                                                  
 ATOM      1  N   MET A 218      10.865   3.426 -24.842  1.00  0.00           N  
 ATOM      2  CA  MET A 218      10.418   4.129 -23.624  1.00  0.00           C  
 ATOM      3  C   MET A 218       9.429   3.276 -22.834  1.00  0.00           C  
@@ -14313,7 +13974,6 @@ ATOM   3377 HD13 LEU A 430      11.228  18.754  -2.338  1.00  0.00           H
 ATOM   3378 HD21 LEU A 430      13.710  16.133  -1.808  1.00  0.00           H  
 ATOM   3379 HD22 LEU A 430      14.404  17.461  -0.844  1.00  0.00           H  
 ATOM   3380 HD23 LEU A 430      13.627  16.084  -0.035  1.00  0.00           H  
-TER    3381      LEU A 430                                                      
 ATOM   3382  O5'   U B   1     -17.518  -1.415  -1.375  1.00  0.00           O  
 ATOM   3383  C5'   U B   1     -17.893  -0.402  -2.283  1.00  0.00           C  
 ATOM   3384  C4'   U B   1     -17.883  -0.960  -3.699  1.00  0.00           C  
@@ -14466,9 +14126,6 @@ ATOM   3530  H8    A B   5       1.847   9.686   0.290  1.00  0.00           H
 ATOM   3531  H61   A B   5       4.255  15.432  -0.087  1.00  0.00           H  
 ATOM   3532  H62   A B   5       3.274  14.265  -0.943  1.00  0.00           H  
 ATOM   3533  H2    A B   5       5.380  13.692   3.815  1.00  0.00           H  
-TER    3534        A B   5                                                      
-ENDMDL                                                                          
-MODEL        5                                                                  
 ATOM      1  N   MET A 218      10.090   1.733 -26.122  1.00  0.00           N  
 ATOM      2  CA  MET A 218      10.150   1.891 -24.656  1.00  0.00           C  
 ATOM      3  C   MET A 218       9.157   0.943 -23.991  1.00  0.00           C  
@@ -17849,7 +17506,6 @@ ATOM   3377 HD13 LEU A 430      10.510  16.267  -0.631  1.00  0.00           H
 ATOM   3378 HD21 LEU A 430       7.954  13.647   1.563  1.00  0.00           H  
 ATOM   3379 HD22 LEU A 430       9.496  14.166   2.271  1.00  0.00           H  
 ATOM   3380 HD23 LEU A 430       8.170  15.334   2.092  1.00  0.00           H  
-TER    3381      LEU A 430                                                      
 ATOM   3382  O5'   U B   1     -19.019   1.627  -2.410  1.00  0.00           O  
 ATOM   3383  C5'   U B   1     -17.730   1.055  -2.482  1.00  0.00           C  
 ATOM   3384  C4'   U B   1     -17.393   0.627  -3.909  1.00  0.00           C  
@@ -18002,9 +17658,6 @@ ATOM   3530  H8    A B   5       2.975  11.938   4.040  1.00  0.00           H
 ATOM   3531  H61   A B   5      -0.355  16.500   1.458  1.00  0.00           H  
 ATOM   3532  H62   A B   5       0.629  16.050   2.839  1.00  0.00           H  
 ATOM   3533  H2    A B   5      -0.537  12.978  -1.231  1.00  0.00           H  
-TER    3534        A B   5                                                      
-ENDMDL                                                                          
-MODEL        6                                                                  
 ATOM      1  N   MET A 218      10.886   0.805 -25.098  1.00  0.00           N  
 ATOM      2  CA  MET A 218      10.898   1.187 -23.671  1.00  0.00           C  
 ATOM      3  C   MET A 218       9.969   0.290 -22.859  1.00  0.00           C  
@@ -21385,7 +21038,6 @@ ATOM   3377 HD13 LEU A 430       3.175  22.017   0.576  1.00  0.00           H
 ATOM   3378 HD21 LEU A 430       7.351  21.281   0.034  1.00  0.00           H  
 ATOM   3379 HD22 LEU A 430       6.495  22.473  -0.959  1.00  0.00           H  
 ATOM   3380 HD23 LEU A 430       6.812  22.810   0.759  1.00  0.00           H  
-TER    3381      LEU A 430                                                      
 ATOM   3382  O5'   U B   1     -16.283   0.087  -1.415  1.00  0.00           O  
 ATOM   3383  C5'   U B   1     -16.983   1.090  -2.117  1.00  0.00           C  
 ATOM   3384  C4'   U B   1     -16.993   0.760  -3.612  1.00  0.00           C  
@@ -21538,9 +21190,6 @@ ATOM   3530  H8    A B   5       1.475   7.810   2.560  1.00  0.00           H
 ATOM   3531  H61   A B   5       1.973  10.319   8.221  1.00  0.00           H  
 ATOM   3532  H62   A B   5       1.735   8.821   7.336  1.00  0.00           H  
 ATOM   3533  H2    A B   5       2.435  13.555   5.231  1.00  0.00           H  
-TER    3534        A B   5                                                      
-ENDMDL                                                                          
-MODEL        7                                                                  
 ATOM      1  N   MET A 218      13.766   1.216 -24.561  1.00  0.00           N  
 ATOM      2  CA  MET A 218      13.387   1.929 -23.328  1.00  0.00           C  
 ATOM      3  C   MET A 218      12.408   1.099 -22.500  1.00  0.00           C  
@@ -24921,7 +24570,6 @@ ATOM   3377 HD13 LEU A 430       2.983  22.285   0.040  1.00  0.00           H
 ATOM   3378 HD21 LEU A 430      -0.258  19.516   0.326  1.00  0.00           H  
 ATOM   3379 HD22 LEU A 430      -0.559  21.259   0.152  1.00  0.00           H  
 ATOM   3380 HD23 LEU A 430       0.082  20.326  -1.221  1.00  0.00           H  
-TER    3381      LEU A 430                                                      
 ATOM   3382  O5'   U B   1     -15.710   0.079  -2.727  1.00  0.00           O  
 ATOM   3383  C5'   U B   1     -16.939  -0.304  -3.310  1.00  0.00           C  
 ATOM   3384  C4'   U B   1     -16.697  -1.347  -4.398  1.00  0.00           C  
@@ -25074,9 +24722,6 @@ ATOM   3530  H8    A B   5       0.417  11.674   2.057  1.00  0.00           H
 ATOM   3531  H61   A B   5       2.748  17.435   2.321  1.00  0.00           H  
 ATOM   3532  H62   A B   5       1.276  16.481   2.411  1.00  0.00           H  
 ATOM   3533  H2    A B   5       6.086  14.609   1.553  1.00  0.00           H  
-TER    3534        A B   5                                                      
-ENDMDL                                                                          
-MODEL        8                                                                  
 ATOM      1  N   MET A 218       7.652   5.401 -23.598  1.00  0.00           N  
 ATOM      2  CA  MET A 218       7.733   5.075 -22.160  1.00  0.00           C  
 ATOM      3  C   MET A 218       6.454   4.386 -21.695  1.00  0.00           C  
@@ -28457,7 +28102,6 @@ ATOM   3377 HD13 LEU A 430       5.686  14.580   7.608  1.00  0.00           H
 ATOM   3378 HD21 LEU A 430       6.452  17.276   5.211  1.00  0.00           H  
 ATOM   3379 HD22 LEU A 430       5.216  16.561   6.265  1.00  0.00           H  
 ATOM   3380 HD23 LEU A 430       6.567  17.482   6.974  1.00  0.00           H  
-TER    3381      LEU A 430                                                      
 ATOM   3382  O5'   U B   1     -16.424  -0.671  -2.223  1.00  0.00           O  
 ATOM   3383  C5'   U B   1     -17.574  -1.251  -2.803  1.00  0.00           C  
 ATOM   3384  C4'   U B   1     -17.193  -2.020  -4.062  1.00  0.00           C  
@@ -28610,9 +28254,6 @@ ATOM   3530  H8    A B   5       0.010  11.713   1.668  1.00  0.00           H
 ATOM   3531  H61   A B   5       2.394  17.310   3.024  1.00  0.00           H  
 ATOM   3532  H62   A B   5       0.960  16.471   2.462  1.00  0.00           H  
 ATOM   3533  H2    A B   5       5.486  14.227   3.816  1.00  0.00           H  
-TER    3534        A B   5                                                      
-ENDMDL                                                                          
-MODEL        9                                                                  
 ATOM      1  N   MET A 218       6.998   4.646 -24.842  1.00  0.00           N  
 ATOM      2  CA  MET A 218       7.536   3.490 -24.102  1.00  0.00           C  
 ATOM      3  C   MET A 218       6.474   2.911 -23.171  1.00  0.00           C  
@@ -31993,7 +31634,6 @@ ATOM   3377 HD13 LEU A 430       5.578  16.606   5.439  1.00  0.00           H
 ATOM   3378 HD21 LEU A 430       4.150  19.385   7.534  1.00  0.00           H  
 ATOM   3379 HD22 LEU A 430       3.365  17.814   7.284  1.00  0.00           H  
 ATOM   3380 HD23 LEU A 430       5.115  17.889   7.596  1.00  0.00           H  
-TER    3381      LEU A 430                                                      
 ATOM   3382  O5'   U B   1     -15.850  -0.355  -2.559  1.00  0.00           O  
 ATOM   3383  C5'   U B   1     -16.908  -1.044  -3.186  1.00  0.00           C  
 ATOM   3384  C4'   U B   1     -16.464  -1.549  -4.556  1.00  0.00           C  
@@ -32146,9 +31786,6 @@ ATOM   3530  H8    A B   5       2.174   9.921   1.840  1.00  0.00           H
 ATOM   3531  H61   A B   5       4.237  15.625   0.394  1.00  0.00           H  
 ATOM   3532  H62   A B   5       3.215  14.312  -0.151  1.00  0.00           H  
 ATOM   3533  H2    A B   5       5.876  14.497   4.341  1.00  0.00           H  
-TER    3534        A B   5                                                      
-ENDMDL                                                                          
-MODEL       10                                                                  
 ATOM      1  N   MET A 218      14.678  -0.033 -25.004  1.00  0.00           N  
 ATOM      2  CA  MET A 218      14.533   0.718 -23.743  1.00  0.00           C  
 ATOM      3  C   MET A 218      13.768  -0.107 -22.706  1.00  0.00           C  
@@ -35529,7 +35166,6 @@ ATOM   3377 HD13 LEU A 430       0.793  19.484  -3.131  1.00  0.00           H
 ATOM   3378 HD21 LEU A 430       3.128  16.905  -1.792  1.00  0.00           H  
 ATOM   3379 HD22 LEU A 430       1.379  16.802  -2.023  1.00  0.00           H  
 ATOM   3380 HD23 LEU A 430       2.395  17.540  -3.287  1.00  0.00           H  
-TER    3381      LEU A 430                                                      
 ATOM   3382  O5'   U B   1     -19.925   2.021  -2.353  1.00  0.00           O  
 ATOM   3383  C5'   U B   1     -18.780   1.221  -2.159  1.00  0.00           C  
 ATOM   3384  C4'   U B   1     -18.263   0.660  -3.482  1.00  0.00           C  
@@ -35682,7 +35318,3 @@ ATOM   3530  H8    A B   5       0.009  11.575  -0.375  1.00  0.00           H
 ATOM   3531  H61   A B   5       3.475  16.581   0.839  1.00  0.00           H  
 ATOM   3532  H62   A B   5       1.835  15.967   0.713  1.00  0.00           H  
 ATOM   3533  H2    A B   5       6.200  13.165   0.030  1.00  0.00           H  
-TER    3534        A B   5                                                      
-ENDMDL                                                                          
-MASTER      242    0    0    5   12    0    0    6 1786    2    0   18          
-END                                                                             

@@ -1,379 +1,3 @@
-HEADER    TRANSLATION/RNA                         11-OCT-13   2MFH              
-TITLE     CSR/RSM PROTEIN-RNA RECOGNITION - A MOLECULAR AFFINITY RULER: RSMZ(36-
-TITLE    2 44)/RSME(DIMER) 2:1 COMPLEX                                          
-COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: CARBON STORAGE REGULATOR HOMOLOG;                          
-COMPND   3 CHAIN: A, C;                                                         
-COMPND   4 ENGINEERED: YES;                                                     
-COMPND   5 MOL_ID: 2;                                                           
-COMPND   6 MOLECULE: RSMZ(36-44) RNA;                                           
-COMPND   7 CHAIN: B, D;                                                         
-COMPND   8 ENGINEERED: YES                                                      
-SOURCE    MOL_ID: 1;                                                            
-SOURCE   2 ORGANISM_SCIENTIFIC: PSEUDOMONAS FLUORESCENS;                        
-SOURCE   3 ORGANISM_TAXID: 294;                                                 
-SOURCE   4 GENE: RSME, CSRA;                                                    
-SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
-SOURCE   7 EXPRESSION_SYSTEM_VECTOR: PET28A;                                    
-SOURCE   8 MOL_ID: 2;                                                           
-SOURCE   9 SYNTHETIC: YES                                                       
-KEYWDS    CSRA, RSMA, RSME, RSMZ, CSRB, TRANSLATION REPRESSOR PROTEIN,          
-KEYWDS   2 TRANSLATION ACTIVATION, PROTEIN SEQUESTRATION, BACTERIAL PROTEIN,    
-KEYWDS   3 NON-CODING RNA, SRNA, PSEUDOMONAS AERUGINOSA, RNA-BINDING PROTEINS,  
-KEYWDS   4 MESSENGER RNA, MODULATION OF BINDING AFFINITY, MOLECULAR MIMICRY,    
-KEYWDS   5 TRANSLATION-RNA COMPLEX                                              
-EXPDTA    SOLUTION NMR                                                          
-NUMMDL    20                                                                    
-AUTHOR    O.DUSS,N.DIARRA DIT KONTE,E.MICHEL,M.SCHUBERT,F.H.-T.ALLAIN           
-REVDAT   3   14-MAY-14 2MFH    1       JRNL                                     
-REVDAT   2   26-MAR-14 2MFH    1       JRNL                                     
-REVDAT   1   26-FEB-14 2MFH    0                                                
-JRNL        AUTH   O.DUSS,E.MICHEL,N.DIARRA DIT KONTE,M.SCHUBERT,F.H.ALLAIN     
-JRNL        TITL   MOLECULAR BASIS FOR THE WIDE RANGE OF AFFINITY FOUND IN      
-JRNL        TITL 2 CSR/RSM PROTEIN-RNA RECOGNITION.                             
-JRNL        REF    NUCLEIC ACIDS RES.            V.  42  5332 2014              
-JRNL        REFN                   ISSN 0305-1048                               
-JRNL        PMID   24561806                                                     
-JRNL        DOI    10.1093/NAR/GKU141                                           
-REMARK   2                                                                      
-REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
-REMARK   3                                                                      
-REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : AMBER                                                
-REMARK   3   AUTHORS     : CASE, DARDEN, CHEATHAM, III, SIMMERLING, WANG,       
-REMARK   3                 DUKE, LUO, ... AND KOLLMAN                           
-REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
-REMARK   4                                                                      
-REMARK   4 2MFH COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
-REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 06-JAN-14.                  
-REMARK 100 THE RCSB ID CODE IS RCSB103565.                                      
-REMARK 210                                                                      
-REMARK 210 EXPERIMENTAL DETAILS                                                 
-REMARK 210  EXPERIMENT TYPE                : NMR                                
-REMARK 210  TEMPERATURE           (KELVIN) : 313                                
-REMARK 210  PH                             : 7.2                                
-REMARK 210  IONIC STRENGTH                 : 0.18                               
-REMARK 210  PRESSURE                       : AMBIENT                            
-REMARK 210  SAMPLE CONTENTS                : 1 MM [U-100% 15N] RSME, 1 MM       
-REMARK 210                                   RSMZ(36-44), 0.05 MM POTASSIUM     
-REMARK 210                                   PHOSPHATE, 0.03 MM SODIUM          
-REMARK 210                                   CHLORIDE, 95% H2O/5% D2O; 1 MM [U  
-REMARK 210                                   -100% 15N] RSME, 1 MM RSMZ(36-44)  
-REMARK 210                                   , 0.05 MM POTASSIUM PHOSPHATE,     
-REMARK 210                                   0.03 MM SODIUM CHLORIDE, 100%      
-REMARK 210                                   D2O; 1 MM [U-100% 13C; U-100%      
-REMARK 210                                   15N] RSME, 1 MM RSMZ(36-44), 0.05  
-REMARK 210                                   MM POTASSIUM PHOSPHATE, 0.03 MM    
-REMARK 210                                   SODIUM CHLORIDE, 95% H2O/5% D2O;   
-REMARK 210                                   1 MM [U-100% 13C; U-100% 15N]      
-REMARK 210                                   RSME, 1 MM RSMZ(36-44), 0.05 MM    
-REMARK 210                                   POTASSIUM PHOSPHATE, 0.03 MM       
-REMARK 210                                   SODIUM CHLORIDE, 100% D2O; 1 MM    
-REMARK 210                                   [U-100% 15N] RSME, 1 MM [U-100%    
-REMARK 210                                   13C; U-100% 15N] RSMZ(36-44),      
-REMARK 210                                   0.05 MM POTASSIUM PHOSPHATE, 0.03  
-REMARK 210                                   MM SODIUM CHLORIDE, 95% H2O/5%     
-REMARK 210                                   D2O; 1 MM [U-100% 15N] RSME, 1 MM  
-REMARK 210                                   [U-100% 13C; U-100% 15N] RSMZ(36-  
-REMARK 210                                   44), 0.05 MM POTASSIUM PHOSPHATE,  
-REMARK 210                                   0.03 MM SODIUM CHLORIDE, 100% D2O  
-REMARK 210                                                                      
-REMARK 210  NMR EXPERIMENTS CONDUCTED      : 2D 1H-15N HSQC; 3D 1H-15N NOESY;   
-REMARK 210                                   2D 1H-1H NOESY; 2D 1H-13C HSQC;    
-REMARK 210                                   3D 1H-13C NOESY ALIPHATIC; 3D      
-REMARK 210                                   1FE3FF NOESY; 2D 1H-1H TOCSY       
-REMARK 210  SPECTROMETER FIELD STRENGTH    : 500 MHZ; 600 MHZ; 700 MHZ; 900     
-REMARK 210                                   MHZ                                
-REMARK 210  SPECTROMETER MODEL             : AVANCE                             
-REMARK 210  SPECTROMETER MANUFACTURER      : BRUKER                             
-REMARK 210                                                                      
-REMARK 210  STRUCTURE DETERMINATION.                                            
-REMARK 210   SOFTWARE USED                 : TOPSPIN, SPARKY, CYANA             
-REMARK 210   METHOD USED                   : SIMULATED ANNEALING                
-REMARK 210                                                                      
-REMARK 210 CONFORMERS, NUMBER CALCULATED   : 999                                
-REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 20                                 
-REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LOWEST ENERGY  
-REMARK 210                                                                      
-REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
-REMARK 210                                                                      
-REMARK 210 REMARK: NULL                                                         
-REMARK 215                                                                      
-REMARK 215 NMR STUDY                                                            
-REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
-REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
-REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
-REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
-REMARK 300                                                                      
-REMARK 300 BIOMOLECULE: 1                                                       
-REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
-REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
-REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 350                                                                      
-REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
-REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
-REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
-REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
-REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
-REMARK 350                                                                      
-REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TETRAMERIC                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D                            
-REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
-REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
-REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
-REMARK 465                                                                      
-REMARK 465 MISSING RESIDUES                                                     
-REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
-REMARK 465 EXPERIMENT. (RES=RESIDUE NAME; C=CHAIN IDENTIFIER;                   
-REMARK 465 SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                            
-REMARK 465   MODELS 1-20                                                        
-REMARK 465     RES C SSSEQI                                                     
-REMARK 465     LYS A    60                                                      
-REMARK 465     ARG A    61                                                      
-REMARK 465     GLU A    62                                                      
-REMARK 465     THR A    63                                                      
-REMARK 465     PRO A    64                                                      
-REMARK 465     HIS A    65                                                      
-REMARK 465     HIS A    66                                                      
-REMARK 465     HIS A    67                                                      
-REMARK 465     HIS A    68                                                      
-REMARK 465     HIS A    69                                                      
-REMARK 465     HIS A    70                                                      
-REMARK 465     LYS C    60                                                      
-REMARK 465     ARG C    61                                                      
-REMARK 465     GLU C    62                                                      
-REMARK 465     THR C    63                                                      
-REMARK 465     PRO C    64                                                      
-REMARK 465     HIS C    65                                                      
-REMARK 465     HIS C    66                                                      
-REMARK 465     HIS C    67                                                      
-REMARK 465     HIS C    68                                                      
-REMARK 465     HIS C    69                                                      
-REMARK 465     HIS C    70                                                      
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
-REMARK 500                                                                      
-REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
-REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
-REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
-REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500  1   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   4.6 DEGREES          
-REMARK 500  1   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   4.3 DEGREES          
-REMARK 500  2   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   5.0 DEGREES          
-REMARK 500  2   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   4.8 DEGREES          
-REMARK 500  3   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   5.6 DEGREES          
-REMARK 500  3   A D  38   O4' -  C1' -  N9  ANGL. DEV. =   4.4 DEGREES          
-REMARK 500  3   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   5.2 DEGREES          
-REMARK 500  4   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   4.5 DEGREES          
-REMARK 500  4   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   5.0 DEGREES          
-REMARK 500  5   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   4.8 DEGREES          
-REMARK 500  5   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   5.8 DEGREES          
-REMARK 500  6   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   4.9 DEGREES          
-REMARK 500  6   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   4.4 DEGREES          
-REMARK 500  7   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   4.3 DEGREES          
-REMARK 500  8   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   6.5 DEGREES          
-REMARK 500  8   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   4.8 DEGREES          
-REMARK 500  8   A D  43   O4' -  C1' -  N9  ANGL. DEV. =   5.6 DEGREES          
-REMARK 500  9   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   7.4 DEGREES          
-REMARK 500  9   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   6.4 DEGREES          
-REMARK 500  9   C D  42   C3' -  C2' -  C1' ANGL. DEV. =   4.9 DEGREES          
-REMARK 500 10   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   6.1 DEGREES          
-REMARK 500 10   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   4.7 DEGREES          
-REMARK 500 11   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   5.0 DEGREES          
-REMARK 500 11   G D  39   C4' -  C3' -  C2' ANGL. DEV. =  -6.2 DEGREES          
-REMARK 500 11   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   4.5 DEGREES          
-REMARK 500 12   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   6.8 DEGREES          
-REMARK 500 12   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   4.3 DEGREES          
-REMARK 500 13   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   4.7 DEGREES          
-REMARK 500 13   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   6.0 DEGREES          
-REMARK 500 14   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   4.8 DEGREES          
-REMARK 500 14   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   4.7 DEGREES          
-REMARK 500 15   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   4.2 DEGREES          
-REMARK 500 15   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   5.4 DEGREES          
-REMARK 500 16   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   6.6 DEGREES          
-REMARK 500 16   A D  38   O4' -  C1' -  N9  ANGL. DEV. =   4.4 DEGREES          
-REMARK 500 16   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   5.1 DEGREES          
-REMARK 500 17   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   7.1 DEGREES          
-REMARK 500 17   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   4.5 DEGREES          
-REMARK 500 17   A D  43   O4' -  C1' -  N9  ANGL. DEV. =   6.5 DEGREES          
-REMARK 500 18   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   7.0 DEGREES          
-REMARK 500 18   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   6.9 DEGREES          
-REMARK 500 19   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   5.3 DEGREES          
-REMARK 500 19   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   5.2 DEGREES          
-REMARK 500 20   G B  40   O4' -  C1' -  N9  ANGL. DEV. =   5.2 DEGREES          
-REMARK 500 20   G D  40   O4' -  C1' -  N9  ANGL. DEV. =   5.0 DEGREES          
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: TORSION ANGLES                                             
-REMARK 500                                                                      
-REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
-REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        PSI       PHI                                   
-REMARK 500  1 ASP A  17       12.06   -143.66                                   
-REMARK 500  1 SER A  26       89.69   -150.17                                   
-REMARK 500  1 GLN A  52        1.70    -66.34                                   
-REMARK 500  1 PRO A  58      172.42    -51.51                                   
-REMARK 500  1 SER C  26       89.96   -150.46                                   
-REMARK 500  1 PRO C  58      173.58    -51.83                                   
-REMARK 500  2 SER A  26       89.72   -152.50                                   
-REMARK 500  2 LEU A  55       23.19   -151.14                                   
-REMARK 500  2 PRO A  58      174.13    -50.01                                   
-REMARK 500  2 SER C  26       89.73   -151.80                                   
-REMARK 500  2 GLN C  52        2.97    -68.61                                   
-REMARK 500  2 THR C  56       -1.20   -142.33                                   
-REMARK 500  2 ALA C  57       76.96   -154.10                                   
-REMARK 500  3 ASP A  17       11.06   -141.79                                   
-REMARK 500  3 ALA A  57       78.26   -150.87                                   
-REMARK 500  3 ASP C  17       12.21   -144.78                                   
-REMARK 500  3 SER C  26       89.96   -151.01                                   
-REMARK 500  3 GLN C  52        2.97    -69.37                                   
-REMARK 500  4 ASP A  17       12.28   -142.47                                   
-REMARK 500  4 PRO A  58      172.33    -49.69                                   
-REMARK 500  4 ASP C  17       11.86   -142.73                                   
-REMARK 500  4 SER C  26       89.47   -152.40                                   
-REMARK 500  4 GLN C  52        2.66    -68.62                                   
-REMARK 500  4 PRO C  58      172.58    -50.17                                   
-REMARK 500  5 ASP A  17       12.60   -141.69                                   
-REMARK 500  5 PRO A  58      170.28    -52.74                                   
-REMARK 500  5 ASP C  17       12.06   -143.57                                   
-REMARK 500  5 SER C  26       89.76   -150.53                                   
-REMARK 500  5 GLN C  52        3.00    -68.57                                   
-REMARK 500  5 THR C  56       10.19   -144.53                                   
-REMARK 500  6 SER A  26       89.41   -151.02                                   
-REMARK 500  6 THR A  56       -3.21   -140.72                                   
-REMARK 500  6 PRO A  58      175.79    -50.45                                   
-REMARK 500  6 ASP C  17       11.28   -143.12                                   
-REMARK 500  6 SER C  26       85.26   -150.24                                   
-REMARK 500  6 THR C  56       -2.97   -141.98                                   
-REMARK 500  7 SER A  26       89.47   -150.04                                   
-REMARK 500  7 GLN A  52        3.14    -69.41                                   
-REMARK 500  7 PRO A  58      171.40    -50.29                                   
-REMARK 500  7 ASP C  17       11.15   -140.18                                   
-REMARK 500  7 SER C  26       89.81   -151.85                                   
-REMARK 500  7 LEU C  55      -30.28   -150.41                                   
-REMARK 500  7 THR C  56       45.75     32.87                                   
-REMARK 500  7 PRO C  58      169.27    -49.05                                   
-REMARK 500  8 ASP A  17       11.50   -141.36                                   
-REMARK 500  8 SER A  26       89.37   -150.25                                   
-REMARK 500  8 GLN A  52        2.26    -69.48                                   
-REMARK 500  8 THR A  56       14.90   -144.58                                   
-REMARK 500  8 ASP C  17       11.40   -142.31                                   
-REMARK 500  8 SER C  26       89.26   -150.20                                   
-REMARK 500                                                                      
-REMARK 500 THIS ENTRY HAS     140 RAMACHANDRAN OUTLIERS.                        
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: PLANAR GROUPS                                              
-REMARK 500                                                                      
-REMARK 500 PLANAR GROUPS IN THE FOLLOWING RESIDUES HAVE A TOTAL                 
-REMARK 500 RMS DISTANCE OF ALL ATOMS FROM THE BEST-FIT PLANE                    
-REMARK 500 BY MORE THAN AN EXPECTED VALUE OF 6*RMSD, WITH AN                    
-REMARK 500 RMSD 0.02 ANGSTROMS, OR AT LEAST ONE ATOM HAS                        
-REMARK 500 AN RMSD GREATER THAN THIS VALUE                                      
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500  5   C D  42         0.08    SIDE CHAIN                              
-REMARK 500 11   A D  41         0.07    SIDE CHAIN                              
-REMARK 500 16 ARG C   6         0.09    SIDE CHAIN                              
-REMARK 500 17   A D  43         0.09    SIDE CHAIN                              
-REMARK 500 19   G B  40         0.05    SIDE CHAIN                              
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 900                                                                      
-REMARK 900 RELATED ENTRIES                                                      
-REMARK 900 RELATED ID: 19549   RELATED DB: BMRB                                 
-REMARK 900 RELATED ID: 2MFC   RELATED DB: PDB                                   
-REMARK 900 RELATED ID: 2MFE   RELATED DB: PDB                                   
-REMARK 900 RELATED ID: 2MFF   RELATED DB: PDB                                   
-REMARK 900 RELATED ID: 2MFG   RELATED DB: PDB                                   
-DBREF  2MFH A    1    59  UNP    Q5MXB2   Q5MXB2_PSEFL     1     59             
-DBREF  2MFH C    1    59  UNP    Q5MXB2   Q5MXB2_PSEFL     1     59             
-DBREF  2MFH B   36    44  PDB    2MFH     2MFH            36     44             
-DBREF  2MFH D   36    44  PDB    2MFH     2MFH            36     44             
-SEQADV 2MFH LYS A   60  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH ARG A   61  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH GLU A   62  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH THR A   63  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH PRO A   64  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS A   65  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS A   66  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS A   67  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS A   68  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS A   69  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS A   70  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH LYS C   60  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH ARG C   61  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH GLU C   62  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH THR C   63  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH PRO C   64  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS C   65  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS C   66  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS C   67  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS C   68  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS C   69  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQADV 2MFH HIS C   70  UNP  Q5MXB2              EXPRESSION TAG                 
-SEQRES   1 A   70  MET LEU ILE LEU THR ARG LYS VAL GLY GLU SER ILE ASN          
-SEQRES   2 A   70  ILE GLY ASP ASP ILE THR ILE THR ILE LEU GLY VAL SER          
-SEQRES   3 A   70  GLY GLN GLN VAL ARG ILE GLY ILE ASN ALA PRO LYS ASP          
-SEQRES   4 A   70  VAL ALA VAL HIS ARG GLU GLU ILE TYR GLN ARG ILE GLN          
-SEQRES   5 A   70  ALA GLY LEU THR ALA PRO ASP LYS ARG GLU THR PRO HIS          
-SEQRES   6 A   70  HIS HIS HIS HIS HIS                                          
-SEQRES   1 B    9    U   C   A   G   G   A   C   A   U                          
-SEQRES   1 C   70  MET LEU ILE LEU THR ARG LYS VAL GLY GLU SER ILE ASN          
-SEQRES   2 C   70  ILE GLY ASP ASP ILE THR ILE THR ILE LEU GLY VAL SER          
-SEQRES   3 C   70  GLY GLN GLN VAL ARG ILE GLY ILE ASN ALA PRO LYS ASP          
-SEQRES   4 C   70  VAL ALA VAL HIS ARG GLU GLU ILE TYR GLN ARG ILE GLN          
-SEQRES   5 C   70  ALA GLY LEU THR ALA PRO ASP LYS ARG GLU THR PRO HIS          
-SEQRES   6 C   70  HIS HIS HIS HIS HIS                                          
-SEQRES   1 D    9    U   C   A   G   G   A   C   A   U                          
-HELIX    1   1 GLU A   45  GLN A   49  1                                   5    
-HELIX    2   2 GLU C   45  GLN C   52  1                                   8    
-SHEET    1   A 5 LEU A   2  LYS A   7  0                                        
-SHEET    2   A 5 GLN C  29  ASN C  35 -1  O  ILE C  32   N  LEU A   4           
-SHEET    3   A 5 ILE C  18  SER C  26 -1  N  THR C  21   O  GLY C  33           
-SHEET    4   A 5 SER C  11  ILE C  14 -1  N  ILE C  12   O  ILE C  20           
-SHEET    5   A 5 VAL A  42  ARG A  44 -1  N  HIS A  43   O  ASN C  13           
-SHEET    1   B 5 LEU C   2  LYS C   7  0                                        
-SHEET    2   B 5 GLN A  29  ASN A  35 -1  N  VAL A  30   O  ARG C   6           
-SHEET    3   B 5 ILE A  18  SER A  26 -1  N  THR A  21   O  GLY A  33           
-SHEET    4   B 5 SER A  11  ILE A  14 -1  N  ILE A  12   O  ILE A  20           
-SHEET    5   B 5 VAL C  42  ARG C  44 -1  O  HIS C  43   N  ASN A  13           
-CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
-ORIGX1      1.000000  0.000000  0.000000        0.00000                         
-ORIGX2      0.000000  1.000000  0.000000        0.00000                         
-ORIGX3      0.000000  0.000000  1.000000        0.00000                         
-SCALE1      1.000000  0.000000  0.000000        0.00000                         
-SCALE2      0.000000  1.000000  0.000000        0.00000                         
-SCALE3      0.000000  0.000000  1.000000        0.00000                         
-MODEL        1                                                                  
 ATOM      1  N   MET A   1       8.117  10.315  -2.288  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.641  10.309  -2.348  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.177   9.914  -3.743  1.00  0.00           C  
@@ -1294,7 +918,6 @@ ATOM    917  H   ASP A  59       4.539  -8.832  21.110  1.00  0.00           H
 ATOM    918  HA  ASP A  59       6.945  -9.900  22.060  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       4.758  -9.452  23.247  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       4.134 -10.941  22.537  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -3.722   8.954 -12.834  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -3.308   7.725 -13.406  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -4.006   7.471 -14.747  1.00  0.00           C  
@@ -1583,7 +1206,6 @@ ATOM   1206  H1'   U B  44      -4.368  17.037  -3.279  1.00  0.00           H
 ATOM   1207  H3    U B  44      -1.895  20.819  -2.449  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -2.903  21.037  -6.526  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -4.341  19.125  -6.216  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.292 -12.642   4.194  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.814 -11.903   3.560  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.644 -11.190   4.616  1.00  0.00           C  
@@ -2504,7 +2126,6 @@ ATOM   2127  H   ASP C  59      19.739  -1.341 -18.180  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      22.478  -1.745 -17.614  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      21.081  -2.446 -19.628  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      21.219  -0.793 -20.211  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -14.782  -2.455   8.484  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -13.648  -1.661   8.762  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -14.043  -0.218   9.078  1.00  0.00           C  
@@ -2793,9 +2414,6 @@ ATOM   2416  H1'   U D  44     -12.365 -12.587  -2.514  1.00  0.00           H
 ATOM   2417  H3    U D  44     -12.103 -17.090  -2.192  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -15.193 -16.123   0.484  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -14.961 -13.803  -0.166  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL        2                                                                  
 ATOM      1  N   MET A   1       8.365  10.118  -2.202  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.891  10.145  -2.251  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.403   9.759  -3.642  1.00  0.00           C  
@@ -3716,7 +3334,6 @@ ATOM    917  H   ASP A  59      11.625  -6.006  23.829  1.00  0.00           H
 ATOM    918  HA  ASP A  59      14.434  -5.949  24.318  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59      12.425  -5.698  25.918  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59      12.276  -7.446  25.856  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -9.399   7.767 -16.325  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -8.612   8.505 -17.237  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -7.163   8.622 -16.751  1.00  0.00           C  
@@ -4005,7 +3622,6 @@ ATOM   1206  H1'   U B  44      -4.355  17.439  -2.311  1.00  0.00           H
 ATOM   1207  H3    U B  44      -2.079  19.142   1.195  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -1.819  22.198  -1.683  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -3.199  20.868  -3.143  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.412 -12.386   4.580  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.701 -11.743   3.856  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.611 -11.009   4.829  1.00  0.00           C  
@@ -4926,7 +4542,6 @@ ATOM   2127  H   ASP C  59      15.105   3.413 -15.137  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      17.265   4.766 -16.477  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      15.751   4.303 -18.431  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      14.436   5.094 -17.573  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -14.911   3.356   6.888  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -13.985   2.323   7.150  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -14.448   1.524   8.368  1.00  0.00           C  
@@ -5215,9 +4830,6 @@ ATOM   2416  H1'   U D  44     -12.162 -13.164  -2.885  1.00  0.00           H
 ATOM   2417  H3    U D  44      -9.460 -16.161  -4.916  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -12.216 -18.592  -2.879  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -13.358 -16.599  -2.146  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL        3                                                                  
 ATOM      1  N   MET A   1       8.000  10.328  -2.152  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.527  10.360  -2.087  1.00  0.00           C  
 ATOM      3  C   MET A   1       5.926  10.121  -3.466  1.00  0.00           C  
@@ -6138,7 +5750,6 @@ ATOM    917  H   ASP A  59       4.700  -3.651  24.091  1.00  0.00           H
 ATOM    918  HA  ASP A  59       4.309  -4.993  25.848  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       2.245  -5.273  24.525  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       2.911  -6.721  23.780  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -9.666   6.804 -15.771  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -8.448   6.443 -15.149  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -7.283   7.190 -15.806  1.00  0.00           C  
@@ -6427,7 +6038,6 @@ ATOM   1206  H1'   U B  44      -4.685  17.028  -2.759  1.00  0.00           H
 ATOM   1207  H3    U B  44      -2.144  20.682  -2.003  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -3.403  21.214  -5.975  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -4.699  19.172  -5.783  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.369 -12.437   4.550  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.767 -11.804   3.847  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.662 -11.081   4.845  1.00  0.00           C  
@@ -7348,7 +6958,6 @@ ATOM   2127  H   ASP C  59      17.059   2.470 -15.273  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      19.629   2.504 -16.584  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      18.172   3.064 -18.522  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      17.433   4.360 -17.595  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -18.449  -5.175   7.333  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -17.628  -4.027   7.365  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -16.257  -4.388   7.934  1.00  0.00           C  
@@ -7637,9 +7246,6 @@ ATOM   2416  H1'   U D  44     -12.466 -13.021  -2.726  1.00  0.00           H
 ATOM   2417  H3    U D  44      -9.828 -16.036  -4.780  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -12.556 -18.451  -2.678  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -13.666 -16.444  -1.920  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL        4                                                                  
 ATOM      1  N   MET A   1       8.196   9.853  -2.018  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.728   9.891  -2.148  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.313   9.545  -3.566  1.00  0.00           C  
@@ -8560,7 +8166,6 @@ ATOM    917  H   ASP A  59       4.232  -4.756  24.921  1.00  0.00           H
 ATOM    918  HA  ASP A  59       6.559  -5.276  26.391  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       4.415  -4.131  27.094  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       3.674  -5.724  27.240  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -5.798  12.243 -17.111  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -5.065  11.103 -16.712  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -3.849  11.521 -15.879  1.00  0.00           C  
@@ -8849,7 +8454,6 @@ ATOM   1206  H1'   U B  44      -5.295  13.706  -8.414  1.00  0.00           H
 ATOM   1207  H3    U B  44      -5.407  14.758 -12.972  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -1.389  14.532 -11.768  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -2.116  14.468  -9.481  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.417 -12.334   4.420  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.700 -11.647   3.746  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.559 -10.912   4.761  1.00  0.00           C  
@@ -9770,7 +9374,6 @@ ATOM   2127  H   ASP C  59      19.305  -1.171 -19.114  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      21.808  -2.459 -19.077  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      20.127  -2.139 -20.968  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      20.753  -0.504 -21.146  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -15.618  -2.447   7.455  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -14.421  -1.702   7.531  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -14.601  -0.416   8.343  1.00  0.00           C  
@@ -10059,9 +9662,6 @@ ATOM   2416  H1'   U D  44     -14.365 -10.109  -3.317  1.00  0.00           H
 ATOM   2417  H3    U D  44     -18.510  -8.524  -2.374  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -17.124 -10.101   1.279  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -15.209 -10.919   0.153  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL        5                                                                  
 ATOM      1  N   MET A   1       8.252  10.221  -2.186  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.780  10.209  -2.246  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.315   9.810  -3.640  1.00  0.00           C  
@@ -10982,7 +10582,6 @@ ATOM    917  H   ASP A  59       4.620  -3.855  24.872  1.00  0.00           H
 ATOM    918  HA  ASP A  59       5.587  -6.394  25.664  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       5.113  -4.288  27.013  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       3.403  -4.713  26.955  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -5.364  12.141 -16.610  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -4.767  10.951 -16.132  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -3.498  11.292 -15.349  1.00  0.00           C  
@@ -11271,7 +10870,6 @@ ATOM   1206  H1'   U B  44      -4.341  17.004  -3.063  1.00  0.00           H
 ATOM   1207  H3    U B  44      -1.892  19.779  -0.434  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -2.376  21.921  -4.026  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -3.862  20.193  -4.792  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.563 -12.266   4.621  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.598 -11.701   3.905  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.506 -10.963   4.878  1.00  0.00           C  
@@ -12192,7 +11790,6 @@ ATOM   2127  H   ASP C  59      20.044   0.750 -13.925  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      22.160  -0.327 -15.576  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      20.971   1.094 -17.200  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      21.118   2.484 -16.127  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -18.518  -5.697   6.773  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -17.892  -4.457   7.032  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -16.579  -4.687   7.783  1.00  0.00           C  
@@ -12481,9 +12078,6 @@ ATOM   2416  H1'   U D  44     -12.436  -8.946  -3.874  1.00  0.00           H
 ATOM   2417  H3    U D  44     -14.778  -6.624  -0.527  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -12.365  -9.495   1.352  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -11.932 -10.487  -0.782  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL        6                                                                  
 ATOM      1  N   MET A   1       8.267   9.980  -1.838  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.803  10.016  -2.022  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.446   9.725  -3.475  1.00  0.00           C  
@@ -13404,7 +12998,6 @@ ATOM    917  H   ASP A  59       4.202  -6.596  23.450  1.00  0.00           H
 ATOM    918  HA  ASP A  59       6.479  -7.837  24.458  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       4.481  -6.883  25.671  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       3.592  -8.347  25.264  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -4.726   2.542 -17.551  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -4.804   3.856 -17.032  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -5.991   4.605 -17.650  1.00  0.00           C  
@@ -13693,7 +13286,6 @@ ATOM   1206  H1'   U B  44      -5.852  16.327  -6.161  1.00  0.00           H
 ATOM   1207  H3    U B  44      -4.700  20.367  -4.193  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -1.506  19.399  -6.745  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -2.806  17.539  -7.581  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.329 -12.446   4.557  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.786 -11.778   3.859  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.694 -11.084   4.861  1.00  0.00           C  
@@ -14614,7 +14206,6 @@ ATOM   2127  H   ASP C  59      18.979   0.625 -15.579  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      21.121   1.279 -15.986  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      19.571   3.204 -16.400  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      20.059   3.879 -14.850  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -18.655  -5.350   8.791  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -17.425  -4.697   9.026  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -16.270  -5.695   8.905  1.00  0.00           C  
@@ -14903,9 +14494,6 @@ ATOM   2416  H1'   U D  44     -11.986 -12.948  -2.590  1.00  0.00           H
 ATOM   2417  H3    U D  44      -9.871 -16.712  -4.015  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -13.143 -18.150  -1.790  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -13.936 -15.884  -1.598  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL        7                                                                  
 ATOM      1  N   MET A   1       8.119  10.256  -2.052  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.647  10.211  -2.165  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.237   9.837  -3.580  1.00  0.00           C  
@@ -15826,7 +15414,6 @@ ATOM    917  H   ASP A  59       5.268  -6.094  25.690  1.00  0.00           H
 ATOM    918  HA  ASP A  59       7.817  -6.498  26.794  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       5.742  -5.467  27.799  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       5.117  -7.097  28.046  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -8.799  10.940 -17.346  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -7.777  10.198 -16.708  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -6.493  11.031 -16.632  1.00  0.00           C  
@@ -16115,7 +15702,6 @@ ATOM   1206  H1'   U B  44      -5.716  13.432  -7.706  1.00  0.00           H
 ATOM   1207  H3    U B  44      -5.952  14.284 -12.322  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -1.945  14.611 -11.121  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -2.657  14.568  -8.836  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.242 -12.215   4.429  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.899 -11.546   3.773  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.776 -10.859   4.808  1.00  0.00           C  
@@ -17036,7 +16622,6 @@ ATOM   2127  H   ASP C  59      14.764   3.010 -14.269  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      17.245   4.064 -15.077  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      14.949   4.159 -16.187  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      14.534   5.435 -15.056  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -17.523  -6.211   8.943  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -16.454  -5.395   9.378  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -15.145  -6.188   9.331  1.00  0.00           C  
@@ -17325,9 +16910,6 @@ ATOM   2416  H1'   U D  44     -12.593 -12.374  -1.855  1.00  0.00           H
 ATOM   2417  H3    U D  44     -12.005 -16.918  -2.051  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -14.985 -16.324   0.858  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -15.057 -14.002   0.231  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL        8                                                                  
 ATOM      1  N   MET A   1       8.231   9.868  -2.017  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.759   9.839  -2.118  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.333   9.528  -3.546  1.00  0.00           C  
@@ -18248,7 +17830,6 @@ ATOM    917  H   ASP A  59       6.109  -7.644  22.452  1.00  0.00           H
 ATOM    918  HA  ASP A  59       6.795  -6.859  25.154  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       4.594  -7.622  25.594  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       4.798  -9.084  24.618  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -6.428  11.118 -17.508  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -5.692  10.016 -17.011  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -4.535  10.509 -16.141  1.00  0.00           C  
@@ -18537,7 +18118,6 @@ ATOM   1206  H1'   U B  44      -4.216  16.921  -2.611  1.00  0.00           H
 ATOM   1207  H3    U B  44      -1.763  19.452   0.263  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -2.172  21.875  -3.156  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -3.672  20.239  -4.070  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.273 -12.291   4.511  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.826 -11.617   3.791  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.736 -10.893   4.770  1.00  0.00           C  
@@ -19458,7 +19038,6 @@ ATOM   2127  H   ASP C  59      15.550  -1.030 -17.656  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      16.573  -0.135 -19.433  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      14.983   1.690 -18.866  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      16.261   2.499 -17.970  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -18.825  -4.679   9.194  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -17.572  -4.047   9.349  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -16.457  -5.093   9.347  1.00  0.00           C  
@@ -19747,9 +19326,6 @@ ATOM   2416  H1'   U D  44     -12.875 -11.098  -5.150  1.00  0.00           H
 ATOM   2417  H3    U D  44     -15.439 -10.055  -1.496  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -16.015 -14.161  -2.164  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -14.205 -14.108  -3.750  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL        9                                                                  
 ATOM      1  N   MET A   1       8.294   9.685  -2.053  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.819   9.707  -2.120  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.349   9.440  -3.543  1.00  0.00           C  
@@ -20670,7 +20246,6 @@ ATOM    917  H   ASP A  59       2.270  -6.162  23.362  1.00  0.00           H
 ATOM    918  HA  ASP A  59       2.902  -6.898  26.082  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       1.200  -5.153  26.475  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       0.092  -5.956  25.367  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -7.703   9.005 -18.469  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -7.451   8.010 -17.499  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -6.227   8.399 -16.667  1.00  0.00           C  
@@ -20959,7 +20534,6 @@ ATOM   1206  H1'   U B  44      -6.937  15.035  -1.427  1.00  0.00           H
 ATOM   1207  H3    U B  44      -8.441  13.551  -5.438  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -4.433  14.593  -6.140  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -4.328  15.542  -3.942  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.468 -12.222   4.645  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.620 -11.530   3.927  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.544 -10.833   4.909  1.00  0.00           C  
@@ -21880,7 +21454,6 @@ ATOM   2127  H   ASP C  59      18.802  -0.825 -18.600  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      21.544  -1.456 -18.356  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      19.868  -2.004 -20.198  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      20.070  -0.354 -20.773  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -18.272   1.139   7.825  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -16.937   0.681   7.733  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -16.674  -0.381   8.804  1.00  0.00           C  
@@ -22169,9 +21742,6 @@ ATOM   2416  H1'   U D  44     -14.305  -8.497   1.479  1.00  0.00           H
 ATOM   2417  H3    U D  44     -17.145  -8.356   5.205  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -13.471  -9.991   6.407  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -12.846 -10.191   4.101  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       10                                                                  
 ATOM      1  N   MET A   1       8.129  10.121  -1.947  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.658  10.084  -2.067  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.247   9.773  -3.496  1.00  0.00           C  
@@ -23092,7 +22662,6 @@ ATOM    917  H   ASP A  59       4.996  -5.124  25.346  1.00  0.00           H
 ATOM    918  HA  ASP A  59       7.468  -5.661  26.621  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       5.428  -4.326  27.421  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       4.661  -5.862  27.772  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -5.584  12.655 -16.371  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -4.958  11.430 -16.052  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -3.736  11.692 -15.167  1.00  0.00           C  
@@ -23381,7 +22950,6 @@ ATOM   1206  H1'   U B  44      -4.074  17.076  -2.413  1.00  0.00           H
 ATOM   1207  H3    U B  44      -1.649  20.677  -0.914  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -2.536  21.543  -4.929  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -3.973  19.606  -4.975  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.077 -12.541   4.427  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.986 -11.765   3.758  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.812 -11.005   4.787  1.00  0.00           C  
@@ -24302,7 +23870,6 @@ ATOM   2127  H   ASP C  59      18.054   0.128 -17.924  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      16.571  -0.125 -19.632  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      18.386  -1.806 -19.852  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      17.315  -3.019 -19.150  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -15.998  -2.962   7.870  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -14.686  -2.441   7.871  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -14.627  -1.023   8.436  1.00  0.00           C  
@@ -24591,9 +24158,6 @@ ATOM   2416  H1'   U D  44     -14.922 -10.001  -0.881  1.00  0.00           H
 ATOM   2417  H3    U D  44     -14.575 -14.406  -2.233  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -13.867 -14.456   1.907  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -14.488 -12.123   1.992  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       11                                                                  
 ATOM      1  N   MET A   1       8.224  10.062  -2.163  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.751  10.094  -2.226  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.277   9.734  -3.629  1.00  0.00           C  
@@ -25514,7 +25078,6 @@ ATOM    917  H   ASP A  59       4.472  -3.644  24.440  1.00  0.00           H
 ATOM    918  HA  ASP A  59       5.461  -5.918  25.779  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       4.588  -3.852  26.772  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       2.940  -4.281  26.267  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -5.979  11.310 -17.067  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -5.310  10.202 -16.501  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -4.108  10.682 -15.684  1.00  0.00           C  
@@ -25803,7 +25366,6 @@ ATOM   1206  H1'   U B  44      -4.514  17.397  -2.479  1.00  0.00           H
 ATOM   1207  H3    U B  44      -2.308  19.141   1.055  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -2.010  22.167  -1.844  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -3.364  20.824  -3.317  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.324 -12.333   4.100  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.823 -11.658   3.462  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.736 -11.049   4.519  1.00  0.00           C  
@@ -26724,7 +26286,6 @@ ATOM   2127  H   ASP C  59      16.339  -0.461 -17.849  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      18.552  -1.775 -18.994  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      16.408  -0.929 -20.083  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      17.104   0.690 -20.035  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -18.701  -3.921   8.826  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -17.878  -2.788   8.624  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -16.440  -3.110   9.041  1.00  0.00           C  
@@ -27013,9 +26574,6 @@ ATOM   2416  H1'   U D  44     -12.715 -12.259  -2.861  1.00  0.00           H
 ATOM   2417  H3    U D  44     -10.866 -16.335  -3.407  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -14.272 -17.148  -1.082  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -14.828 -14.797  -1.170  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       12                                                                  
 ATOM      1  N   MET A   1       8.197   9.902  -2.017  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.724   9.892  -2.114  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.289   9.594  -3.538  1.00  0.00           C  
@@ -27936,7 +27494,6 @@ ATOM    917  H   ASP A  59       5.177  -6.510  22.578  1.00  0.00           H
 ATOM    918  HA  ASP A  59       6.888  -8.712  23.104  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       5.013  -7.679  24.522  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       3.877  -8.541  23.499  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -7.589  11.488 -16.568  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -7.599  10.079 -16.444  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -6.254   9.610 -15.878  1.00  0.00           C  
@@ -28225,7 +27782,6 @@ ATOM   1206  H1'   U B  44      -4.166  16.942  -2.647  1.00  0.00           H
 ATOM   1207  H3    U B  44      -1.682  20.644  -1.550  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -2.758  21.194  -5.581  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -4.184  19.261  -5.406  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.306 -12.345   4.629  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.783 -11.698   3.870  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.721 -10.965   4.815  1.00  0.00           C  
@@ -29146,7 +28702,6 @@ ATOM   2127  H   ASP C  59      16.142  -0.263 -17.900  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      18.653  -0.700 -19.078  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      16.515  -0.210 -20.196  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      16.608   1.473 -19.642  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -21.342   0.060  10.218  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -19.982   0.032   9.844  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -19.458  -1.402   9.864  1.00  0.00           C  
@@ -29435,9 +28990,6 @@ ATOM   2416  H1'   U D  44     -12.096 -12.609  -2.686  1.00  0.00           H
 ATOM   2417  H3    U D  44      -9.930 -16.161  -4.527  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -13.120 -17.891  -2.397  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -13.967 -15.684  -1.976  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       13                                                                  
 ATOM      1  N   MET A   1       8.156  10.226  -2.015  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.685  10.153  -2.109  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.261   9.771  -3.521  1.00  0.00           C  
@@ -30358,7 +29910,6 @@ ATOM    917  H   ASP A  59       5.358  -5.181  25.300  1.00  0.00           H
 ATOM    918  HA  ASP A  59       6.899  -7.248  26.383  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       5.673  -5.367  27.534  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       4.173  -6.269  27.304  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -6.017  12.493 -15.822  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -5.396  11.226 -15.793  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -4.143  11.279 -14.913  1.00  0.00           C  
@@ -30647,7 +30198,6 @@ ATOM   1206  H1'   U B  44      -6.570  16.176  -4.116  1.00  0.00           H
 ATOM   1207  H3    U B  44      -4.395  19.394  -1.523  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -2.032  18.806  -4.947  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -3.802  17.423  -5.861  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.414 -12.447   4.592  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.677 -11.750   3.882  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.571 -11.021   4.873  1.00  0.00           C  
@@ -31568,7 +31118,6 @@ ATOM   2127  H   ASP C  59      18.972   0.313 -16.835  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      21.428   1.584 -16.262  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      20.637   0.317 -18.348  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      19.773   1.771 -18.807  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -14.731   3.375   7.132  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -13.836   2.297   7.310  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -14.257   1.473   8.524  1.00  0.00           C  
@@ -31857,9 +31406,6 @@ ATOM   2416  H1'   U D  44     -12.167 -13.084  -2.897  1.00  0.00           H
 ATOM   2417  H3    U D  44      -9.418 -15.951  -5.042  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -12.016 -18.510  -2.944  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -13.215 -16.567  -2.171  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       14                                                                  
 ATOM      1  N   MET A   1       8.155  10.204  -2.109  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.682  10.132  -2.198  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.264   9.740  -3.605  1.00  0.00           C  
@@ -32780,7 +32326,6 @@ ATOM    917  H   ASP A  59      12.676  -7.521  22.885  1.00  0.00           H
 ATOM    918  HA  ASP A  59      13.718  -9.153  20.829  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59      14.897  -7.511  22.409  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59      14.816  -8.753  23.641  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -5.993  12.001 -16.376  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -5.295  10.786 -16.180  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -4.067  11.025 -15.299  1.00  0.00           C  
@@ -33069,7 +32614,6 @@ ATOM   1206  H1'   U B  44      -7.437  13.250  -6.695  1.00  0.00           H
 ATOM   1207  H3    U B  44      -7.089  13.684 -11.203  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -6.142  17.507  -9.747  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -6.254  16.623  -7.498  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.222 -12.349   4.456  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.860 -11.650   3.734  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.779 -10.945   4.721  1.00  0.00           C  
@@ -33990,7 +33534,6 @@ ATOM   2127  H   ASP C  59      19.768   0.409 -15.735  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      22.623   0.639 -15.573  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      22.447  -0.160 -17.948  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      21.329   1.148 -18.290  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -17.853  -6.968   8.630  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -16.724  -6.132   8.817  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -15.437  -6.964   8.752  1.00  0.00           C  
@@ -34279,9 +33822,6 @@ ATOM   2416  H1'   U D  44     -12.462 -12.304  -2.046  1.00  0.00           H
 ATOM   2417  H3    U D  44     -10.774 -16.125  -3.827  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -13.860 -17.437  -1.285  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -14.484 -15.143  -0.941  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       15                                                                  
 ATOM      1  N   MET A   1       8.383  10.128  -2.156  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.908  10.113  -2.246  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.470   9.702  -3.640  1.00  0.00           C  
@@ -35202,7 +34742,6 @@ ATOM    917  H   ASP A  59       2.601  -4.005  23.878  1.00  0.00           H
 ATOM    918  HA  ASP A  59       2.766  -6.825  24.409  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59       2.126  -4.834  25.931  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       0.564  -4.849  25.145  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -6.780  12.009 -16.667  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -5.991  10.966 -16.128  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -4.903  11.548 -15.227  1.00  0.00           C  
@@ -35491,7 +35030,6 @@ ATOM   1206  H1'   U B  44      -7.216  16.152  -2.851  1.00  0.00           H
 ATOM   1207  H3    U B  44     -10.530  16.938  -5.826  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -6.995  17.776  -7.962  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -5.761  17.418  -5.975  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.531 -12.371   4.542  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.618 -11.761   3.846  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.516 -11.046   4.846  1.00  0.00           C  
@@ -36412,7 +35950,6 @@ ATOM   2127  H   ASP C  59      23.712  -0.779 -11.290  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      25.046  -1.744  -8.892  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      26.444  -2.722 -10.695  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      26.629  -1.140 -11.425  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -18.632  -5.767   8.697  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -17.451  -5.084   9.073  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -16.246  -6.012   8.902  1.00  0.00           C  
@@ -36701,9 +36238,6 @@ ATOM   2416  H1'   U D  44     -12.483 -13.222  -2.651  1.00  0.00           H
 ATOM   2417  H3    U D  44      -9.837 -16.213  -4.740  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -12.461 -18.650  -2.550  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -13.595 -16.664  -1.795  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       16                                                                  
 ATOM      1  N   MET A   1       8.239  10.112  -2.115  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.764  10.061  -2.177  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.307   9.717  -3.586  1.00  0.00           C  
@@ -37624,7 +37158,6 @@ ATOM    917  H   ASP A  59      12.747  -7.341  19.095  1.00  0.00           H
 ATOM    918  HA  ASP A  59      15.002  -5.854  17.997  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59      15.892  -6.713  20.163  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59      15.424  -8.342  19.705  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -6.767   3.719 -13.418  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -6.197   4.872 -14.002  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -6.784   5.087 -15.395  1.00  0.00           C  
@@ -37913,7 +37446,6 @@ ATOM   1206  H1'   U B  44      -4.873  17.071  -2.439  1.00  0.00           H
 ATOM   1207  H3    U B  44      -1.699  19.772  -0.704  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -2.726  21.707  -4.290  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -4.352  19.970  -4.703  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.253 -12.353   4.569  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.819 -11.666   3.824  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.757 -10.952   4.785  1.00  0.00           C  
@@ -38834,7 +38366,6 @@ ATOM   2127  H   ASP C  59      25.121  -2.689 -13.157  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      25.591  -4.853 -11.292  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      27.226  -5.411 -13.108  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      27.904  -3.798 -12.973  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -16.651  -4.519  10.721  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -16.670  -5.121   9.441  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -15.499  -6.100   9.308  1.00  0.00           C  
@@ -39123,9 +38654,6 @@ ATOM   2416  H1'   U D  44     -12.131 -12.337  -2.835  1.00  0.00           H
 ATOM   2417  H3    U D  44     -10.451 -16.507  -3.715  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -13.760 -17.167  -1.202  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -14.328 -14.841  -1.430  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       17                                                                  
 ATOM      1  N   MET A   1       8.305   9.739  -2.076  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.832   9.796  -2.148  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.363   9.493  -3.560  1.00  0.00           C  
@@ -40046,7 +39574,6 @@ ATOM    917  H   ASP A  59       2.220  -3.204  25.030  1.00  0.00           H
 ATOM    918  HA  ASP A  59       1.641  -4.473  26.812  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59      -0.220  -4.633  25.182  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59       0.397  -6.201  24.663  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -6.426   9.566 -16.992  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -5.548  10.632 -17.278  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -4.549  10.880 -16.141  1.00  0.00           C  
@@ -40335,7 +39862,6 @@ ATOM   1206  H1'   U B  44      -7.560  15.704  -2.341  1.00  0.00           H
 ATOM   1207  H3    U B  44     -10.902  15.139  -5.377  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -7.866  17.090  -7.564  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -6.588  17.221  -5.569  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.457 -12.270   4.598  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.658 -11.643   3.861  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.583 -10.909   4.822  1.00  0.00           C  
@@ -41256,7 +40782,6 @@ ATOM   2127  H   ASP C  59      24.850  -5.639 -12.179  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      26.359  -7.823 -11.260  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      26.482  -6.551 -13.457  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      27.366  -5.289 -12.611  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -17.248  -5.759  10.268  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -17.179  -6.189   8.923  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -15.977  -7.115   8.721  1.00  0.00           C  
@@ -41545,9 +41070,6 @@ ATOM   2416  H1'   U D  44     -13.060 -10.658  -5.210  1.00  0.00           H
 ATOM   2417  H3    U D  44     -15.609  -8.355  -2.194  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -16.972 -12.330  -2.046  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -15.061 -12.980  -3.355  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       18                                                                  
 ATOM      1  N   MET A   1       8.181   9.845  -1.937  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.714   9.825  -2.099  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.338   9.519  -3.540  1.00  0.00           C  
@@ -42468,7 +41990,6 @@ ATOM    917  H   ASP A  59      15.814  -3.228  21.406  1.00  0.00           H
 ATOM    918  HA  ASP A  59      17.876  -2.046  23.078  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59      16.686  -3.531  24.689  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59      16.918  -4.893  23.606  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -8.030   9.494 -16.919  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -6.962   8.880 -16.230  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -5.936   9.934 -15.810  1.00  0.00           C  
@@ -42757,7 +42278,6 @@ ATOM   1206  H1'   U B  44      -6.304  13.488  -5.937  1.00  0.00           H
 ATOM   1207  H3    U B  44      -5.671  14.216 -10.509  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -2.609  16.221  -8.448  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -3.751  15.783  -6.395  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.562 -12.151   4.385  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.561 -11.449   3.734  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.463 -10.810   4.777  1.00  0.00           C  
@@ -43678,7 +43198,6 @@ ATOM   2127  H   ASP C  59      21.098  -0.647 -15.269  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      22.825  -2.586 -16.557  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      21.932  -1.394 -18.532  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      22.398   0.146 -17.831  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -17.872  -5.897   9.106  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -16.637  -5.225   9.254  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -15.491  -6.236   9.263  1.00  0.00           C  
@@ -43967,9 +43486,6 @@ ATOM   2416  H1'   U D  44     -12.469 -12.114  -1.741  1.00  0.00           H
 ATOM   2417  H3    U D  44     -11.194 -16.218  -3.304  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -14.229 -17.015  -0.503  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -14.654 -14.651  -0.368  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       19                                                                  
 ATOM      1  N   MET A   1       8.022  10.137  -1.962  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.553  10.155  -2.121  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.177   9.833  -3.559  1.00  0.00           C  
@@ -44890,7 +44406,6 @@ ATOM    917  H   ASP A  59      14.159  -4.043  24.170  1.00  0.00           H
 ATOM    918  HA  ASP A  59      15.979  -4.356  25.464  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59      15.610  -6.577  24.437  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59      16.798  -6.205  23.197  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -9.310   5.050 -15.811  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -8.063   4.811 -15.186  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -6.948   5.525 -15.947  1.00  0.00           C  
@@ -45179,7 +44694,6 @@ ATOM   1206  H1'   U B  44      -4.531  12.870  -8.922  1.00  0.00           H
 ATOM   1207  H3    U B  44      -4.222  11.478 -13.199  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -1.356  14.554 -12.925  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -2.074  14.971 -10.704  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.134 -12.395   4.346  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.956 -11.675   3.661  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.838 -10.963   4.676  1.00  0.00           C  
@@ -46100,7 +45614,6 @@ ATOM   2127  H   ASP C  59      17.688   1.355 -14.338  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      20.178   1.518 -15.824  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      18.491   1.663 -17.665  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      17.693   2.970 -16.832  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -17.756  -4.107   8.416  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -17.641  -5.392   8.993  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -16.223  -5.958   8.859  1.00  0.00           C  
@@ -46389,9 +45902,6 @@ ATOM   2416  H1'   U D  44     -12.726 -11.988  -1.069  1.00  0.00           H
 ATOM   2417  H3    U D  44     -11.657 -16.247  -2.275  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -14.878 -16.681   0.396  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -15.131 -14.293   0.398  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MODEL       20                                                                  
 ATOM      1  N   MET A   1       8.267  10.159  -2.035  1.00  0.00           N  
 ATOM      2  CA  MET A   1       6.796  10.120  -2.137  1.00  0.00           C  
 ATOM      3  C   MET A   1       6.373   9.732  -3.547  1.00  0.00           C  
@@ -47312,7 +46822,6 @@ ATOM    917  H   ASP A  59      12.353  -8.186  20.929  1.00  0.00           H
 ATOM    918  HA  ASP A  59      14.595  -6.586  20.038  1.00  0.00           H  
 ATOM    919  HB2 ASP A  59      15.502  -7.745  22.083  1.00  0.00           H  
 ATOM    920  HB3 ASP A  59      15.094  -9.285  21.370  1.00  0.00           H  
-TER     921      ASP A  59                                                      
 ATOM    922  O5'   U B  36      -8.768  10.706 -16.922  1.00  0.00           O  
 ATOM    923  C5'   U B  36      -8.491   9.331 -16.725  1.00  0.00           C  
 ATOM    924  C4'   U B  36      -7.001   9.139 -16.446  1.00  0.00           C  
@@ -47601,7 +47110,6 @@ ATOM   1206  H1'   U B  44      -7.507  15.695  -3.484  1.00  0.00           H
 ATOM   1207  H3    U B  44     -10.707  15.908  -6.666  1.00  0.00           H  
 ATOM   1208  H5    U B  44      -7.117  16.611  -8.755  1.00  0.00           H  
 ATOM   1209  H6    U B  44      -5.964  16.608  -6.689  1.00  0.00           H  
-TER    1210        U B  44                                                      
 ATOM   1211  N   MET C   1       0.275 -12.223   4.407  1.00  0.00           N  
 ATOM   1212  CA  MET C   1      -0.857 -11.555   3.736  1.00  0.00           C  
 ATOM   1213  C   MET C   1      -1.747 -10.879   4.770  1.00  0.00           C  
@@ -48522,7 +48030,6 @@ ATOM   2127  H   ASP C  59      24.346  -1.556 -14.213  1.00  0.00           H
 ATOM   2128  HA  ASP C  59      26.404  -2.710 -12.558  1.00  0.00           H  
 ATOM   2129  HB2 ASP C  59      27.066  -3.763 -14.590  1.00  0.00           H  
 ATOM   2130  HB3 ASP C  59      26.879  -2.272 -15.526  1.00  0.00           H  
-TER    2131      ASP C  59                                                      
 ATOM   2132  O5'   U D  36     -18.683  -4.068   8.756  1.00  0.00           O  
 ATOM   2133  C5'   U D  36     -17.360  -3.759   9.143  1.00  0.00           C  
 ATOM   2134  C4'   U D  36     -16.531  -5.042   9.224  1.00  0.00           C  
@@ -48811,7 +48318,3 @@ ATOM   2416  H1'   U D  44     -12.646 -12.077  -1.769  1.00  0.00           H
 ATOM   2417  H3    U D  44     -11.330 -16.214  -3.170  1.00  0.00           H  
 ATOM   2418  H5    U D  44     -14.521 -16.932  -0.529  1.00  0.00           H  
 ATOM   2419  H6    U D  44     -14.936 -14.564  -0.470  1.00  0.00           H  
-TER    2420        U D  44                                                      
-ENDMDL                                                                          
-MASTER      278    0    0    2   10    0    0    6 1274    4    0   14          
-END                                                                             

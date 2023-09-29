@@ -8,10 +8,10 @@ REMOVE_EXT = ".ent"
 NEW_EXT = ".pdb"
 
 def change_extension():
-    for filename in os.listdir(DIR):
-      if filename.endswith(REMOVE_EXT):
-        new_file = filename[:len(REMOVE_EXT)]
-        os.rename(filename, new_file + NEW_EXT)
+  for filename in os.listdir(DIR):
+    if filename.endswith(REMOVE_EXT):
+      new_file = filename[:len(REMOVE_EXT)]
+      os.rename(filename, new_file + NEW_EXT)
   
 def remove_start():
   for filename in os.listdir(DIR):

@@ -1,310 +1,3 @@
-HEADER    HYDROLASE/RNA                           12-SEP-10   2L3C              
-TITLE     SOLUTION STRUCTURE OF ADAR2 DSRBM1 BOUND TO LSL RNA                   
-COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: DOUBLE-STRANDED RNA-SPECIFIC EDITASE 1;                    
-COMPND   3 CHAIN: A;                                                            
-COMPND   4 FRAGMENT: UNP RESIDUES 74-147;                                       
-COMPND   5 SYNONYM: DSRNA ADENOSINE DEAMINASE, RNA-EDITING DEAMINASE 1, RNA-    
-COMPND   6 EDITING ENZYME 1;                                                    
-COMPND   7 EC: 3.5.-.-;                                                         
-COMPND   8 ENGINEERED: YES;                                                     
-COMPND   9 MOL_ID: 2;                                                           
-COMPND  10 MOLECULE: RNA (34-MER);                                              
-COMPND  11 CHAIN: B;                                                            
-COMPND  12 ENGINEERED: YES                                                      
-SOURCE    MOL_ID: 1;                                                            
-SOURCE   2 ORGANISM_SCIENTIFIC: RATTUS NORVEGICUS;                              
-SOURCE   3 ORGANISM_COMMON: BROWN RAT,RAT,RATS;                                 
-SOURCE   4 ORGANISM_TAXID: 10116;                                               
-SOURCE   5 GENE: ADARB1, RED1;                                                  
-SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;                                        
-SOURCE   8 EXPRESSION_SYSTEM_VECTOR: PET16;                                     
-SOURCE   9 MOL_ID: 2;                                                           
-SOURCE  10 ORGANISM_SCIENTIFIC: RATTUS NORVEGICUS;                              
-SOURCE  11 ORGANISM_COMMON: BROWN RAT,RAT,RATS;                                 
-SOURCE  12 ORGANISM_TAXID: 10116;                                               
-SOURCE  13 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE  14 EXPRESSION_SYSTEM_TAXID: 562                                         
-KEYWDS    EDITING, DSRNA RECOGNITION, DSRBM, HYDROLASE-RNA COMPLEX              
-EXPDTA    SOLUTION NMR                                                          
-NUMMDL    20                                                                    
-AUTHOR    F.ALLAIN,R.STEFL,F.OBERSTRASS                                         
-REVDAT   1   27-OCT-10 2L3C    0                                                
-JRNL        AUTH   R.STEFL,F.C.OBERSTRASS,J.L.HOOD,M.JOURDAN,M.ZIMMERMANN,      
-JRNL        AUTH 2 L.SKRISOVSKA,C.MARIS,L.PENG,C.HOFR,R.B.EMESON,F.H.ALLAIN     
-JRNL        TITL   THE SOLUTION STRUCTURE OF THE ADAR2 DSRBM-RNA COMPLEX        
-JRNL        TITL 2 REVEALS A SEQUENCE-SPECIFIC READOUT OF THE MINOR GROOVE.     
-JRNL        REF    CELL(CAMBRIDGE,MASS.)         V. 143   225 2010              
-JRNL        REFN                   ISSN 0092-8674                               
-JRNL        PMID   20946981                                                     
-JRNL        DOI    10.1016/J.CELL.2010.09.026                                   
-REMARK   2                                                                      
-REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
-REMARK   3                                                                      
-REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : AMBER                                                
-REMARK   3   AUTHORS     : CASE, DARDEN, CHEATHAM, III, SIMMERLING, WANG,       
-REMARK   3                 DUKE, LUO, ... AND KOLLM                             
-REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
-REMARK   4                                                                      
-REMARK   4 2L3C COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
-REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 20-SEP-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB101904.                                      
-REMARK 210                                                                      
-REMARK 210 EXPERIMENTAL DETAILS                                                 
-REMARK 210  EXPERIMENT TYPE                : NMR                                
-REMARK 210  TEMPERATURE           (KELVIN) : 310; 278                           
-REMARK 210  PH                             : 7.6; 7.6                           
-REMARK 210  IONIC STRENGTH                 : 0; 0                               
-REMARK 210  PRESSURE                       : AMBIENT; AMBIENT                   
-REMARK 210  SAMPLE CONTENTS                : 1 MM [U-15N] PROTEIN-1, 1 MM USL   
-REMARK 210                                   RNA-2, 90% H2O/10% D2O; 1 MM [U-   
-REMARK 210                                   100% 13C; U-100% 15N] PROTEIN-3,   
-REMARK 210                                   1 MM USL RNA-4, 90% H2O/10% D2O;   
-REMARK 210                                   1 MM [U-100% 15N] PROTEIN-5, 1 MM  
-REMARK 210                                   USL RNA-6, 100% D2O; 1 MM [U-100%  
-REMARK 210                                   13C; U-100% 15N] PROTEIN-7, 1 MM   
-REMARK 210                                   USL RNA-8, 100% D2O; 1 MM [U-100%  
-REMARK 210                                   15N] PROTEIN-9, 1 MM [U-13C; U-    
-REMARK 210                                   15N]-GUA,URA USL RNA-10, 100%      
-REMARK 210                                   D2O; 1 MM [U-100% 15N] PROTEIN-    
-REMARK 210                                   11, 1 MM [U-13C; U-15N]-ADE,CYT    
-REMARK 210                                   USL RNA-12, 100% D2O               
-REMARK 210                                                                      
-REMARK 210  NMR EXPERIMENTS CONDUCTED      : 2D 1H-15N HSQC; 2D 1H-13C HSQC;    
-REMARK 210                                   3D HNCA; 3D HN(CO)CA; 3D HNCACB;   
-REMARK 210                                   2D 1H-1H TOCSY; 3D HCCH-TOCSY; 3D  
-REMARK 210                                   1H-15N NOESY; 3D 1H-13C NOESY; 3D  
-REMARK 210                                   1H-13C FILTERED-EDITED NOESY       
-REMARK 210  SPECTROMETER FIELD STRENGTH    : 900 MHZ; 600 MHZ; 500 MHZ          
-REMARK 210  SPECTROMETER MODEL             : AVANCE                             
-REMARK 210  SPECTROMETER MANUFACTURER      : BRUKER                             
-REMARK 210                                                                      
-REMARK 210  STRUCTURE DETERMINATION.                                            
-REMARK 210   SOFTWARE USED                 : TOPSPIN, SPARKY, CYANA             
-REMARK 210   METHOD USED                   : SIMULATED ANNEALING                
-REMARK 210                                                                      
-REMARK 210 CONFORMERS, NUMBER CALCULATED   : 40                                 
-REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 20                                 
-REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LOWEST ENERGY  
-REMARK 210                                                                      
-REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 18                  
-REMARK 210                                                                      
-REMARK 210 REMARK: NULL                                                         
-REMARK 215                                                                      
-REMARK 215 NMR STUDY                                                            
-REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
-REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
-REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
-REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
-REMARK 300                                                                      
-REMARK 300 BIOMOLECULE: 1                                                       
-REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
-REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
-REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 350                                                                      
-REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
-REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
-REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
-REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
-REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
-REMARK 350                                                                      
-REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B                                  
-REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
-REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
-REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CLOSE CONTACTS                                             
-REMARK 500                                                                      
-REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
-REMARK 500                                                                      
-REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500  HO2'    U B   105     H5'    A B   106              1.58            
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
-REMARK 500                                                                      
-REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
-REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
-REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
-REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500  1 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.5 DEGREES          
-REMARK 500  1   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.6 DEGREES          
-REMARK 500  2 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.5 DEGREES          
-REMARK 500  2   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.9 DEGREES          
-REMARK 500  3 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.8 DEGREES          
-REMARK 500  3   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.5 DEGREES          
-REMARK 500  4 PRO A   1   CA  -  N   -  CD  ANGL. DEV. = -10.0 DEGREES          
-REMARK 500  4   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.3 DEGREES          
-REMARK 500  5 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.7 DEGREES          
-REMARK 500  5   U B  90   C4' -  C3' -  C2' ANGL. DEV. =  -6.2 DEGREES          
-REMARK 500  5   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   6.1 DEGREES          
-REMARK 500  6 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.8 DEGREES          
-REMARK 500  6   U B  80   O4' -  C1' -  N1  ANGL. DEV. =   4.4 DEGREES          
-REMARK 500  6   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.4 DEGREES          
-REMARK 500  7 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.7 DEGREES          
-REMARK 500  7   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.6 DEGREES          
-REMARK 500  8 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.5 DEGREES          
-REMARK 500  8   U B  80   O4' -  C1' -  N1  ANGL. DEV. =   4.6 DEGREES          
-REMARK 500  8   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.4 DEGREES          
-REMARK 500  9 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.5 DEGREES          
-REMARK 500  9   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   6.0 DEGREES          
-REMARK 500 10   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.9 DEGREES          
-REMARK 500 11 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.8 DEGREES          
-REMARK 500 11   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   6.0 DEGREES          
-REMARK 500 12 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.4 DEGREES          
-REMARK 500 12   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.7 DEGREES          
-REMARK 500 13 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.8 DEGREES          
-REMARK 500 13   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.8 DEGREES          
-REMARK 500 14   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   6.0 DEGREES          
-REMARK 500 15 PRO A   1   CA  -  N   -  CD  ANGL. DEV. = -10.1 DEGREES          
-REMARK 500 15   U B  80   O4' -  C1' -  N1  ANGL. DEV. =   4.5 DEGREES          
-REMARK 500 15   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.1 DEGREES          
-REMARK 500 16 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.8 DEGREES          
-REMARK 500 16   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.2 DEGREES          
-REMARK 500 17 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.5 DEGREES          
-REMARK 500 17   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   6.5 DEGREES          
-REMARK 500 18 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.6 DEGREES          
-REMARK 500 18   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.2 DEGREES          
-REMARK 500 19 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.6 DEGREES          
-REMARK 500 19   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.0 DEGREES          
-REMARK 500 20 PRO A   1   CA  -  N   -  CD  ANGL. DEV. =  -9.7 DEGREES          
-REMARK 500 20   U B  90   C4' -  C3' -  C2' ANGL. DEV. =  -6.0 DEGREES          
-REMARK 500 20   G B 104   O4' -  C1' -  N9  ANGL. DEV. =   5.9 DEGREES          
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: TORSION ANGLES                                             
-REMARK 500                                                                      
-REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
-REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        PSI       PHI                                   
-REMARK 500  1 VAL A   4     -173.31     45.85                                   
-REMARK 500  1 LEU A   5       54.54   -154.51                                   
-REMARK 500  1 PRO A  18       -9.16    -48.51                                   
-REMARK 500  1 SER A  26     -133.74     32.37                                   
-REMARK 500  1 GLN A  27       87.01     75.98                                   
-REMARK 500  1 VAL A  31      -27.41    177.41                                   
-REMARK 500  1 THR A  53      174.97     62.75                                   
-REMARK 500  1 LYS A  55      -78.74    -55.68                                   
-REMARK 500  1 SER A  68      -85.19    -62.77                                   
-REMARK 500  1 PHE A  72       64.60   -150.10                                   
-REMARK 500  2 LEU A   5       54.53   -150.11                                   
-REMARK 500  2 PRO A  18      -13.21    -47.07                                   
-REMARK 500  2 SER A  26      161.18     18.04                                   
-REMARK 500  2 GLN A  27       72.69    170.78                                   
-REMARK 500  2 ASN A  43       15.25     52.09                                   
-REMARK 500  2 THR A  53      160.03     62.92                                   
-REMARK 500  3 LEU A   5       54.95   -149.93                                   
-REMARK 500  3 LYS A  17       85.93    -44.18                                   
-REMARK 500  3 SER A  26      161.70     18.20                                   
-REMARK 500  3 GLN A  27       75.00    172.36                                   
-REMARK 500  3 ASN A  43       25.34     49.65                                   
-REMARK 500  3 THR A  53      140.78     64.73                                   
-REMARK 500  3 SER A  68      -84.80    -56.48                                   
-REMARK 500  3 PHE A  72       64.42   -151.12                                   
-REMARK 500  4 VAL A   4        9.51     46.24                                   
-REMARK 500  4 LEU A   5       56.77   -154.59                                   
-REMARK 500  4 LYS A  17       94.85    -44.75                                   
-REMARK 500  4 SER A  26      162.12     18.32                                   
-REMARK 500  4 GLN A  27       76.07    170.71                                   
-REMARK 500  4 ASN A  43       12.38     50.07                                   
-REMARK 500  4 THR A  53      -75.17     65.23                                   
-REMARK 500  4 LYS A  54      -32.47    179.25                                   
-REMARK 500  5 PRO A  18        5.47    -49.59                                   
-REMARK 500  5 SER A  26      161.43     17.51                                   
-REMARK 500  5 GLN A  27       74.53    172.31                                   
-REMARK 500  5 ASN A  43       19.24     51.33                                   
-REMARK 500  5 THR A  53      168.67     63.32                                   
-REMARK 500  5 LYS A  55      -79.41    -55.81                                   
-REMARK 500  6 LEU A   5       56.42   -156.94                                   
-REMARK 500  6 LYS A  17       89.24    -45.61                                   
-REMARK 500  6 SER A  26      135.40    -14.87                                   
-REMARK 500  6 GLN A  27       76.90   -154.85                                   
-REMARK 500  6 ASN A  43       12.17     52.83                                   
-REMARK 500  6 LYS A  54      -43.57     68.43                                   
-REMARK 500  6 SER A  68      -84.78    -69.58                                   
-REMARK 500  7 LEU A   5       58.80   -149.24                                   
-REMARK 500  7 LYS A  17       88.60    -44.23                                   
-REMARK 500  7 SER A  26      162.25     17.37                                   
-REMARK 500  7 GLN A  27       75.69    173.01                                   
-REMARK 500  7 ASN A  43       18.01     50.38                                   
-REMARK 500                                                                      
-REMARK 500 THIS ENTRY HAS     147 RAMACHANDRAN OUTLIERS.                        
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: PLANAR GROUPS                                              
-REMARK 500                                                                      
-REMARK 500 PLANAR GROUPS IN THE FOLLOWING RESIDUES HAVE A TOTAL                 
-REMARK 500 RMS DISTANCE OF ALL ATOMS FROM THE BEST-FIT PLANE                    
-REMARK 500 BY MORE THAN AN EXPECTED VALUE OF 6*RMSD, WITH AN                    
-REMARK 500 RMSD 0.02 ANGSTROMS, OR AT LEAST ONE ATOM HAS                        
-REMARK 500 AN RMSD GREATER THAN THIS VALUE                                      
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500  9   G B 104         0.07    SIDE CHAIN                              
-REMARK 500 17   G B 104         0.07    SIDE CHAIN                              
-REMARK 500 18   G B 104         0.07    SIDE CHAIN                              
-REMARK 500 19   G B 104         0.06    SIDE CHAIN                              
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 900                                                                      
-REMARK 900 RELATED ENTRIES                                                      
-REMARK 900 RELATED ID: 2L3J   RELATED DB: PDB                                   
-DBREF  2L3C A    1    74  UNP    P51400   RED1_RAT        74    147             
-DBREF  2L3C B   75   108  PDB    2L3C     2L3C            75    108             
-SEQRES   1 A   74  PRO GLY PRO VAL LEU PRO LYS ASN ALA LEU MET GLN LEU          
-SEQRES   2 A   74  ASN GLU ILE LYS PRO GLY LEU GLN TYR MET LEU LEU SER          
-SEQRES   3 A   74  GLN THR GLY PRO VAL HIS ALA PRO LEU PHE VAL MET SER          
-SEQRES   4 A   74  VAL GLU VAL ASN GLY GLN VAL PHE GLU GLY SER GLY PRO          
-SEQRES   5 A   74  THR LYS LYS LYS ALA LYS LEU HIS ALA ALA GLU LYS ALA          
-SEQRES   6 A   74  LEU ARG SER PHE VAL GLN PHE PRO ASN                          
-SEQRES   1 B   34    G   G   U   A   G   U   A   U   A   A   C   A   A          
-SEQRES   2 B   34    U   A   U   C   C   G   U   G   U   U   G   U   U          
-SEQRES   3 B   34    A   U   A   G   U   A   C   C                              
-HELIX    1   1 PRO A    6  LYS A   17  1                                  12    
-HELIX    2   2 THR A   53  VAL A   70  1                                  18    
-SHEET    1   A 3 GLN A  21  THR A  28  0                                        
-SHEET    2   A 3 LEU A  35  VAL A  42 -1  O  SER A  39   N  MET A  23           
-SHEET    3   A 3 GLN A  45  PRO A  52 -1  O  GLN A  45   N  VAL A  42           
-CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
-ORIGX1      1.000000  0.000000  0.000000        0.00000                         
-ORIGX2      0.000000  1.000000  0.000000        0.00000                         
-ORIGX3      0.000000  0.000000  1.000000        0.00000                         
-SCALE1      1.000000  0.000000  0.000000        0.00000                         
-SCALE2      0.000000  1.000000  0.000000        0.00000                         
-SCALE3      0.000000  0.000000  1.000000        0.00000                         
-MODEL        1                                                                  
 ATOM      1  N   PRO A   1     -13.582   7.668 -15.230  1.00  0.00           N  
 ATOM      2  CA  PRO A   1     -12.918   6.854 -14.202  1.00  0.00           C  
 ATOM      3  C   PRO A   1     -13.371   7.213 -12.788  1.00  0.00           C  
@@ -1461,7 +1154,6 @@ ATOM   1153  HB2 ASN A  74      18.751  -5.649 -21.015  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      19.554  -4.339 -21.890  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      20.963  -5.750 -22.998  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      22.279  -6.567 -22.184  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -15.827   7.207  28.050  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -17.181   7.018  28.402  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -18.106   7.799  27.463  1.00  0.00           C  
@@ -2544,9 +2236,6 @@ ATOM   2236  H41   C B 108     -12.843  14.641  23.122  1.00  0.00           H
 ATOM   2237  H42   C B 108     -11.561  15.577  22.374  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -11.934  16.983  20.395  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -13.598  17.763  18.827  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL        2                                                                  
 ATOM      1  N   PRO A   1     -16.540   8.981  -4.037  1.00  0.00           N  
 ATOM      2  CA  PRO A   1     -15.915   7.649  -4.015  1.00  0.00           C  
 ATOM      3  C   PRO A   1     -16.198   6.850  -5.287  1.00  0.00           C  
@@ -3703,7 +3392,6 @@ ATOM   1153  HB2 ASN A  74      19.393  -3.527 -16.557  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      18.268  -4.721 -15.897  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      19.617  -5.483 -14.257  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      21.098  -6.367 -14.576  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -16.373   6.239  26.844  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -17.735   5.978  27.121  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -18.652   6.776  26.190  1.00  0.00           C  
@@ -4786,9 +4474,6 @@ ATOM   2236  H41   C B 108     -13.432  13.912  22.314  1.00  0.00           H
 ATOM   2237  H42   C B 108     -12.173  14.957  21.678  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.554  16.476  19.780  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -14.214  17.305  18.238  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL        3                                                                  
 ATOM      1  N   PRO A   1      -6.976  12.288  -6.100  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -7.008  11.030  -6.862  1.00  0.00           C  
 ATOM      3  C   PRO A   1      -8.018  10.032  -6.300  1.00  0.00           C  
@@ -5945,7 +5630,6 @@ ATOM   1153  HB2 ASN A  74      19.724  -4.848 -20.566  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      18.285  -4.250 -21.391  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      21.068  -3.350 -19.396  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      21.028  -1.642 -19.790  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -16.809   6.733  27.165  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -18.173   6.517  27.469  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -19.083   7.306  26.524  1.00  0.00           C  
@@ -7028,9 +6712,6 @@ ATOM   2236  H41   C B 108     -13.780  14.305  22.486  1.00  0.00           H
 ATOM   2237  H42   C B 108     -12.495  15.285  21.799  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.821  16.675  19.805  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -14.452  17.436  18.189  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL        4                                                                  
 ATOM      1  N   PRO A   1      -7.679   8.611  -6.219  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -7.813   7.657  -7.334  1.00  0.00           C  
 ATOM      3  C   PRO A   1      -7.568   8.306  -8.694  1.00  0.00           C  
@@ -8187,7 +7868,6 @@ ATOM   1153  HB2 ASN A  74      18.800  -4.968 -18.667  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      17.784  -6.058 -17.707  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      19.523  -7.075 -16.663  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      20.607  -8.157 -17.507  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -15.574   6.518  28.295  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -16.906   6.273  28.704  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -17.901   7.029  27.821  1.00  0.00           C  
@@ -9270,9 +8950,6 @@ ATOM   2236  H41   C B 108     -13.114  14.179  23.401  1.00  0.00           H
 ATOM   2237  H42   C B 108     -11.916  15.205  22.635  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.431  16.588  20.666  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -14.194  17.292  19.172  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL        5                                                                  
 ATOM      1  N   PRO A   1      -3.267   4.138 -26.012  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -4.561   3.967 -25.331  1.00  0.00           C  
 ATOM      3  C   PRO A   1      -4.543   2.805 -24.345  1.00  0.00           C  
@@ -10429,7 +10106,6 @@ ATOM   1153  HB2 ASN A  74      19.608  -6.642 -17.594  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      19.076  -4.978 -17.351  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      19.160  -7.822 -15.829  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      17.653  -7.776 -14.941  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -15.799   5.758  28.183  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -17.134   5.439  28.516  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -18.116   6.146  27.578  1.00  0.00           C  
@@ -11512,9 +11188,6 @@ ATOM   2236  H41   C B 108     -13.360  13.445  23.312  1.00  0.00           H
 ATOM   2237  H42   C B 108     -12.179  14.511  22.571  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.696  15.924  20.628  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -14.452  16.599  19.113  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL        6                                                                  
 ATOM      1  N   PRO A   1      -1.823   5.887 -14.750  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -3.042   6.277 -14.025  1.00  0.00           C  
 ATOM      3  C   PRO A   1      -3.985   5.098 -13.810  1.00  0.00           C  
@@ -12671,7 +12344,6 @@ ATOM   1153  HB2 ASN A  74      18.484  -4.274 -15.482  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      17.656  -5.801 -15.149  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      20.731  -4.113 -15.294  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      21.702  -5.383 -14.572  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -14.868   6.486  28.285  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -16.164   6.191  28.771  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -17.237   6.899  27.941  1.00  0.00           C  
@@ -13754,9 +13426,6 @@ ATOM   2236  H41   C B 108     -12.906  14.138  23.221  1.00  0.00           H
 ATOM   2237  H42   C B 108     -11.781  15.193  22.386  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.456  16.595  20.486  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -14.330  17.286  19.120  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL        7                                                                  
 ATOM      1  N   PRO A   1     -17.194  10.232 -14.114  1.00  0.00           N  
 ATOM      2  CA  PRO A   1     -16.090   9.850 -13.221  1.00  0.00           C  
 ATOM      3  C   PRO A   1     -16.150   8.378 -12.813  1.00  0.00           C  
@@ -14913,7 +14582,6 @@ ATOM   1153  HB2 ASN A  74      18.962  -4.301 -16.243  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      17.742  -5.448 -15.680  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      18.931  -6.302 -13.965  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      20.372  -7.265 -14.201  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -16.474   6.553  27.788  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -17.826   6.295  28.110  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -18.771   7.000  27.134  1.00  0.00           C  
@@ -15996,9 +15664,6 @@ ATOM   2236  H41   C B 108     -13.712  13.936  22.675  1.00  0.00           H
 ATOM   2237  H42   C B 108     -12.474  14.912  21.909  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.905  16.250  19.889  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -14.597  16.912  18.298  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL        8                                                                  
 ATOM      1  N   PRO A   1      -9.679  12.134  -6.672  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -8.924  11.730  -7.868  1.00  0.00           C  
 ATOM      3  C   PRO A   1      -8.024  10.526  -7.606  1.00  0.00           C  
@@ -17155,7 +16820,6 @@ ATOM   1153  HB2 ASN A  74      20.496  -3.534 -17.245  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      19.954  -3.340 -15.577  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      22.077  -3.296 -14.726  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      23.064  -4.737 -14.652  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -14.626   5.641  27.523  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -15.953   5.370  27.922  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -16.942   6.250  27.154  1.00  0.00           C  
@@ -18238,9 +17902,6 @@ ATOM   2236  H41   C B 108     -12.015  13.541  23.251  1.00  0.00           H
 ATOM   2237  H42   C B 108     -10.804  14.607  22.565  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -11.340  16.289  20.857  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -13.142  17.299  19.598  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL        9                                                                  
 ATOM      1  N   PRO A   1      -2.025   2.257 -22.567  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -2.263   2.730 -21.193  1.00  0.00           C  
 ATOM      3  C   PRO A   1      -3.503   2.103 -20.562  1.00  0.00           C  
@@ -19397,7 +19058,6 @@ ATOM   1153  HB2 ASN A  74      17.345  -4.637 -16.321  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      16.078  -5.718 -15.719  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      16.808  -7.343 -14.445  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      18.407  -8.061 -14.542  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -14.428   6.098  27.956  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -15.748   5.815  28.377  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -16.756   6.675  27.615  1.00  0.00           C  
@@ -20480,9 +20140,6 @@ ATOM   2236  H41   C B 108     -11.959  13.990  23.573  1.00  0.00           H
 ATOM   2237  H42   C B 108     -10.772  15.065  22.856  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -11.367  16.738  21.154  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -13.191  17.688  19.890  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       10                                                                  
 ATOM      1  N   PRO A   1      -5.716  12.573 -16.835  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -6.134  11.208 -16.453  1.00  0.00           C  
 ATOM      3  C   PRO A   1      -5.681  10.159 -17.462  1.00  0.00           C  
@@ -21639,7 +21296,6 @@ ATOM   1153  HB2 ASN A  74      18.385  -4.742 -21.745  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      18.896  -3.432 -22.816  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      20.332  -4.797 -23.973  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      21.846  -5.333 -23.277  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -16.197   6.662  27.813  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -17.563   6.461  28.124  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -18.466   7.241  27.169  1.00  0.00           C  
@@ -22722,9 +22378,6 @@ ATOM   2236  H41   C B 108     -13.043  14.051  22.998  1.00  0.00           H
 ATOM   2237  H42   C B 108     -11.764  15.043  22.331  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.095  16.504  20.388  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -13.723  17.303  18.788  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       11                                                                  
 ATOM      1  N   PRO A   1     -15.678  12.268 -11.941  1.00  0.00           N  
 ATOM      2  CA  PRO A   1     -15.161  10.957 -12.360  1.00  0.00           C  
 ATOM      3  C   PRO A   1     -13.637  10.892 -12.311  1.00  0.00           C  
@@ -23881,7 +23534,6 @@ ATOM   1153  HB2 ASN A  74      20.955  -1.711 -18.526  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      20.609  -3.363 -17.998  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      22.652  -3.549 -16.958  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      24.134  -3.726 -17.871  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -16.636   6.597  27.567  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -18.004   6.389  27.857  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -18.889   7.209  26.917  1.00  0.00           C  
@@ -24964,9 +24616,6 @@ ATOM   2236  H41   C B 108     -13.353  13.985  22.866  1.00  0.00           H
 ATOM   2237  H42   C B 108     -12.050  14.950  22.193  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.371  16.464  20.290  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -14.003  17.364  18.752  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       12                                                                  
 ATOM      1  N   PRO A   1     -17.697   6.497  -8.417  1.00  0.00           N  
 ATOM      2  CA  PRO A   1     -16.269   6.670  -8.725  1.00  0.00           C  
 ATOM      3  C   PRO A   1     -15.405   6.704  -7.466  1.00  0.00           C  
@@ -26123,7 +25772,6 @@ ATOM   1153  HB2 ASN A  74      20.198  -6.064 -16.655  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      19.471  -4.459 -16.801  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      19.515  -7.461 -15.035  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      18.311  -7.024 -13.842  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -16.151   6.517  27.526  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -17.512   6.333  27.863  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -18.419   7.196  26.988  1.00  0.00           C  
@@ -27206,9 +26854,6 @@ ATOM   2236  H41   C B 108     -12.900  13.968  22.901  1.00  0.00           H
 ATOM   2237  H42   C B 108     -11.605  14.910  22.185  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -11.990  16.500  20.359  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -13.684  17.507  18.949  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       13                                                                  
 ATOM      1  N   PRO A   1     -12.414  -4.071 -17.793  1.00  0.00           N  
 ATOM      2  CA  PRO A   1     -11.204  -3.253 -17.974  1.00  0.00           C  
 ATOM      3  C   PRO A   1     -10.683  -2.682 -16.659  1.00  0.00           C  
@@ -28365,7 +28010,6 @@ ATOM   1153  HB2 ASN A  74      18.049  -3.484 -17.994  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      16.925  -4.704 -17.385  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      18.471  -5.500 -15.880  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      19.841  -6.450 -16.400  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -15.559   5.504  27.800  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -16.909   5.257  28.143  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -17.853   6.136  27.320  1.00  0.00           C  
@@ -29448,9 +29092,6 @@ ATOM   2236  H41   C B 108     -12.609  13.347  23.653  1.00  0.00           H
 ATOM   2237  H42   C B 108     -11.348  14.393  23.029  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -11.776  16.075  21.275  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -13.490  17.081  19.909  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       14                                                                  
 ATOM      1  N   PRO A   1      -8.250   1.907   0.319  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -9.276   2.733  -0.349  1.00  0.00           C  
 ATOM      3  C   PRO A   1      -8.733   4.089  -0.787  1.00  0.00           C  
@@ -30607,7 +30248,6 @@ ATOM   1153  HB2 ASN A  74      19.441  -3.917 -18.580  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      19.073  -4.090 -16.862  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      21.280  -4.105 -16.297  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      22.290  -5.514 -16.594  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -16.631   6.055  26.960  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -17.992   5.786  27.223  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -18.902   6.566  26.272  1.00  0.00           C  
@@ -31690,9 +31330,6 @@ ATOM   2236  H41   C B 108     -13.627  13.669  22.443  1.00  0.00           H
 ATOM   2237  H42   C B 108     -12.354  14.695  21.812  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.711  16.237  19.928  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -14.365  17.093  18.383  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       15                                                                  
 ATOM      1  N   PRO A   1     -14.247  11.827 -10.464  1.00  0.00           N  
 ATOM      2  CA  PRO A   1     -13.691  12.194 -11.778  1.00  0.00           C  
 ATOM      3  C   PRO A   1     -13.898  11.109 -12.835  1.00  0.00           C  
@@ -32849,7 +32486,6 @@ ATOM   1153  HB2 ASN A  74      19.683  -4.030 -16.512  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      18.621  -5.278 -15.846  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      20.008  -5.958 -14.198  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      21.522  -6.776 -14.519  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -15.411   6.295  28.354  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -16.737   6.043  28.782  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -17.741   6.867  27.977  1.00  0.00           C  
@@ -33932,9 +33568,6 @@ ATOM   2236  H41   C B 108     -12.882  14.038  23.662  1.00  0.00           H
 ATOM   2237  H42   C B 108     -11.682  15.037  22.866  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.245  16.538  20.999  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -14.055  17.372  19.629  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       16                                                                  
 ATOM      1  N   PRO A   1      -9.449   7.346 -26.337  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -9.443   7.384 -24.867  1.00  0.00           C  
 ATOM      3  C   PRO A   1     -10.173   6.192 -24.254  1.00  0.00           C  
@@ -35091,7 +34724,6 @@ ATOM   1153  HB2 ASN A  74      19.325  -3.944 -16.083  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      18.239  -5.145 -15.377  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      19.505  -5.743 -13.628  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      21.047  -6.549 -13.797  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -14.005   5.796  28.699  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -15.296   5.521  29.195  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -16.358   6.327  28.446  1.00  0.00           C  
@@ -36174,9 +35806,6 @@ ATOM   2236  H41   C B 108     -11.914  13.813  24.197  1.00  0.00           H
 ATOM   2237  H42   C B 108     -10.786  14.906  23.422  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -11.451  16.426  21.618  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -13.321  17.221  20.309  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       17                                                                  
 ATOM      1  N   PRO A   1     -11.981  14.163  -8.268  1.00  0.00           N  
 ATOM      2  CA  PRO A   1     -11.684  12.742  -8.043  1.00  0.00           C  
 ATOM      3  C   PRO A   1     -12.241  11.844  -9.149  1.00  0.00           C  
@@ -37333,7 +36962,6 @@ ATOM   1153  HB2 ASN A  74      19.730  -2.783 -16.897  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      19.045  -4.125 -15.980  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      21.620  -2.635 -15.684  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      22.868  -3.865 -15.738  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -16.429   6.021  26.304  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -17.789   5.679  26.487  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -18.689   6.484  25.546  1.00  0.00           C  
@@ -38416,9 +38044,6 @@ ATOM   2236  H41   C B 108     -13.552  13.913  22.167  1.00  0.00           H
 ATOM   2237  H42   C B 108     -12.298  15.009  21.613  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -12.662  16.601  19.770  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -14.294  17.447  18.202  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       18                                                                  
 ATOM      1  N   PRO A   1      -6.850  12.508  -7.060  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -7.038  11.759  -8.313  1.00  0.00           C  
 ATOM      3  C   PRO A   1      -6.123  10.540  -8.409  1.00  0.00           C  
@@ -39575,7 +39200,6 @@ ATOM   1153  HB2 ASN A  74      19.212  -4.048 -16.699  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      18.001  -4.637 -15.544  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      20.964  -5.644 -17.312  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      21.561  -6.694 -16.045  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -15.435   6.703  27.372  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -16.775   6.502  27.780  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -17.735   7.367  26.956  1.00  0.00           C  
@@ -40658,9 +40282,6 @@ ATOM   2236  H41   C B 108     -12.577  14.429  22.833  1.00  0.00           H
 ATOM   2237  H42   C B 108     -11.335  15.427  22.110  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -11.793  16.974  20.256  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -13.530  17.872  18.834  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       19                                                                  
 ATOM      1  N   PRO A   1     -15.327  11.350 -15.517  1.00  0.00           N  
 ATOM      2  CA  PRO A   1     -14.528  10.755 -14.435  1.00  0.00           C  
 ATOM      3  C   PRO A   1     -14.831   9.273 -14.223  1.00  0.00           C  
@@ -41817,7 +41438,6 @@ ATOM   1153  HB2 ASN A  74      19.744  -3.733 -15.927  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      18.682  -5.034 -15.370  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      19.990  -5.836 -13.717  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      21.559  -6.560 -13.996  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -14.546   6.531  27.744  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -15.865   6.263  28.177  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -16.892   7.003  27.316  1.00  0.00           C  
@@ -42900,9 +42520,6 @@ ATOM   2236  H41   C B 108     -12.375  14.165  22.696  1.00  0.00           H
 ATOM   2237  H42   C B 108     -11.222  15.219  21.897  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -11.840  16.671  20.017  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -13.678  17.404  18.618  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MODEL       20                                                                  
 ATOM      1  N   PRO A   1      -6.650  10.903 -15.128  1.00  0.00           N  
 ATOM      2  CA  PRO A   1      -7.049   9.498 -14.958  1.00  0.00           C  
 ATOM      3  C   PRO A   1      -7.679   9.225 -13.595  1.00  0.00           C  
@@ -44059,7 +43676,6 @@ ATOM   1153  HB2 ASN A  74      18.768  -5.317 -21.416  1.00  0.00           H
 ATOM   1154  HB3 ASN A  74      19.740  -6.401 -20.411  1.00  0.00           H  
 ATOM   1155 HD21 ASN A  74      18.592  -7.964 -19.000  1.00  0.00           H  
 ATOM   1156 HD22 ASN A  74      17.050  -8.589 -19.546  1.00  0.00           H  
-TER    1157      ASN A  74                                                      
 ATOM   1158  O5'   G B  75     -15.408   6.748  27.518  1.00  0.00           O  
 ATOM   1159  C5'   G B  75     -16.749   6.521  27.903  1.00  0.00           C  
 ATOM   1160  C4'   G B  75     -17.720   7.332  27.042  1.00  0.00           C  
@@ -45142,7 +44758,3 @@ ATOM   2236  H41   C B 108     -12.759  14.473  22.855  1.00  0.00           H
 ATOM   2237  H42   C B 108     -11.533  15.512  22.148  1.00  0.00           H  
 ATOM   2238  H5    C B 108     -11.989  16.985  20.230  1.00  0.00           H  
 ATOM   2239  H6    C B 108     -13.709  17.758  18.724  1.00  0.00           H  
-TER    2240        C B 108                                                      
-ENDMDL                                                                          
-MASTER      242    0    0    2    3    0    0    6 1283    2    0    9          
-END                                                                             

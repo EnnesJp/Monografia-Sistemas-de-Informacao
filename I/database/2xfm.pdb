@@ -1,313 +1,3 @@
-HEADER    RNA/PROTEIN                             27-MAY-10   2XFM              
-TITLE     COMPLEX STRUCTURE OF THE MIWI PAZ DOMAIN BOUND TO METHYLATED SINGLE   
-TITLE    2 STRANDED RNA                                                         
-COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: PIWI-LIKE PROTEIN 1;                                       
-COMPND   3 CHAIN: A;                                                            
-COMPND   4 FRAGMENT: PAZ-DOMAIN, RESIDUES 276-425;                              
-COMPND   5 SYNONYM: MIWI;                                                       
-COMPND   6 ENGINEERED: YES;                                                     
-COMPND   7 MOL_ID: 2;                                                           
-COMPND   8 MOLECULE: 5'-R(*AP*CP*CP*GP*AP*CP*UP*(OMU)P)-3';                     
-COMPND   9 CHAIN: B;                                                            
-COMPND  10 SYNONYM: PIRNA;                                                      
-COMPND  11 OTHER_DETAILS: RNA WITH 3'-TERMINAL O2'-METHYL URIDINE               
-SOURCE    MOL_ID: 1;                                                            
-SOURCE   2 ORGANISM_SCIENTIFIC: MUS MUSCULUS;                                   
-SOURCE   3 ORGANISM_COMMON: MOUSE;                                              
-SOURCE   4 ORGANISM_TAXID: 10090;                                               
-SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
-SOURCE   7 MOL_ID: 2;                                                           
-SOURCE   8 SYNTHETIC: YES;                                                      
-SOURCE   9 OTHER_DETAILS: BASED ON BIOLOGICAL SEQUENCE                          
-KEYWDS    RNA-PROTEIN COMPLEX, DIFFERENTIATION, RNA INTERFERENCE                
-EXPDTA    SOLUTION NMR                                                          
-NUMMDL    10                                                                    
-AUTHOR    B.SIMON,J.P.KIRKPATRICK,S.ECKHARDT,P.SEHR,M.A.ANDRADE-NAVARRO,        
-AUTHOR   2 R.S.PILLAI,T.CARLOMAGNO                                              
-REVDAT   2   26-OCT-11 2XFM    1       JRNL   REMARK DBREF  VERSN               
-REVDAT   1   26-JAN-11 2XFM    0                                                
-JRNL        AUTH   B.SIMON,J.P.KIRKPATRICK,S.ECKHARDT,M.REUTER,E.A.ROCHA,       
-JRNL        AUTH 2 M.A.ANDRADE-NAVARRO,P.SEHR,R.S.PILLAI,T.CARLOMAGNO           
-JRNL        TITL   RECOGNITION OF 2'-O-METHYLATED 3'-END OF PIRNA BY THE PAZ    
-JRNL        TITL 2 DOMAIN OF A PIWI PROTEIN.                                    
-JRNL        REF    STRUCTURE                     V.  19   172 2011              
-JRNL        REFN                   ISSN 0969-2126                               
-JRNL        PMID   21237665                                                     
-JRNL        DOI    10.1016/J.STR.2010.11.015                                    
-REMARK   2                                                                      
-REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
-REMARK   3                                                                      
-REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : X-PLOR 3.1                                           
-REMARK   3   AUTHORS     : BRUNGER                                              
-REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
-REMARK   4                                                                      
-REMARK   4 2XFM COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
-REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 17-NOV-10.                  
-REMARK 100 THE PDBE ID CODE IS EBI-44082.                                       
-REMARK 210                                                                      
-REMARK 210 EXPERIMENTAL DETAILS                                                 
-REMARK 210  EXPERIMENT TYPE                : NMR                                
-REMARK 210  TEMPERATURE           (KELVIN) : 300.0                              
-REMARK 210  PH                             : 6.8                                
-REMARK 210  IONIC STRENGTH                 : 150MM                              
-REMARK 210  PRESSURE                       : 1.0 ATM                            
-REMARK 210  SAMPLE CONTENTS                : 90% WATER/10% D2O                  
-REMARK 210                                                                      
-REMARK 210  NMR EXPERIMENTS CONDUCTED      : TRIPLE RESONANCE; NOESY; EDITED    
-REMARK 210                                   -FILTERED                          
-REMARK 210  SPECTROMETER FIELD STRENGTH    : 800 MHZ                            
-REMARK 210  SPECTROMETER MODEL             : AVANCE                             
-REMARK 210  SPECTROMETER MANUFACTURER      : BRUKER                             
-REMARK 210                                                                      
-REMARK 210  STRUCTURE DETERMINATION.                                            
-REMARK 210   SOFTWARE USED                 : NMRVIEW                            
-REMARK 210   METHOD USED                   : ARIA                               
-REMARK 210                                                                      
-REMARK 210 CONFORMERS, NUMBER CALCULATED   : 100                                
-REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 10                                 
-REMARK 210 CONFORMERS, SELECTION CRITERIA  : LOWEST ENERGY                      
-REMARK 210                                                                      
-REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : NULL                
-REMARK 210                                                                      
-REMARK 210 REMARK: NONE                                                         
-REMARK 215                                                                      
-REMARK 215 NMR STUDY                                                            
-REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
-REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
-REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
-REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
-REMARK 300                                                                      
-REMARK 300 BIOMOLECULE: 1                                                       
-REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
-REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
-REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 350                                                                      
-REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
-REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
-REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
-REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
-REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
-REMARK 350                                                                      
-REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: DIMERIC                    
-REMARK 350 SOFTWARE USED: PISA                                                  
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B                                  
-REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
-REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
-REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
-REMARK 465                                                                      
-REMARK 465 MISSING RESIDUES                                                     
-REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
-REMARK 465 EXPERIMENT. (RES=RESIDUE NAME; C=CHAIN IDENTIFIER;                   
-REMARK 465 SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                            
-REMARK 465   MODELS 1-10                                                        
-REMARK 465     RES C SSSEQI                                                     
-REMARK 465     LYS A   396                                                      
-REMARK 465     MET A   397                                                      
-REMARK 465     ARG A   398                                                      
-REMARK 465     ASN A   399                                                      
-REMARK 465     ASP A   400                                                      
-REMARK 465     PHE A   401                                                      
-REMARK 465     ASN A   402                                                      
-REMARK 465     VAL A   403                                                      
-REMARK 465     MET A   404                                                      
-REMARK 465     LYS A   405                                                      
-REMARK 465     ASP A   406                                                      
-REMARK 465     LEU A   407                                                      
-REMARK 465     ALA A   408                                                      
-REMARK 465     VAL A   409                                                      
-REMARK 465     HIS A   410                                                      
-REMARK 465     THR A   411                                                      
-REMARK 465     ARG A   412                                                      
-REMARK 465     LEU A   413                                                      
-REMARK 465     THR A   414                                                      
-REMARK 465     PRO A   415                                                      
-REMARK 465     GLU A   416                                                      
-REMARK 465     GLN A   417                                                      
-REMARK 465     ARG A   418                                                      
-REMARK 465     GLN A   419                                                      
-REMARK 465     ARG A   420                                                      
-REMARK 465     GLU A   421                                                      
-REMARK 465     VAL A   422                                                      
-REMARK 465     GLY A   423                                                      
-REMARK 465     ARG A   424                                                      
-REMARK 465     LEU A   425                                                      
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CLOSE CONTACTS                                             
-REMARK 500                                                                      
-REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
-REMARK 500                                                                      
-REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   HG3  GLU A   292     HB2  LYS A   295              1.42            
-REMARK 500   HB3  TYR A   313     HE2  TYR A   347              1.43            
-REMARK 500  HG12  VAL A   309     HB3  CYS A   388              1.43            
-REMARK 500  HG13  VAL A   280    HD12  LEU A   363              1.48            
-REMARK 500  HD12  LEU A   304    HD23  LEU A   307              1.50            
-REMARK 500  HG23  THR A   311     HG   LEU A   383              1.52            
-REMARK 500  HD21  LEU A   390    HG23  THR A   394              1.53            
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: COVALENT BOND LENGTHS                                      
-REMARK 500                                                                      
-REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
-REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
-REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,2(A3,1X,A1,I4,A1,1X,A4,3X),1X,F6.3)               
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
-REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI ATM1   RES CSSEQI ATM2   DEVIATION                     
-REMARK 500  2 TYR A 389   CE1   TYR A 389   CZ      0.101                       
-REMARK 500  2 TYR A 389   CZ    TYR A 389   CE2    -0.108                       
-REMARK 500  5 TYR A 389   CZ    TYR A 389   CE2    -0.087                       
-REMARK 500  6 TYR A 389   CE1   TYR A 389   CZ      0.078                       
-REMARK 500  6 TYR A 389   CZ    TYR A 389   CE2    -0.084                       
-REMARK 500  8 TYR A 347   CE1   TYR A 347   CZ     -0.080                       
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
-REMARK 500                                                                      
-REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
-REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
-REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
-REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500  1   C B   3   C1' -  O4' -  C4' ANGL. DEV. =  -5.6 DEGREES          
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: TORSION ANGLES                                             
-REMARK 500                                                                      
-REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
-REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        PSI       PHI                                   
-REMARK 500  1 SER A 277      139.90     67.67                                   
-REMARK 500  1 ASP A 337       75.59     51.57                                   
-REMARK 500  1 ASN A 352       17.78    -69.62                                   
-REMARK 500  1 THR A 356       36.04   -152.03                                   
-REMARK 500  1 LEU A 358       90.70     48.77                                   
-REMARK 500  1 ARG A 369     -178.24    -69.08                                   
-REMARK 500  1 ARG A 370       90.83    -66.09                                   
-REMARK 500  1 ARG A 371      -46.58   -149.48                                   
-REMARK 500  2 ILE A 305       97.03    -67.87                                   
-REMARK 500  2 ASN A 315       27.88     44.16                                   
-REMARK 500  2 ALA A 336     -100.11     65.54                                   
-REMARK 500  2 ASP A 337       76.07   -162.01                                   
-REMARK 500  2 THR A 356       44.48   -108.40                                   
-REMARK 500  2 LYS A 359       41.21     85.08                                   
-REMARK 500  2 LYS A 368       77.17     76.71                                   
-REMARK 500  3 ASN A 314       13.87   -152.45                                   
-REMARK 500  3 ASN A 315       36.62     39.11                                   
-REMARK 500  3 ASP A 326       35.60     70.49                                   
-REMARK 500  3 LYS A 368       46.08    -89.03                                   
-REMARK 500  3 LEU A 377       91.80     60.53                                   
-REMARK 500  4 THR A 311      -92.74    -69.44                                   
-REMARK 500  4 LYS A 312      -80.74    178.30                                   
-REMARK 500  4 ASN A 315       21.03     49.29                                   
-REMARK 500  4 PRO A 329       -9.71    -57.14                                   
-REMARK 500  4 ALA A 336       10.68   -158.37                                   
-REMARK 500  4 ASP A 337       79.49     40.68                                   
-REMARK 500  4 ASP A 357      -97.42   -122.71                                   
-REMARK 500  4 LEU A 358       87.73     66.14                                   
-REMARK 500  4 GLN A 366       91.16     58.30                                   
-REMARK 500  4 PRO A 367       34.99    -73.69                                   
-REMARK 500  4 ARG A 369       12.04     58.95                                   
-REMARK 500  4 LEU A 377      144.95   -171.56                                   
-REMARK 500  5 ASP A 337       79.15     45.39                                   
-REMARK 500  5 ARG A 371      -52.44   -124.09                                   
-REMARK 500  5 LEU A 377       76.25     61.06                                   
-REMARK 500  6 SER A 277      117.51     68.94                                   
-REMARK 500  6 THR A 311      -97.87    -76.72                                   
-REMARK 500  6 LYS A 312      -58.80   -178.70                                   
-REMARK 500  6 ASN A 315       37.13     34.01                                   
-REMARK 500  6 ALA A 336     -105.42   -158.94                                   
-REMARK 500  6 ASP A 337       -0.35   -142.02                                   
-REMARK 500  6 ASP A 357       44.90    -84.00                                   
-REMARK 500  6 ARG A 369      -56.02     68.49                                   
-REMARK 500  6 ARG A 371       89.81     65.76                                   
-REMARK 500  6 LEU A 393       28.87    -75.20                                   
-REMARK 500  7 SER A 277      146.13     72.67                                   
-REMARK 500  7 TYR A 313      -19.67     75.20                                   
-REMARK 500  7 PRO A 329       -9.65    -59.53                                   
-REMARK 500  7 ALA A 336      -27.19   -174.02                                   
-REMARK 500  7 ASP A 337       72.17     66.92                                   
-REMARK 500                                                                      
-REMARK 500 THIS ENTRY HAS      77 RAMACHANDRAN OUTLIERS.                        
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 650                                                                      
-REMARK 650 HELIX                                                                
-REMARK 650 DETERMINATION METHOD: AUTHOR PROVIDED.                               
-DBREF  2XFM A  276   425  UNP    Q9JMB7   PIWL1_MOUSE    276    425             
-DBREF  2XFM B    1     8  PDB    2XFM     2XFM             1      8             
-SEQRES   1 A  150  ARG SER GLU THR VAL LEU ASP PHE MET PHE ASN LEU TYR          
-SEQRES   2 A  150  GLN GLN THR GLU GLU HIS LYS PHE GLN GLU GLN VAL SER          
-SEQRES   3 A  150  LYS GLU LEU ILE GLY LEU ILE VAL LEU THR LYS TYR ASN          
-SEQRES   4 A  150  ASN LYS THR TYR ARG VAL ASP ASP ILE ASP TRP ASP GLN          
-SEQRES   5 A  150  ASN PRO LYS SER THR PHE LYS LYS ALA ASP GLY SER GLU          
-SEQRES   6 A  150  VAL SER PHE LEU GLU TYR TYR ARG LYS GLN TYR ASN GLN          
-SEQRES   7 A  150  GLU ILE THR ASP LEU LYS GLN PRO VAL LEU VAL SER GLN          
-SEQRES   8 A  150  PRO LYS ARG ARG ARG GLY PRO GLY GLY THR LEU PRO GLY          
-SEQRES   9 A  150  PRO ALA MET LEU ILE PRO GLU LEU CYS TYR LEU THR GLY          
-SEQRES  10 A  150  LEU THR ASP LYS MET ARG ASN ASP PHE ASN VAL MET LYS          
-SEQRES  11 A  150  ASP LEU ALA VAL HIS THR ARG LEU THR PRO GLU GLN ARG          
-SEQRES  12 A  150  GLN ARG GLU VAL GLY ARG LEU                                  
-SEQRES   1 B    8    A   C   C   G   A   C   U OMU                              
-MODRES 2XFM OMU B    8    U  O2'-METHYLURIDINE 5'-MONOPHOSPHATE                 
-HET    OMU  B   8      34                                                       
-HETNAM     OMU O2'-METHYLURIDINE 5'-MONOPHOSPHATE                               
-FORMUL   2  OMU    C10 H15 N2 O9 P                                              
-HELIX    1   1 THR A  279  THR A  291  1                                  13    
-HELIX    2   2 GLU A  292  ILE A  305  1                                  14    
-HELIX    3   3 SER A  342  LYS A  349  1                                   8    
-HELIX    4   4 ILE A  384  GLU A  386  5                                   3    
-SHEET    1  AA 3 LYS A 316  ARG A 319  0                                        
-SHEET    2  AA 3 ILE A 308  THR A 311 -1  O  VAL A 309   N  TYR A 318           
-SHEET    3  AA 3 CYS A 388  LEU A 390 -1  O  TYR A 389   N  LEU A 310           
-SHEET    1  AB 3 ASP A 322  ASP A 324  0                                        
-SHEET    2  AB 3 VAL A 362  SER A 365 -1  O  VAL A 362   N  ASP A 324           
-SHEET    3  AB 3 ALA A 381  LEU A 383 -1  O  ALA A 381   N  SER A 365           
-LINK         O3'   U B   7                 P   OMU B   8     1555   1555  1.61  
-CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
-ORIGX1      1.000000  0.000000  0.000000        0.00000                         
-ORIGX2      0.000000  1.000000  0.000000        0.00000                         
-ORIGX3      0.000000  0.000000  1.000000        0.00000                         
-SCALE1      1.000000  0.000000  0.000000        0.00000                         
-SCALE2      0.000000  1.000000  0.000000        0.00000                         
-SCALE3      0.000000  0.000000  1.000000        0.00000                         
-MODEL        1                                                                  
 ATOM      1  N   ARG A 276       1.104 -13.383 -11.619  1.00  3.48           N  
 ATOM      2  CA  ARG A 276       1.795 -12.352 -10.813  1.00  2.39           C  
 ATOM      3  C   ARG A 276       0.790 -11.456 -10.103  1.00  2.19           C  
@@ -2268,7 +1958,6 @@ ATOM   1957  H   ASP A 395       8.046  -4.238  -3.793  1.00  2.48           H
 ATOM   1958  HA  ASP A 395       9.115  -6.468  -2.304  1.00  2.60           H  
 ATOM   1959  HB2 ASP A 395       8.874  -6.519  -4.776  1.00  3.75           H  
 ATOM   1960  HB3 ASP A 395      10.072  -5.236  -4.900  1.00  3.09           H  
-TER    1961      ASP A 395                                                      
 ATOM   1962  O5'   A B   1       7.799  10.760   5.911  1.00 11.44           O  
 ATOM   1963  C5'   A B   1       8.163  10.272   4.620  1.00 10.64           C  
 ATOM   1964  C4'   A B   1       7.730  11.236   3.545  1.00 10.12           C  
@@ -2490,43 +2179,6 @@ ATOM   2179  H1'   U B   7      -9.921  10.982  -3.507  1.00  3.83           H
 ATOM   2180  H3    U B   7     -10.073  15.182  -1.782  1.00  6.61           H  
 ATOM   2181  H5    U B   7      -7.755  15.553  -5.261  1.00  4.85           H  
 ATOM   2182  H6    U B   7      -8.329  13.287  -5.800  1.00  3.32           H  
-HETATM 2183  N1  OMU B   8     -13.905   9.106  -1.599  1.00  0.86           N  
-HETATM 2184  C2  OMU B   8     -14.664   9.904  -0.761  1.00  1.21           C  
-HETATM 2185  N3  OMU B   8     -15.556  10.733  -1.400  1.00  1.24           N  
-HETATM 2186  C4  OMU B   8     -15.768  10.837  -2.758  1.00  1.25           C  
-HETATM 2187  C5  OMU B   8     -14.946   9.981  -3.554  1.00  1.58           C  
-HETATM 2188  C6  OMU B   8     -14.064   9.164  -2.966  1.00  1.34           C  
-HETATM 2189  O2  OMU B   8     -14.569   9.877   0.454  1.00  1.82           O  
-HETATM 2190  O4  OMU B   8     -16.629  11.610  -3.182  1.00  1.43           O  
-HETATM 2191  C1' OMU B   8     -12.958   8.166  -0.979  1.00  0.73           C  
-HETATM 2192  C2' OMU B   8     -13.595   6.808  -0.672  1.00  0.66           C  
-HETATM 2193  O2' OMU B   8     -13.164   6.336   0.592  1.00  0.60           O  
-HETATM 2194  CM2 OMU B   8     -13.868   6.803   1.763  1.00  0.63           C  
-HETATM 2195  C3' OMU B   8     -13.070   5.932  -1.803  1.00  0.67           C  
-HETATM 2196  C4' OMU B   8     -11.700   6.529  -2.087  1.00  0.72           C  
-HETATM 2197  O3' OMU B   8     -12.976   4.573  -1.379  1.00  0.60           O  
-HETATM 2198  O4' OMU B   8     -11.875   7.951  -1.870  1.00  0.79           O  
-HETATM 2199  C5' OMU B   8     -11.146   6.305  -3.475  1.00  0.85           C  
-HETATM 2200  O5' OMU B   8     -12.076   6.735  -4.467  1.00  1.24           O  
-HETATM 2201  P   OMU B   8     -11.581   7.592  -5.714  1.00  1.48           P  
-HETATM 2202  OP1 OMU B   8     -10.326   6.983  -6.216  1.00  1.62           O  
-HETATM 2203  OP2 OMU B   8     -12.722   7.775  -6.644  1.00  2.00           O  
-HETATM 2204  HN3 OMU B   8     -16.110  11.336  -0.808  1.00  1.63           H  
-HETATM 2205  H5  OMU B   8     -15.042   9.993  -4.640  1.00  2.21           H  
-HETATM 2206  H6  OMU B   8     -13.451   8.521  -3.597  1.00  1.79           H  
-HETATM 2207  H1' OMU B   8     -12.539   8.640  -0.089  1.00  0.74           H  
-HETATM 2208  H2' OMU B   8     -14.684   6.873  -0.731  1.00  0.71           H  
-HETATM 2209 HM21 OMU B   8     -13.368   6.445   2.650  1.00  1.31           H  
-HETATM 2210 HM22 OMU B   8     -14.885   6.434   1.745  1.00  1.18           H  
-HETATM 2211 HM23 OMU B   8     -13.878   7.884   1.766  1.00  1.09           H  
-HETATM 2212  H3' OMU B   8     -13.710   5.937  -2.684  1.00  0.76           H  
-HETATM 2213  H4' OMU B   8     -11.009   6.063  -1.386  1.00  0.67           H  
-HETATM 2214 HO3' OMU B   8     -12.922   4.584  -0.416  1.00  0.54           H  
-HETATM 2215  H5' OMU B   8     -10.217   6.869  -3.580  1.00  1.15           H  
-HETATM 2216 H5'' OMU B   8     -10.933   5.246  -3.605  1.00  1.50           H  
-TER    2217      OMU B   8                                                      
-ENDMDL                                                                          
-MODEL        2                                                                  
 ATOM      1  N   ARG A 276       4.852  -9.780  -8.802  1.00  3.48           N  
 ATOM      2  CA  ARG A 276       4.145  -8.796  -9.650  1.00  2.39           C  
 ATOM      3  C   ARG A 276       3.021  -8.127  -8.865  1.00  2.19           C  
@@ -4493,7 +4145,6 @@ ATOM   1963  H   ASP A 395       8.657  -4.705  -0.019  1.00  2.48           H
 ATOM   1964  HA  ASP A 395      11.155  -4.987  -1.280  1.00  2.60           H  
 ATOM   1965  HB2 ASP A 395      10.297  -5.331   1.593  1.00  3.75           H  
 ATOM   1966  HB3 ASP A 395      11.968  -5.511   1.074  1.00  3.09           H  
-TER    1967      ASP A 395                                                      
 ATOM   1968  O5'   A B   1      15.721   7.795  -4.494  1.00 11.44           O  
 ATOM   1969  C5'   A B   1      15.698   7.250  -5.816  1.00 10.64           C  
 ATOM   1970  C4'   A B   1      15.734   8.348  -6.849  1.00 10.12           C  
@@ -4715,43 +4366,6 @@ ATOM   2185  H1'   U B   7     -11.831  13.788  -5.983  1.00  3.83           H
 ATOM   2186  H3    U B   7     -14.415  14.444  -9.700  1.00  6.61           H  
 ATOM   2187  H5    U B   7     -10.779  12.887 -11.113  1.00  4.85           H  
 ATOM   2188  H6    U B   7     -10.159  12.447  -8.833  1.00  3.32           H  
-HETATM 2189  N1  OMU B   8     -13.909   9.608  -0.478  1.00  0.86           N  
-HETATM 2190  C2  OMU B   8     -14.667  10.063   0.590  1.00  1.21           C  
-HETATM 2191  N3  OMU B   8     -15.385  11.211   0.349  1.00  1.24           N  
-HETATM 2192  C4  OMU B   8     -15.426  11.934  -0.821  1.00  1.25           C  
-HETATM 2193  C5  OMU B   8     -14.617  11.405  -1.874  1.00  1.58           C  
-HETATM 2194  C6  OMU B   8     -13.906  10.288  -1.680  1.00  1.34           C  
-HETATM 2195  O2  OMU B   8     -14.701   9.498   1.667  1.00  1.82           O  
-HETATM 2196  O4  OMU B   8     -16.130  12.945  -0.888  1.00  1.43           O  
-HETATM 2197  C1' OMU B   8     -13.100   8.391  -0.272  1.00  0.73           C  
-HETATM 2198  C2' OMU B   8     -13.932   7.126  -0.055  1.00  0.66           C  
-HETATM 2199  O2' OMU B   8     -13.503   6.464   1.125  1.00  0.60           O  
-HETATM 2200  CM2 OMU B   8     -14.395   6.457   2.262  1.00  0.63           C  
-HETATM 2201  C3' OMU B   8     -13.645   6.271  -1.286  1.00  0.67           C  
-HETATM 2202  C4' OMU B   8     -12.343   6.822  -1.857  1.00  0.72           C  
-HETATM 2203  O3' OMU B   8     -13.511   4.901  -0.914  1.00  0.60           O  
-HETATM 2204  O4' OMU B   8     -12.282   8.199  -1.408  1.00  0.79           O  
-HETATM 2205  C5' OMU B   8     -12.249   6.809  -3.363  1.00  0.85           C  
-HETATM 2206  O5' OMU B   8     -11.078   7.497  -3.790  1.00  1.24           O  
-HETATM 2207  P   OMU B   8     -10.993   8.153  -5.238  1.00  1.48           P  
-HETATM 2208  OP1 OMU B   8      -9.602   8.027  -5.730  1.00  1.62           O  
-HETATM 2209  OP2 OMU B   8     -12.102   7.624  -6.072  1.00  2.00           O  
-HETATM 2210  HN3 OMU B   8     -15.942  11.564   1.115  1.00  1.63           H  
-HETATM 2211  H5  OMU B   8     -14.572  11.917  -2.835  1.00  2.21           H  
-HETATM 2212  H6  OMU B   8     -13.308   9.907  -2.509  1.00  1.79           H  
-HETATM 2213  H1' OMU B   8     -12.432   8.585   0.567  1.00  0.74           H  
-HETATM 2214  H2' OMU B   8     -14.998   7.363  -0.016  1.00  0.71           H  
-HETATM 2215 HM21 OMU B   8     -13.859   6.768   3.148  1.00  1.31           H  
-HETATM 2216 HM22 OMU B   8     -14.782   5.461   2.411  1.00  1.18           H  
-HETATM 2217 HM23 OMU B   8     -15.218   7.136   2.083  1.00  1.09           H  
-HETATM 2218  H3' OMU B   8     -14.453   6.301  -2.014  1.00  0.76           H  
-HETATM 2219  H4' OMU B   8     -11.536   6.196  -1.477  1.00  0.67           H  
-HETATM 2220 HO3' OMU B   8     -13.258   4.888   0.019  1.00  0.54           H  
-HETATM 2221  H5' OMU B   8     -12.211   5.777  -3.709  1.00  1.15           H  
-HETATM 2222 H5'' OMU B   8     -13.129   7.292  -3.780  1.00  1.50           H  
-TER    2223      OMU B   8                                                      
-ENDMDL                                                                          
-MODEL        3                                                                  
 ATOM      1  N   ARG A 276       6.007  -8.690  -8.269  1.00  3.48           N  
 ATOM      2  CA  ARG A 276       4.823  -9.573  -8.166  1.00  2.39           C  
 ATOM      3  C   ARG A 276       3.623  -8.786  -7.676  1.00  2.19           C  
@@ -6651,7 +6265,6 @@ ATOM   1896  H   ASP A 395       8.287  -2.191  -5.371  1.00  2.48           H
 ATOM   1897  HA  ASP A 395      10.724  -3.086  -4.088  1.00  2.60           H  
 ATOM   1898  HB2 ASP A 395       9.581  -3.899  -6.776  1.00  3.75           H  
 ATOM   1899  HB3 ASP A 395      10.879  -4.705  -5.906  1.00  3.09           H  
-TER    1900      ASP A 395                                                      
 ATOM   1901  O5'   A B   1       5.615   9.688   7.141  1.00 11.44           O  
 ATOM   1902  C5'   A B   1       6.408  10.495   6.266  1.00 10.64           C  
 ATOM   1903  C4'   A B   1       7.637   9.755   5.793  1.00 10.12           C  
@@ -6870,43 +6483,6 @@ ATOM   2115  H1'   U B   7     -12.768  10.075  -8.291  1.00  3.83           H
 ATOM   2116  H3    U B   7     -11.545  10.323 -12.670  1.00  6.61           H  
 ATOM   2117  H5    U B   7      -8.841  12.823 -10.662  1.00  4.85           H  
 ATOM   2118  H6    U B   7      -9.740  12.021  -8.590  1.00  3.32           H  
-HETATM 2119  N1  OMU B   8     -14.099   8.945  -0.893  1.00  0.86           N  
-HETATM 2120  C2  OMU B   8     -14.957   9.624  -0.046  1.00  1.21           C  
-HETATM 2121  N3  OMU B   8     -15.760  10.560  -0.646  1.00  1.24           N  
-HETATM 2122  C4  OMU B   8     -15.795  10.888  -1.983  1.00  1.25           C  
-HETATM 2123  C5  OMU B   8     -14.880  10.147  -2.795  1.00  1.58           C  
-HETATM 2124  C6  OMU B   8     -14.083   9.226  -2.246  1.00  1.34           C  
-HETATM 2125  O2  OMU B   8     -15.005   9.410   1.154  1.00  1.82           O  
-HETATM 2126  O4  OMU B   8     -16.582  11.749  -2.377  1.00  1.43           O  
-HETATM 2127  C1' OMU B   8     -13.224   7.925  -0.302  1.00  0.73           C  
-HETATM 2128  C2' OMU B   8     -13.922   6.577  -0.085  1.00  0.66           C  
-HETATM 2129  O2' OMU B   8     -13.607   6.070   1.202  1.00  0.60           O  
-HETATM 2130  CM2 OMU B   8     -14.489   6.396   2.304  1.00  0.63           C  
-HETATM 2131  C3' OMU B   8     -13.336   5.700  -1.185  1.00  0.67           C  
-HETATM 2132  C4' OMU B   8     -11.966   6.309  -1.464  1.00  0.72           C  
-HETATM 2133  O3' OMU B   8     -13.223   4.353  -0.735  1.00  0.60           O  
-HETATM 2134  O4' OMU B   8     -12.111   7.717  -1.152  1.00  0.79           O  
-HETATM 2135  C5' OMU B   8     -11.462   6.177  -2.883  1.00  0.85           C  
-HETATM 2136  O5' OMU B   8     -12.416   6.690  -3.809  1.00  1.24           O  
-HETATM 2137  P   OMU B   8     -12.038   6.847  -5.347  1.00  1.48           P  
-HETATM 2138  OP1 OMU B   8     -10.641   6.379  -5.529  1.00  1.62           O  
-HETATM 2139  OP2 OMU B   8     -13.105   6.236  -6.173  1.00  2.00           O  
-HETATM 2140  HN3 OMU B   8     -16.390  11.070  -0.039  1.00  1.63           H  
-HETATM 2141  H5  OMU B   8     -14.832  10.332  -3.868  1.00  2.21           H  
-HETATM 2142  H6  OMU B   8     -13.400   8.679  -2.892  1.00  1.79           H  
-HETATM 2143  H1' OMU B   8     -12.828   8.327   0.630  1.00  0.74           H  
-HETATM 2144  H2' OMU B   8     -14.999   6.675  -0.228  1.00  0.71           H  
-HETATM 2145 HM21 OMU B   8     -14.533   5.563   2.991  1.00  1.31           H  
-HETATM 2146 HM22 OMU B   8     -15.482   6.609   1.927  1.00  1.18           H  
-HETATM 2147 HM23 OMU B   8     -14.112   7.264   2.822  1.00  1.09           H  
-HETATM 2148  H3' OMU B   8     -13.960   5.669  -2.077  1.00  0.76           H  
-HETATM 2149  H4' OMU B   8     -11.252   5.788  -0.817  1.00  0.67           H  
-HETATM 2150 HO3' OMU B   8     -13.188   4.384   0.230  1.00  0.54           H  
-HETATM 2151  H5' OMU B   8     -10.523   6.721  -2.984  1.00  1.15           H  
-HETATM 2152 H5'' OMU B   8     -11.286   5.125  -3.096  1.00  1.50           H  
-TER    2153      OMU B   8                                                      
-ENDMDL                                                                          
-MODEL        4                                                                  
 ATOM      1  N   ARG A 276       3.308  -7.709 -10.131  1.00  3.48           N  
 ATOM      2  CA  ARG A 276       3.161  -8.861  -9.208  1.00  2.39           C  
 ATOM      3  C   ARG A 276       2.090  -8.564  -8.173  1.00  2.19           C  
@@ -8806,7 +8382,6 @@ ATOM   1896  H   ASP A 395       9.327  -2.420  -5.525  1.00  2.48           H
 ATOM   1897  HA  ASP A 395      11.857  -2.363  -4.052  1.00  2.60           H  
 ATOM   1898  HB2 ASP A 395      12.741  -3.805  -5.812  1.00  3.75           H  
 ATOM   1899  HB3 ASP A 395      11.263  -4.497  -5.155  1.00  3.09           H  
-TER    1900      ASP A 395                                                      
 ATOM   1901  O5'   A B   1       6.446   1.672 -17.853  1.00 11.44           O  
 ATOM   1902  C5'   A B   1       6.694   1.369 -16.476  1.00 10.64           C  
 ATOM   1903  C4'   A B   1       7.107   2.603 -15.708  1.00 10.12           C  
@@ -9028,43 +8603,6 @@ ATOM   2118  H1'   U B   7     -13.812  10.358  -8.528  1.00  3.83           H
 ATOM   2119  H3    U B   7     -13.832  10.853 -13.022  1.00  6.61           H  
 ATOM   2120  H5    U B   7     -10.644  13.273 -11.738  1.00  4.85           H  
 ATOM   2121  H6    U B   7     -10.980  12.420  -9.524  1.00  3.32           H  
-HETATM 2122  N1  OMU B   8     -13.589   9.525  -0.865  1.00  0.86           N  
-HETATM 2123  C2  OMU B   8     -14.587  10.106  -0.099  1.00  1.21           C  
-HETATM 2124  N3  OMU B   8     -15.195  11.202  -0.661  1.00  1.24           N  
-HETATM 2125  C4  OMU B   8     -14.917  11.767  -1.887  1.00  1.25           C  
-HETATM 2126  C5  OMU B   8     -13.880  11.111  -2.622  1.00  1.58           C  
-HETATM 2127  C6  OMU B   8     -13.261  10.042  -2.103  1.00  1.34           C  
-HETATM 2128  O2  OMU B   8     -14.921   9.677   0.994  1.00  1.82           O  
-HETATM 2129  O4  OMU B   8     -15.547  12.762  -2.250  1.00  1.43           O  
-HETATM 2130  C1' OMU B   8     -12.907   8.339  -0.314  1.00  0.73           C  
-HETATM 2131  C2' OMU B   8     -13.776   7.079  -0.304  1.00  0.66           C  
-HETATM 2132  O2' OMU B   8     -13.546   6.348   0.889  1.00  0.60           O  
-HETATM 2133  CM2 OMU B   8     -14.328   6.691   2.053  1.00  0.63           C  
-HETATM 2134  C3' OMU B   8     -13.264   6.315  -1.521  1.00  0.67           C  
-HETATM 2135  C4' OMU B   8     -11.791   6.687  -1.554  1.00  0.72           C  
-HETATM 2136  O3' OMU B   8     -13.449   4.909  -1.337  1.00  0.60           O  
-HETATM 2137  O4' OMU B   8     -11.750   8.060  -1.084  1.00  0.79           O  
-HETATM 2138  C5' OMU B   8     -11.089   6.608  -2.890  1.00  0.85           C  
-HETATM 2139  O5' OMU B   8     -11.745   7.390  -3.884  1.00  1.24           O  
-HETATM 2140  P   OMU B   8     -10.851   8.273  -4.862  1.00  1.48           P  
-HETATM 2141  OP1 OMU B   8     -10.379   9.457  -4.107  1.00  1.62           O  
-HETATM 2142  OP2 OMU B   8      -9.856   7.379  -5.496  1.00  2.00           O  
-HETATM 2143  HN3 OMU B   8     -15.919  11.645  -0.115  1.00  1.63           H  
-HETATM 2144  H5  OMU B   8     -13.604  11.477  -3.614  1.00  2.21           H  
-HETATM 2145  H6  OMU B   8     -12.465   9.574  -2.677  1.00  1.79           H  
-HETATM 2146  H1' OMU B   8     -12.554   8.597   0.684  1.00  0.74           H  
-HETATM 2147  H2' OMU B   8     -14.832   7.325  -0.434  1.00  0.71           H  
-HETATM 2148 HM21 OMU B   8     -13.674   7.036   2.840  1.00  1.31           H  
-HETATM 2149 HM22 OMU B   8     -14.873   5.821   2.394  1.00  1.18           H  
-HETATM 2150 HM23 OMU B   8     -15.031   7.475   1.798  1.00  1.09           H  
-HETATM 2151  H3' OMU B   8     -13.783   6.576  -2.442  1.00  0.76           H  
-HETATM 2152  H4' OMU B   8     -11.277   5.992  -0.889  1.00  0.67           H  
-HETATM 2153 HO3' OMU B   8     -13.353   4.734  -0.390  1.00  0.54           H  
-HETATM 2154  H5' OMU B   8     -10.065   6.967  -2.771  1.00  1.15           H  
-HETATM 2155 H5'' OMU B   8     -11.064   5.567  -3.211  1.00  1.50           H  
-TER    2156      OMU B   8                                                      
-ENDMDL                                                                          
-MODEL        5                                                                  
 ATOM      1  N   ARG A 276       2.833  -8.424 -11.237  1.00  3.48           N  
 ATOM      2  CA  ARG A 276       2.728  -9.216  -9.995  1.00  2.39           C  
 ATOM      3  C   ARG A 276       1.807  -8.505  -9.019  1.00  2.19           C  
@@ -10964,7 +10502,6 @@ ATOM   1896  H   ASP A 395       9.893  -3.782  -1.113  1.00  2.48           H
 ATOM   1897  HA  ASP A 395      11.212  -6.027  -2.369  1.00  2.60           H  
 ATOM   1898  HB2 ASP A 395      12.125  -3.576  -2.034  1.00  3.75           H  
 ATOM   1899  HB3 ASP A 395      12.629  -4.196  -0.466  1.00  3.09           H  
-TER    1900      ASP A 395                                                      
 ATOM   1901  O5'   A B   1      19.287   3.356  -7.586  1.00 11.44           O  
 ATOM   1902  C5'   A B   1      18.045   3.334  -6.877  1.00 10.64           C  
 ATOM   1903  C4'   A B   1      17.212   2.142  -7.277  1.00 10.12           C  
@@ -11186,43 +10723,6 @@ ATOM   2118  H1'   U B   7     -10.033  13.729  -3.290  1.00  3.83           H
 ATOM   2119  H3    U B   7     -13.147  16.857  -4.799  1.00  6.61           H  
 ATOM   2120  H5    U B   7      -9.782  17.053  -7.296  1.00  4.85           H  
 ATOM   2121  H6    U B   7      -9.011  15.012  -6.306  1.00  3.32           H  
-HETATM 2122  N1  OMU B   8     -13.785   9.893   0.097  1.00  0.86           N  
-HETATM 2123  C2  OMU B   8     -14.902  10.144  -0.687  1.00  1.21           C  
-HETATM 2124  N3  OMU B   8     -15.512  11.354  -0.459  1.00  1.24           N  
-HETATM 2125  C4  OMU B   8     -15.126  12.325   0.441  1.00  1.25           C  
-HETATM 2126  C5  OMU B   8     -13.964  11.996   1.204  1.00  1.58           C  
-HETATM 2127  C6  OMU B   8     -13.346  10.824   1.015  1.00  1.34           C  
-HETATM 2128  O2  OMU B   8     -15.310   9.380  -1.543  1.00  1.82           O  
-HETATM 2129  O4  OMU B   8     -15.779  13.367   0.524  1.00  1.43           O  
-HETATM 2130  C1' OMU B   8     -13.069   8.616  -0.063  1.00  0.73           C  
-HETATM 2131  C2' OMU B   8     -13.934   7.364   0.138  1.00  0.66           C  
-HETATM 2132  O2' OMU B   8     -13.534   6.702   1.323  1.00  0.60           O  
-HETATM 2133  CM2 OMU B   8     -14.478   6.647   2.414  1.00  0.63           C  
-HETATM 2134  C3' OMU B   8     -13.622   6.511  -1.095  1.00  0.67           C  
-HETATM 2135  C4' OMU B   8     -12.373   7.151  -1.682  1.00  0.72           C  
-HETATM 2136  O3' OMU B   8     -13.387   5.157  -0.716  1.00  0.60           O  
-HETATM 2137  O4' OMU B   8     -12.523   8.551  -1.360  1.00  0.79           O  
-HETATM 2138  C5' OMU B   8     -12.182   7.000  -3.169  1.00  0.85           C  
-HETATM 2139  O5' OMU B   8     -11.069   7.784  -3.595  1.00  1.24           O  
-HETATM 2140  P   OMU B   8     -11.220   8.915  -4.706  1.00  1.48           P  
-HETATM 2141  OP1 OMU B   8     -10.689   8.378  -5.983  1.00  1.62           O  
-HETATM 2142  OP2 OMU B   8     -12.601   9.452  -4.655  1.00  2.00           O  
-HETATM 2143  HN3 OMU B   8     -16.344  11.550  -0.998  1.00  1.63           H  
-HETATM 2144  H5  OMU B   8     -13.574  12.704   1.937  1.00  2.21           H  
-HETATM 2145  H6  OMU B   8     -12.464  10.597   1.614  1.00  1.79           H  
-HETATM 2146  H1' OMU B   8     -12.223   8.628   0.622  1.00  0.74           H  
-HETATM 2147  H2' OMU B   8     -14.995   7.614   0.153  1.00  0.71           H  
-HETATM 2148 HM21 OMU B   8     -15.393   7.157   2.129  1.00  1.31           H  
-HETATM 2149 HM22 OMU B   8     -14.055   7.126   3.285  1.00  1.18           H  
-HETATM 2150 HM23 OMU B   8     -14.700   5.616   2.643  1.00  1.09           H  
-HETATM 2151  H3' OMU B   8     -14.443   6.485  -1.811  1.00  0.76           H  
-HETATM 2152  H4' OMU B   8     -11.520   6.680  -1.194  1.00  0.67           H  
-HETATM 2153 HO3' OMU B   8     -13.269   5.148   0.242  1.00  0.54           H  
-HETATM 2154  H5' OMU B   8     -12.002   5.951  -3.400  1.00  1.15           H  
-HETATM 2155 H5'' OMU B   8     -13.088   7.327  -3.677  1.00  1.50           H  
-TER    2156      OMU B   8                                                      
-ENDMDL                                                                          
-MODEL        6                                                                  
 ATOM      1  N   ARG A 276      -0.800 -13.959 -10.626  1.00  3.48           N  
 ATOM      2  CA  ARG A 276      -0.540 -12.520 -10.849  1.00  2.39           C  
 ATOM      3  C   ARG A 276      -1.357 -11.686  -9.871  1.00  2.19           C  
@@ -13122,7 +12622,6 @@ ATOM   1896  H   ASP A 395       9.032  -4.637  -3.266  1.00  2.48           H
 ATOM   1897  HA  ASP A 395      10.088  -4.803  -0.545  1.00  2.60           H  
 ATOM   1898  HB2 ASP A 395       9.370  -6.905  -1.531  1.00  3.75           H  
 ATOM   1899  HB3 ASP A 395      10.429  -6.649  -2.913  1.00  3.09           H  
-TER    1900      ASP A 395                                                      
 ATOM   1901  O5'   A B   1      12.870  -2.472 -10.788  1.00 11.44           O  
 ATOM   1902  C5'   A B   1      14.032  -2.322 -11.617  1.00 10.64           C  
 ATOM   1903  C4'   A B   1      14.629  -0.938 -11.508  1.00 10.12           C  
@@ -13339,43 +12838,6 @@ ATOM   2113  H1'   U B   7     -10.311  13.133  -6.466  1.00  3.83           H
 ATOM   2114  H3    U B   7     -10.536  14.178 -10.912  1.00  6.61           H  
 ATOM   2115  H5    U B   7      -6.929  12.097 -10.402  1.00  4.85           H  
 ATOM   2116  H6    U B   7      -7.657  11.528  -8.178  1.00  3.32           H  
-HETATM 2117  N1  OMU B   8     -14.181   9.080  -1.882  1.00  0.86           N  
-HETATM 2118  C2  OMU B   8     -15.018   9.664  -0.940  1.00  1.21           C  
-HETATM 2119  N3  OMU B   8     -15.841  10.652  -1.421  1.00  1.24           N  
-HETATM 2120  C4  OMU B   8     -15.923  11.107  -2.719  1.00  1.25           C  
-HETATM 2121  C5  OMU B   8     -15.036  10.455  -3.631  1.00  1.58           C  
-HETATM 2122  C6  OMU B   8     -14.216   9.488  -3.201  1.00  1.34           C  
-HETATM 2123  O2  OMU B   8     -15.043   9.325   0.231  1.00  1.82           O  
-HETATM 2124  O4  OMU B   8     -16.718  12.007  -3.001  1.00  1.43           O  
-HETATM 2125  C1' OMU B   8     -13.231   8.053  -1.418  1.00  0.73           C  
-HETATM 2126  C2' OMU B   8     -13.894   6.753  -0.956  1.00  0.66           C  
-HETATM 2127  O2' OMU B   8     -13.316   6.321   0.266  1.00  0.60           O  
-HETATM 2128  CM2 OMU B   8     -13.901   6.789   1.499  1.00  0.63           C  
-HETATM 2129  C3' OMU B   8     -13.579   5.778  -2.081  1.00  0.67           C  
-HETATM 2130  C4' OMU B   8     -12.283   6.309  -2.677  1.00  0.72           C  
-HETATM 2131  O3' OMU B   8     -13.418   4.460  -1.559  1.00  0.60           O  
-HETATM 2132  O4' OMU B   8     -12.341   7.744  -2.473  1.00  0.79           O  
-HETATM 2133  C5' OMU B   8     -12.092   6.033  -4.150  1.00  0.85           C  
-HETATM 2134  O5' OMU B   8     -10.936   6.704  -4.640  1.00  1.24           O  
-HETATM 2135  P   OMU B   8     -10.912   7.385  -6.079  1.00  1.48           P  
-HETATM 2136  OP1 OMU B   8      -9.607   7.064  -6.706  1.00  1.62           O  
-HETATM 2137  OP2 OMU B   8     -12.165   7.047  -6.801  1.00  2.00           O  
-HETATM 2138  HN3 OMU B   8     -16.445  11.106  -0.745  1.00  1.63           H  
-HETATM 2139  H5  OMU B   8     -15.027  10.748  -4.679  1.00  2.21           H  
-HETATM 2140  H6  OMU B   8     -13.554   9.010  -3.924  1.00  1.79           H  
-HETATM 2141  H1' OMU B   8     -12.628   8.503  -0.628  1.00  0.74           H  
-HETATM 2142  H2' OMU B   8     -14.973   6.879  -0.871  1.00  0.71           H  
-HETATM 2143 HM21 OMU B   8     -14.383   7.742   1.333  1.00  1.31           H  
-HETATM 2144 HM22 OMU B   8     -13.128   6.900   2.247  1.00  1.18           H  
-HETATM 2145 HM23 OMU B   8     -14.630   6.073   1.841  1.00  1.09           H  
-HETATM 2146  H3' OMU B   8     -14.371   5.716  -2.825  1.00  0.76           H  
-HETATM 2147  H4' OMU B   8     -11.464   5.824  -2.143  1.00  0.67           H  
-HETATM 2148 HO3' OMU B   8     -13.168   4.558  -0.632  1.00  0.54           H  
-HETATM 2149  H5' OMU B   8     -11.978   4.961  -4.302  1.00  1.15           H  
-HETATM 2150 H5'' OMU B   8     -12.975   6.377  -4.688  1.00  1.50           H  
-TER    2151      OMU B   8                                                      
-ENDMDL                                                                          
-MODEL        7                                                                  
 ATOM      1  N   ARG A 276       2.148 -13.023 -10.224  1.00  3.48           N  
 ATOM      2  CA  ARG A 276       2.281 -11.557 -10.371  1.00  2.39           C  
 ATOM      3  C   ARG A 276       1.158 -10.859  -9.614  1.00  2.19           C  
@@ -15275,7 +14737,6 @@ ATOM   1896  H   ASP A 395       9.611   0.104  -3.921  1.00  2.48           H
 ATOM   1897  HA  ASP A 395      11.141  -1.784  -5.300  1.00  2.60           H  
 ATOM   1898  HB2 ASP A 395      11.391   0.705  -5.460  1.00  3.75           H  
 ATOM   1899  HB3 ASP A 395      12.220   0.670  -3.906  1.00  3.09           H  
-TER    1900      ASP A 395                                                      
 ATOM   1901  O5'   A B   1      12.961   4.283 -16.814  1.00 11.44           O  
 ATOM   1902  C5'   A B   1      12.635   3.576 -15.615  1.00 10.64           C  
 ATOM   1903  C4'   A B   1      13.343   4.167 -14.420  1.00 10.12           C  
@@ -15496,43 +14957,6 @@ ATOM   2117  H1'   U B   7     -12.452   9.954  -8.795  1.00  3.83           H
 ATOM   2118  H3    U B   7     -11.452  11.069 -13.028  1.00  6.61           H  
 ATOM   2119  H5    U B   7      -8.652  13.264 -10.801  1.00  4.85           H  
 ATOM   2120  H6    U B   7      -9.550  12.255  -8.816  1.00  3.32           H  
-HETATM 2121  N1  OMU B   8     -13.856   9.561  -1.163  1.00  0.86           N  
-HETATM 2122  C2  OMU B   8     -14.741  10.217  -0.323  1.00  1.21           C  
-HETATM 2123  N3  OMU B   8     -15.418  11.264  -0.895  1.00  1.24           N  
-HETATM 2124  C4  OMU B   8     -15.307  11.715  -2.194  1.00  1.25           C  
-HETATM 2125  C5  OMU B   8     -14.379  10.985  -2.999  1.00  1.58           C  
-HETATM 2126  C6  OMU B   8     -13.699   9.962  -2.473  1.00  1.34           C  
-HETATM 2127  O2  OMU B   8     -14.928   9.884   0.835  1.00  1.82           O  
-HETATM 2128  O4  OMU B   8     -15.984  12.679  -2.563  1.00  1.43           O  
-HETATM 2129  C1' OMU B   8     -13.085   8.443  -0.596  1.00  0.73           C  
-HETATM 2130  C2' OMU B   8     -13.865   7.128  -0.528  1.00  0.66           C  
-HETATM 2131  O2' OMU B   8     -13.615   6.483   0.711  1.00  0.60           O  
-HETATM 2132  CM2 OMU B   8     -14.348   6.923   1.872  1.00  0.63           C  
-HETATM 2133  C3' OMU B   8     -13.283   6.327  -1.687  1.00  0.67           C  
-HETATM 2134  C4' OMU B   8     -11.855   6.847  -1.801  1.00  0.72           C  
-HETATM 2135  O3' OMU B   8     -13.316   4.934  -1.387  1.00  0.60           O  
-HETATM 2136  O4' OMU B   8     -11.930   8.234  -1.387  1.00  0.79           O  
-HETATM 2137  C5' OMU B   8     -11.249   6.777  -3.185  1.00  0.85           C  
-HETATM 2138  O5' OMU B   8     -12.096   7.422  -4.129  1.00  1.24           O  
-HETATM 2139  P   OMU B   8     -11.886   7.190  -5.691  1.00  1.48           P  
-HETATM 2140  OP1 OMU B   8     -10.455   6.871  -5.924  1.00  1.62           O  
-HETATM 2141  OP2 OMU B   8     -12.931   6.257  -6.168  1.00  2.00           O  
-HETATM 2142  HN3 OMU B   8     -16.062  11.767  -0.297  1.00  1.63           H  
-HETATM 2143  H5  OMU B   8     -14.227  11.261  -4.042  1.00  2.21           H  
-HETATM 2144  H6  OMU B   8     -12.993   9.426  -3.108  1.00  1.79           H  
-HETATM 2145  H1' OMU B   8     -12.730   8.753   0.387  1.00  0.74           H  
-HETATM 2146  H2' OMU B   8     -14.930   7.297  -0.694  1.00  0.71           H  
-HETATM 2147 HM21 OMU B   8     -15.347   6.505   1.854  1.00  1.31           H  
-HETATM 2148 HM22 OMU B   8     -14.411   7.999   1.870  1.00  1.18           H  
-HETATM 2149 HM23 OMU B   8     -13.839   6.592   2.765  1.00  1.09           H  
-HETATM 2150  H3' OMU B   8     -13.841   6.454  -2.615  1.00  0.76           H  
-HETATM 2151  H4' OMU B   8     -11.237   6.230  -1.148  1.00  0.67           H  
-HETATM 2152 HO3' OMU B   8     -13.291   4.858  -0.424  1.00  0.54           H  
-HETATM 2153  H5' OMU B   8     -10.273   7.260  -3.176  1.00  1.15           H  
-HETATM 2154 H5'' OMU B   8     -11.117   5.735  -3.463  1.00  1.50           H  
-TER    2155      OMU B   8                                                      
-ENDMDL                                                                          
-MODEL        8                                                                  
 ATOM      1  N   ARG A 276       4.761  -7.979  -9.668  1.00  3.48           N  
 ATOM      2  CA  ARG A 276       4.043  -8.958  -8.820  1.00  2.39           C  
 ATOM      3  C   ARG A 276       2.973  -8.250  -7.999  1.00  2.19           C  
@@ -17432,7 +16856,6 @@ ATOM   1896  H   ASP A 395      10.159  -0.663  -4.823  1.00  2.48           H
 ATOM   1897  HA  ASP A 395      12.350  -1.229  -5.068  1.00  2.60           H  
 ATOM   1898  HB2 ASP A 395      13.076  -0.025  -3.208  1.00  3.75           H  
 ATOM   1899  HB3 ASP A 395      12.160  -1.013  -2.077  1.00  3.09           H  
-TER    1900      ASP A 395                                                      
 ATOM   1901  O5'   A B   1      13.405   8.869 -15.482  1.00 11.44           O  
 ATOM   1902  C5'   A B   1      12.168   9.286 -14.905  1.00 10.64           C  
 ATOM   1903  C4'   A B   1      11.336  10.049 -15.905  1.00 10.12           C  
@@ -17647,43 +17070,6 @@ ATOM   2111  H1'   U B   7     -11.671  11.012  -4.175  1.00  3.83           H
 ATOM   2112  H3    U B   7     -13.723  15.113  -3.945  1.00  6.61           H  
 ATOM   2113  H5    U B   7      -9.806  15.852  -5.259  1.00  4.85           H  
 ATOM   2114  H6    U B   7      -9.529  13.484  -5.548  1.00  3.32           H  
-HETATM 2115  N1  OMU B   8     -13.926   8.901  -1.661  1.00  0.86           N  
-HETATM 2116  C2  OMU B   8     -14.719   8.926  -2.801  1.00  1.21           C  
-HETATM 2117  N3  OMU B   8     -15.465  10.065  -2.965  1.00  1.24           N  
-HETATM 2118  C4  OMU B   8     -15.515  11.160  -2.129  1.00  1.25           C  
-HETATM 2119  C5  OMU B   8     -14.669  11.062  -0.979  1.00  1.58           C  
-HETATM 2120  C6  OMU B   8     -13.923   9.967  -0.784  1.00  1.34           C  
-HETATM 2121  O2  OMU B   8     -14.785   8.003  -3.592  1.00  1.82           O  
-HETATM 2122  O4  OMU B   8     -16.277  12.092  -2.393  1.00  1.43           O  
-HETATM 2123  C1' OMU B   8     -13.087   7.716  -1.410  1.00  0.73           C  
-HETATM 2124  C2' OMU B   8     -13.874   6.402  -1.309  1.00  0.66           C  
-HETATM 2125  O2' OMU B   8     -13.715   5.867  -0.007  1.00  0.60           O  
-HETATM 2126  CM2 OMU B   8     -14.660   6.280   1.010  1.00  0.63           C  
-HETATM 2127  C3' OMU B   8     -13.235   5.500  -2.364  1.00  0.67           C  
-HETATM 2128  C4' OMU B   8     -11.913   6.181  -2.708  1.00  0.72           C  
-HETATM 2129  O3' OMU B   8     -13.028   4.190  -1.828  1.00  0.60           O  
-HETATM 2130  O4' OMU B   8     -12.147   7.587  -2.452  1.00  0.79           O  
-HETATM 2131  C5' OMU B   8     -11.422   6.030  -4.129  1.00  0.85           C  
-HETATM 2132  O5' OMU B   8     -12.415   6.451  -5.064  1.00  1.24           O  
-HETATM 2133  P   OMU B   8     -12.015   7.324  -6.332  1.00  1.48           P  
-HETATM 2134  OP1 OMU B   8     -10.942   6.607  -7.069  1.00  1.62           O  
-HETATM 2135  OP2 OMU B   8     -13.243   7.726  -7.058  1.00  2.00           O  
-HETATM 2136  HN3 OMU B   8     -16.022  10.118  -3.806  1.00  1.63           H  
-HETATM 2137  H5  OMU B   8     -14.631  11.883  -0.261  1.00  2.21           H  
-HETATM 2138  H6  OMU B   8     -13.290   9.920   0.101  1.00  1.79           H  
-HETATM 2139  H1' OMU B   8     -12.510   7.910  -0.505  1.00  0.74           H  
-HETATM 2140  H2' OMU B   8     -14.924   6.559  -1.551  1.00  0.71           H  
-HETATM 2141 HM21 OMU B   8     -15.373   6.973   0.583  1.00  1.31           H  
-HETATM 2142 HM22 OMU B   8     -14.135   6.762   1.821  1.00  1.18           H  
-HETATM 2143 HM23 OMU B   8     -15.186   5.414   1.388  1.00  1.09           H  
-HETATM 2144  H3' OMU B   8     -13.864   5.368  -3.243  1.00  0.76           H  
-HETATM 2145  H4' OMU B   8     -11.157   5.741  -2.055  1.00  0.67           H  
-HETATM 2146 HO3' OMU B   8     -13.174   4.251  -0.875  1.00  0.54           H  
-HETATM 2147  H5' OMU B   8     -10.522   6.633  -4.259  1.00  1.15           H  
-HETATM 2148 H5'' OMU B   8     -11.179   4.982  -4.305  1.00  1.50           H  
-TER    2149      OMU B   8                                                      
-ENDMDL                                                                          
-MODEL        9                                                                  
 ATOM      1  N   ARG A 276       2.206 -13.118  -6.654  1.00  3.48           N  
 ATOM      2  CA  ARG A 276       2.416 -11.726  -7.106  1.00  2.39           C  
 ATOM      3  C   ARG A 276       1.082 -11.044  -7.350  1.00  2.19           C  
@@ -19589,7 +18975,6 @@ ATOM   1902  H   ASP A 395       9.458  -3.207  -3.624  1.00  2.48           H
 ATOM   1903  HA  ASP A 395      11.845  -1.808  -2.947  1.00  2.60           H  
 ATOM   1904  HB2 ASP A 395      10.993  -2.673  -0.685  1.00  3.75           H  
 ATOM   1905  HB3 ASP A 395      11.296  -4.292  -1.297  1.00  3.09           H  
-TER    1906      ASP A 395                                                      
 ATOM   1907  O5'   A B   1       0.063  -1.095 -14.877  1.00 11.44           O  
 ATOM   1908  C5'   A B   1       1.294  -1.271 -15.585  1.00 10.64           C  
 ATOM   1909  C4'   A B   1       1.597  -0.094 -16.485  1.00 10.12           C  
@@ -19811,43 +19196,6 @@ ATOM   2124  H1'   U B   7     -10.098  14.335  -0.126  1.00  3.83           H
 ATOM   2125  H3    U B   7     -14.778  14.665   0.623  1.00  6.61           H  
 ATOM   2126  H5    U B   7     -13.720  16.750  -2.858  1.00  4.85           H  
 ATOM   2127  H6    U B   7     -11.572  15.683  -2.766  1.00  3.32           H  
-HETATM 2128  N1  OMU B   8     -13.826   9.621   0.165  1.00  0.86           N  
-HETATM 2129  C2  OMU B   8     -14.580  10.072   1.234  1.00  1.21           C  
-HETATM 2130  N3  OMU B   8     -15.381  11.152   0.964  1.00  1.24           N  
-HETATM 2131  C4  OMU B   8     -15.516  11.808  -0.239  1.00  1.25           C  
-HETATM 2132  C5  OMU B   8     -14.713  11.281  -1.296  1.00  1.58           C  
-HETATM 2133  C6  OMU B   8     -13.916  10.230  -1.072  1.00  1.34           C  
-HETATM 2134  O2  OMU B   8     -14.561   9.549   2.332  1.00  1.82           O  
-HETATM 2135  O4  OMU B   8     -16.286  12.769  -0.321  1.00  1.43           O  
-HETATM 2136  C1' OMU B   8     -12.882   8.520   0.409  1.00  0.73           C  
-HETATM 2137  C2' OMU B   8     -13.512   7.126   0.353  1.00  0.66           C  
-HETATM 2138  O2' OMU B   8     -13.132   6.379   1.495  1.00  0.60           O  
-HETATM 2139  CM2 OMU B   8     -13.942   6.494   2.682  1.00  0.63           C  
-HETATM 2140  C3' OMU B   8     -12.923   6.508  -0.913  1.00  0.67           C  
-HETATM 2141  C4' OMU B   8     -11.637   7.286  -1.157  1.00  0.72           C  
-HETATM 2142  O3' OMU B   8     -12.661   5.119  -0.707  1.00  0.60           O  
-HETATM 2143  O4' OMU B   8     -11.863   8.590  -0.567  1.00  0.79           O  
-HETATM 2144  C5' OMU B   8     -11.269   7.477  -2.608  1.00  0.85           C  
-HETATM 2145  O5' OMU B   8     -10.166   8.375  -2.722  1.00  1.24           O  
-HETATM 2146  P   OMU B   8     -10.245   9.681  -3.633  1.00  1.48           P  
-HETATM 2147  OP1 OMU B   8      -9.225   9.548  -4.703  1.00  1.62           O  
-HETATM 2148  OP2 OMU B   8     -11.656   9.904  -4.030  1.00  2.00           O  
-HETATM 2149  HN3 OMU B   8     -15.925  11.509   1.735  1.00  1.63           H  
-HETATM 2150  H5  OMU B   8     -14.754  11.731  -2.287  1.00  2.21           H  
-HETATM 2151  H6  OMU B   8     -13.316   9.844  -1.897  1.00  1.79           H  
-HETATM 2152  H1' OMU B   8     -12.402   8.708   1.371  1.00  0.74           H  
-HETATM 2153  H2' OMU B   8     -14.595   7.195   0.258  1.00  0.71           H  
-HETATM 2154 HM21 OMU B   8     -13.352   6.911   3.485  1.00  1.31           H  
-HETATM 2155 HM22 OMU B   8     -14.300   5.518   2.968  1.00  1.18           H  
-HETATM 2156 HM23 OMU B   8     -14.785   7.139   2.480  1.00  1.09           H  
-HETATM 2157  H3' OMU B   8     -13.599   6.563  -1.764  1.00  0.76           H  
-HETATM 2158  H4' OMU B   8     -10.833   6.720  -0.686  1.00  0.67           H  
-HETATM 2159 HO3' OMU B   8     -12.649   4.976   0.253  1.00  0.54           H  
-HETATM 2160  H5' OMU B   8     -10.993   6.512  -3.031  1.00  1.15           H  
-HETATM 2161 H5'' OMU B   8     -12.133   7.863  -3.143  1.00  1.50           H  
-TER    2162      OMU B   8                                                      
-ENDMDL                                                                          
-MODEL       10                                                                  
 ATOM      1  N   ARG A 276       5.651  -8.710  -8.333  1.00  3.48           N  
 ATOM      2  CA  ARG A 276       4.440  -9.563  -8.324  1.00  2.39           C  
 ATOM      3  C   ARG A 276       3.269  -8.783  -7.763  1.00  2.19           C  
@@ -21747,7 +21095,6 @@ ATOM   1896  H   ASP A 395       9.146  -4.834  -5.100  1.00  2.48           H
 ATOM   1897  HA  ASP A 395      11.877  -4.207  -5.540  1.00  2.60           H  
 ATOM   1898  HB2 ASP A 395      12.900  -5.270  -3.854  1.00  3.75           H  
 ATOM   1899  HB3 ASP A 395      11.329  -5.605  -3.138  1.00  3.09           H  
-TER    1900      ASP A 395                                                      
 ATOM   1901  O5'   A B   1       3.836   0.314 -16.689  1.00 11.44           O  
 ATOM   1902  C5'   A B   1       3.691   1.139 -15.524  1.00 10.64           C  
 ATOM   1903  C4'   A B   1       5.038   1.468 -14.930  1.00 10.12           C  
@@ -21962,76 +21309,3 @@ ATOM   2111  H1'   U B   7      -7.708  11.054  -0.389  1.00  3.83           H
 ATOM   2112  H3    U B   7      -6.312  12.835   3.462  1.00  6.61           H  
 ATOM   2113  H5    U B   7      -6.437  16.151   0.893  1.00  4.85           H  
 ATOM   2114  H6    U B   7      -7.355  14.712  -0.798  1.00  3.32           H  
-HETATM 2115  N1  OMU B   8     -13.863   9.819   0.208  1.00  0.86           N  
-HETATM 2116  C2  OMU B   8     -14.764  10.172   1.201  1.00  1.21           C  
-HETATM 2117  N3  OMU B   8     -15.512  11.291   0.940  1.00  1.24           N  
-HETATM 2118  C4  OMU B   8     -15.464  12.085  -0.184  1.00  1.25           C  
-HETATM 2119  C5  OMU B   8     -14.511  11.663  -1.162  1.00  1.58           C  
-HETATM 2120  C6  OMU B   8     -13.758  10.574  -0.947  1.00  1.34           C  
-HETATM 2121  O2  OMU B   8     -14.897   9.538   2.232  1.00  1.82           O  
-HETATM 2122  O4  OMU B   8     -16.229  13.049  -0.280  1.00  1.43           O  
-HETATM 2123  C1' OMU B   8     -13.012   8.638   0.444  1.00  0.73           C  
-HETATM 2124  C2' OMU B   8     -13.789   7.315   0.455  1.00  0.66           C  
-HETATM 2125  O2' OMU B   8     -13.396   6.523   1.561  1.00  0.60           O  
-HETATM 2126  CM2 OMU B   8     -14.077   6.726   2.818  1.00  0.63           C  
-HETATM 2127  C3' OMU B   8     -13.378   6.661  -0.863  1.00  0.67           C  
-HETATM 2128  C4' OMU B   8     -11.996   7.233  -1.139  1.00  0.72           C  
-HETATM 2129  O3' OMU B   8     -13.341   5.242  -0.722  1.00  0.60           O  
-HETATM 2130  O4' OMU B   8     -12.030   8.566  -0.569  1.00  0.79           O  
-HETATM 2131  C5' OMU B   8     -11.610   7.329  -2.596  1.00  0.85           C  
-HETATM 2132  O5' OMU B   8     -10.365   8.011  -2.733  1.00  1.24           O  
-HETATM 2133  P   OMU B   8     -10.247   9.455  -3.396  1.00  1.48           P  
-HETATM 2134  OP1 OMU B   8      -9.313   9.359  -4.546  1.00  1.62           O  
-HETATM 2135  OP2 OMU B   8     -11.606  10.012  -3.615  1.00  2.00           O  
-HETATM 2136  HN3 OMU B   8     -16.163  11.569   1.658  1.00  1.63           H  
-HETATM 2137  H5  OMU B   8     -14.391  12.238  -2.085  1.00  2.21           H  
-HETATM 2138  H6  OMU B   8     -13.045  10.276  -1.711  1.00  1.79           H  
-HETATM 2139  H1' OMU B   8     -12.477   8.803   1.377  1.00  0.74           H  
-HETATM 2140  H2' OMU B   8     -14.865   7.497   0.447  1.00  0.71           H  
-HETATM 2141 HM21 OMU B   8     -14.560   7.693   2.813  1.00  1.31           H  
-HETATM 2142 HM22 OMU B   8     -13.362   6.685   3.627  1.00  1.18           H  
-HETATM 2143 HM23 OMU B   8     -14.821   5.954   2.957  1.00  1.09           H  
-HETATM 2144  H3' OMU B   8     -14.075   6.866  -1.673  1.00  0.76           H  
-HETATM 2145  H4' OMU B   8     -11.276   6.568  -0.659  1.00  0.67           H  
-HETATM 2146 HO3' OMU B   8     -13.167   5.056   0.211  1.00  0.54           H  
-HETATM 2147  H5' OMU B   8     -11.520   6.324  -3.004  1.00  1.15           H  
-HETATM 2148 H5'' OMU B   8     -12.389   7.861  -3.136  1.00  1.50           H  
-TER    2149      OMU B   8                                                      
-ENDMDL                                                                          
-CONECT 2161 2201                                                                
-CONECT 2183 2184 2188 2191                                                      
-CONECT 2184 2183 2185 2189                                                      
-CONECT 2185 2184 2186 2204                                                      
-CONECT 2186 2185 2187 2190                                                      
-CONECT 2187 2186 2188 2205                                                      
-CONECT 2188 2183 2187 2206                                                      
-CONECT 2189 2184                                                                
-CONECT 2190 2186                                                                
-CONECT 2191 2183 2192 2198 2207                                                 
-CONECT 2192 2191 2193 2195 2208                                                 
-CONECT 2193 2192 2194                                                           
-CONECT 2194 2193 2209 2210 2211                                                 
-CONECT 2195 2192 2196 2197 2212                                                 
-CONECT 2196 2195 2198 2199 2213                                                 
-CONECT 2197 2195 2214                                                           
-CONECT 2198 2191 2196                                                           
-CONECT 2199 2196 2200 2215 2216                                                 
-CONECT 2200 2199 2201                                                           
-CONECT 2201 2161 2200 2202 2203                                                 
-CONECT 2202 2201                                                                
-CONECT 2203 2201                                                                
-CONECT 2204 2185                                                                
-CONECT 2205 2187                                                                
-CONECT 2206 2188                                                                
-CONECT 2207 2191                                                                
-CONECT 2208 2192                                                                
-CONECT 2209 2194                                                                
-CONECT 2210 2194                                                                
-CONECT 2211 2194                                                                
-CONECT 2212 2195                                                                
-CONECT 2213 2196                                                                
-CONECT 2214 2197                                                                
-CONECT 2215 2199                                                                
-CONECT 2216 2199                                                                
-MASTER      234    0    1    4    6    0    0    621651   20   35   13          
-END                                                                             

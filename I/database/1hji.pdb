@@ -1,234 +1,3 @@
-HEADER    BACTERIOPHAGE HK022                     15-JAN-01   1HJI              
-TITLE     BACTERIOPHAGE HK022 NUN-PROTEIN-NUTBOXB-RNA COMPLEX                   
-COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: RNA (5-R(P*GP*CP*CP*CP*UP*GP*AP*AP*AP*AP*AP*GP*GP*GP*C)-3);
-COMPND   3 CHAIN: A;                                                            
-COMPND   4 FRAGMENT: BACTERIOPHAGE LAMBDA NUTBOXB-RNA;                          
-COMPND   5 ENGINEERED: YES;                                                     
-COMPND   6 OTHER_DETAILS: NUTBOXB-RNA FROM THE NUTR-SEQUENCE;                   
-COMPND   7 MOL_ID: 2;                                                           
-COMPND   8 MOLECULE: NUN-PROTEIN;                                               
-COMPND   9 CHAIN: B;                                                            
-COMPND  10 FRAGMENT: N-TERMINAL BINDING-DOMAIN, RESIDUES 19-44;                 
-COMPND  11 ENGINEERED: YES                                                      
-SOURCE    MOL_ID: 1;                                                            
-SOURCE   2 ORGANISM_SCIENTIFIC: BACTERIOPHAGE LAMBDA;                           
-SOURCE   3 ORGANISM_TAXID: 10710;                                               
-SOURCE   4 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE   5 EXPRESSION_SYSTEM_TAXID: 562;                                        
-SOURCE   6 MOL_ID: 2;                                                           
-SOURCE   7 SYNTHETIC: YES;                                                      
-SOURCE   8 ORGANISM_SCIENTIFIC: BACTERIOPHAGE HK022;                            
-SOURCE   9 ORGANISM_TAXID: 10742                                                
-KEYWDS    BACTERIOPHAGE HK022, TERMINATION, PEPTIDE-RNA-COMPLEX, PEPTIDE-RNA-   
-KEYWDS   2 RECOGNITION, PROTEIN/RNA                                             
-EXPDTA    SOLUTION NMR                                                          
-NUMMDL    20                                                                    
-AUTHOR    C.FABER,M.SCHAERPF,T.BECKER,H.STICHT,P.ROESCH                         
-REVDAT   4   14-JUN-17 1HJI    1       REMARK                                   
-REVDAT   3   24-FEB-09 1HJI    1       VERSN                                    
-REVDAT   2   12-JUL-05 1HJI    1       JRNL                                     
-REVDAT   1   29-JAN-02 1HJI    0                                                
-JRNL        AUTH   C.FABER,M.SCHAERPF,T.BECKER,H.STICHT,P.ROESCH                
-JRNL        TITL   THE STRUCTURE OF THE COLIPHAGE HK022 NUN                     
-JRNL        TITL 2 PROTEIN-LAMBDA-PHAGE BOXB RNA COMPLEX. IMPLICATIONS FOR THE  
-JRNL        TITL 3 MECHANISM OF TRANSCRIPTION TERMINATION                       
-JRNL        REF    J.BIOL.CHEM.                  V. 276 32064 2001              
-JRNL        REFN                   ISSN 0021-9258                               
-JRNL        PMID   11356847                                                     
-JRNL        DOI    10.1074/JBC.M102975200                                       
-REMARK   1                                                                      
-REMARK   1 REFERENCE 1                                                          
-REMARK   1  AUTH   M.SCHAERPF,H.STICHT,K.SCHWEIMER,M.BOEHM,S.HOFFMANN,P.ROESCH  
-REMARK   1  TITL   ANTITERMINATION IN BACTERIOPHAGE LAMBDA: THE STRUCTURE OF    
-REMARK   1  TITL 2 THE N36 PEPTIDE-BOXB RNA COMPLEX                             
-REMARK   1  REF    EUR.J.BIOCHEM.                V. 267  2397 2000              
-REMARK   1  REFN                   ISSN 0014-2956                               
-REMARK   1  PMID   10759866                                                     
-REMARK   1  DOI    10.1046/J.1432-1327.2000.01251.X                             
-REMARK   2                                                                      
-REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
-REMARK   3                                                                      
-REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : X-PLOR 3.851                                         
-REMARK   3   AUTHORS     : BRUNGER                                              
-REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: REFINEMENT DETAILS CAN BE FOUND IN THE    
-REMARK   3  JRNL CITATION ABOVE                                                 
-REMARK   4                                                                      
-REMARK   4 1HJI COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
-REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 15-JAN-01.                  
-REMARK 100 THE DEPOSITION ID IS D_1290005795.                                   
-REMARK 210                                                                      
-REMARK 210 EXPERIMENTAL DETAILS                                                 
-REMARK 210  EXPERIMENT TYPE                : NMR                                
-REMARK 210  TEMPERATURE           (KELVIN) : 301.0                              
-REMARK 210  PH                             : 6.5                                
-REMARK 210  IONIC STRENGTH                 : 90                                 
-REMARK 210  PRESSURE                       : 1 ATM                              
-REMARK 210  SAMPLE CONTENTS                : NULL                               
-REMARK 210                                                                      
-REMARK 210  NMR EXPERIMENTS CONDUCTED      : COSY; TOCSY; NOESY                 
-REMARK 210  SPECTROMETER FIELD STRENGTH    : 600 MHZ                            
-REMARK 210  SPECTROMETER MODEL             : DRX                                
-REMARK 210  SPECTROMETER MANUFACTURER      : BRUKER                             
-REMARK 210                                                                      
-REMARK 210  STRUCTURE DETERMINATION.                                            
-REMARK 210   SOFTWARE USED                 : NDEE, X-PLOR                       
-REMARK 210   METHOD USED                   : MOLECULAR DYNAMICS                 
-REMARK 210                                                                      
-REMARK 210 CONFORMERS, NUMBER CALCULATED   : 120                                
-REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 20                                 
-REMARK 210 CONFORMERS, SELECTION CRITERIA  : LOWEST ENERGY                      
-REMARK 210                                                                      
-REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
-REMARK 210                                                                      
-REMARK 210 REMARK: NULL                                                         
-REMARK 215                                                                      
-REMARK 215 NMR STUDY                                                            
-REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
-REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
-REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
-REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
-REMARK 300                                                                      
-REMARK 300 BIOMOLECULE: 1                                                       
-REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
-REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
-REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 350                                                                      
-REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
-REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
-REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
-REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
-REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
-REMARK 350                                                                      
-REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B                                  
-REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
-REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
-REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CLOSE CONTACTS                                             
-REMARK 500                                                                      
-REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
-REMARK 500                                                                      
-REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   O    ILE B    30     H    TRP B    33              1.56            
-REMARK 500   O    ARG B    32     H    ARG B    36              1.59            
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: TORSION ANGLES                                             
-REMARK 500                                                                      
-REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
-REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        PSI       PHI                                   
-REMARK 500  1 ASP B  26      -74.58    -54.47                                   
-REMARK 500  7 THR B  23     -169.27   -107.89                                   
-REMARK 500  8 ASP B  26      -70.06    -66.72                                   
-REMARK 500 11 THR B  23       35.64    -87.42                                   
-REMARK 500 11 SER B  24      -58.59     67.23                                   
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: PLANAR GROUPS                                              
-REMARK 500                                                                      
-REMARK 500 PLANAR GROUPS IN THE FOLLOWING RESIDUES HAVE A TOTAL                 
-REMARK 500 RMS DISTANCE OF ALL ATOMS FROM THE BEST-FIT PLANE                    
-REMARK 500 BY MORE THAN AN EXPECTED VALUE OF 6*RMSD, WITH AN                    
-REMARK 500 RMSD 0.02 ANGSTROMS, OR AT LEAST ONE ATOM HAS                        
-REMARK 500 AN RMSD GREATER THAN THIS VALUE                                      
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500  1 ARG B  20         0.31    SIDE CHAIN                              
-REMARK 500  1 ARG B  25         0.29    SIDE CHAIN                              
-REMARK 500  1 ARG B  27         0.27    SIDE CHAIN                              
-REMARK 500  1 ARG B  29         0.32    SIDE CHAIN                              
-REMARK 500  1 ARG B  32         0.14    SIDE CHAIN                              
-REMARK 500  1 ARG B  36         0.19    SIDE CHAIN                              
-REMARK 500  2 ARG B  20         0.28    SIDE CHAIN                              
-REMARK 500  2 ARG B  27         0.21    SIDE CHAIN                              
-REMARK 500  2 ARG B  28         0.27    SIDE CHAIN                              
-REMARK 500  2 ARG B  32         0.15    SIDE CHAIN                              
-REMARK 500  2 ARG B  36         0.28    SIDE CHAIN                              
-REMARK 500  3 ARG B  20         0.31    SIDE CHAIN                              
-REMARK 500  3 ARG B  25         0.11    SIDE CHAIN                              
-REMARK 500  3 ARG B  27         0.26    SIDE CHAIN                              
-REMARK 500  3 ARG B  28         0.30    SIDE CHAIN                              
-REMARK 500  3 ARG B  29         0.31    SIDE CHAIN                              
-REMARK 500  3 ARG B  32         0.14    SIDE CHAIN                              
-REMARK 500  3 ARG B  36         0.32    SIDE CHAIN                              
-REMARK 500  4 ARG B  20         0.29    SIDE CHAIN                              
-REMARK 500  4 ARG B  25         0.14    SIDE CHAIN                              
-REMARK 500  4 ARG B  27         0.25    SIDE CHAIN                              
-REMARK 500  4 ARG B  28         0.32    SIDE CHAIN                              
-REMARK 500  4 ARG B  29         0.27    SIDE CHAIN                              
-REMARK 500  4 ARG B  36         0.30    SIDE CHAIN                              
-REMARK 500  5 ARG B  25         0.24    SIDE CHAIN                              
-REMARK 500  5 ARG B  27         0.30    SIDE CHAIN                              
-REMARK 500  5 ARG B  28         0.25    SIDE CHAIN                              
-REMARK 500  5 ARG B  29         0.27    SIDE CHAIN                              
-REMARK 500  5 ARG B  36         0.28    SIDE CHAIN                              
-REMARK 500  6 ARG B  20         0.31    SIDE CHAIN                              
-REMARK 500  6 ARG B  25         0.26    SIDE CHAIN                              
-REMARK 500  6 ARG B  27         0.25    SIDE CHAIN                              
-REMARK 500  6 ARG B  28         0.28    SIDE CHAIN                              
-REMARK 500  6 ARG B  29         0.19    SIDE CHAIN                              
-REMARK 500  6 ARG B  32         0.21    SIDE CHAIN                              
-REMARK 500  6 ARG B  36         0.15    SIDE CHAIN                              
-REMARK 500  7 ARG B  20         0.31    SIDE CHAIN                              
-REMARK 500  7 ARG B  25         0.08    SIDE CHAIN                              
-REMARK 500  7 ARG B  27         0.31    SIDE CHAIN                              
-REMARK 500  7 ARG B  28         0.19    SIDE CHAIN                              
-REMARK 500  7 ARG B  29         0.09    SIDE CHAIN                              
-REMARK 500  7 ARG B  32         0.32    SIDE CHAIN                              
-REMARK 500  7 ARG B  36         0.09    SIDE CHAIN                              
-REMARK 500  8 ARG B  20         0.30    SIDE CHAIN                              
-REMARK 500  8 ARG B  25         0.26    SIDE CHAIN                              
-REMARK 500  8 ARG B  27         0.19    SIDE CHAIN                              
-REMARK 500  8 ARG B  28         0.20    SIDE CHAIN                              
-REMARK 500  8 ARG B  29         0.25    SIDE CHAIN                              
-REMARK 500  8 ARG B  32         0.32    SIDE CHAIN                              
-REMARK 500  8 ARG B  36         0.14    SIDE CHAIN                              
-REMARK 500                                                                      
-REMARK 500 THIS ENTRY HAS     128 PLANE DEVIATIONS.                             
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 900                                                                      
-REMARK 900 RELATED ENTRIES                                                      
-REMARK 900 RELATED ID: 1E4Z   RELATED DB: PDB                                   
-REMARK 900 BACTERIOPHAGE HK022 NUN-PROTEIN-NUTBOXB-RNA COMPLEX                  
-DBREF  1HJI A    1    15  PDB    1HJI     1HJI             1     15             
-DBREF  1HJI B   19    44  UNP    P18683   VNUN_BPHK0      22     47             
-SEQRES   1 A   15    G   C   C   C   U   G   A   A   A   A   A   G   G          
-SEQRES   2 A   15    G   C                                                      
-SEQRES   1 B   26  ASP ARG GLY LEU THR SER ARG ASP ARG ARG ARG ILE ALA          
-SEQRES   2 B   26  ARG TRP GLU LYS ARG ILE ALA TYR ALA LEU LYS ASN GLY          
-HELIX    1   1 THR B   23  ASN B   43  1                                  21    
-CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
-ORIGX1      1.000000  0.000000  0.000000        0.00000                         
-ORIGX2      0.000000  1.000000  0.000000        0.00000                         
-ORIGX3      0.000000  0.000000  1.000000        0.00000                         
-SCALE1      1.000000  0.000000  0.000000        0.00000                         
-SCALE2      0.000000  1.000000  0.000000        0.00000                         
-SCALE3      0.000000  0.000000  1.000000        0.00000                         
-MODEL        1                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -718,7 +487,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19       5.401 -25.844  -2.960  1.00  0.00           N  
 ATOM    492  CA  ASP B  19       6.003 -24.483  -2.859  1.00  0.00           C  
 ATOM    493  C   ASP B  19       5.329 -23.533  -3.854  1.00  0.00           C  
@@ -1177,9 +945,6 @@ ATOM    945  OXT GLY B  44      -5.231  13.557  -8.151  1.00  0.00           O
 ATOM    946  H   GLY B  44      -7.478  11.343  -5.468  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -7.528  12.635  -7.436  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -7.368  14.075  -6.429  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL        2                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -1669,7 +1434,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      15.366 -18.467  -6.938  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      15.606 -18.334  -8.404  1.00  0.00           C  
 ATOM    493  C   ASP B  19      14.341 -17.827  -9.103  1.00  0.00           C  
@@ -2128,9 +1892,6 @@ ATOM    945  OXT GLY B  44      -6.787  14.980  -7.877  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.259  14.290  -4.447  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -4.259  14.978  -5.996  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -4.864  13.663  -7.004  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL        3                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -2620,7 +2381,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      14.631 -18.802 -10.694  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      13.376 -19.225 -10.008  1.00  0.00           C  
 ATOM    493  C   ASP B  19      12.205 -18.347 -10.458  1.00  0.00           C  
@@ -3079,9 +2839,6 @@ ATOM    945  OXT GLY B  44      -4.158  10.951  -8.183  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.483  10.908  -5.812  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -6.149  12.387  -7.725  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -5.275  13.494  -6.668  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL        4                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -3571,7 +3328,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19       5.686 -19.323  -7.080  1.00  0.00           N  
 ATOM    492  CA  ASP B  19       6.686 -20.428  -7.022  1.00  0.00           C  
 ATOM    493  C   ASP B  19       7.954 -19.959  -6.302  1.00  0.00           C  
@@ -4030,9 +3786,6 @@ ATOM    945  OXT GLY B  44      -2.490  12.806  -8.082  1.00  0.00           O
 ATOM    946  H   GLY B  44      -5.888  13.509  -5.469  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -4.963  12.981  -8.026  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -4.740  14.549  -7.249  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL        5                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -4522,7 +4275,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      19.057  -8.930  -6.793  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      18.226  -9.584  -5.742  1.00  0.00           C  
 ATOM    493  C   ASP B  19      18.558 -11.076  -5.659  1.00  0.00           C  
@@ -4981,9 +4733,6 @@ ATOM    945  OXT GLY B  44      -5.083  15.711  -6.556  1.00  0.00           O
 ATOM    946  H   GLY B  44      -7.281  13.036  -4.844  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -4.872  13.151  -6.578  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -6.446  13.390  -7.337  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL        6                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -5473,7 +5222,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      17.434  -8.861   4.174  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      16.779  -8.485   2.888  1.00  0.00           C  
 ATOM    493  C   ASP B  19      17.545  -9.090   1.708  1.00  0.00           C  
@@ -5932,9 +5680,6 @@ ATOM    945  OXT GLY B  44      -4.418  14.605  -6.724  1.00  0.00           O
 ATOM    946  H   GLY B  44      -7.572  12.359  -5.183  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -5.956  12.433  -7.566  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -6.857  13.796  -6.899  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL        7                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -6424,7 +6169,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      14.363 -22.330  -5.439  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      14.493 -20.845  -5.460  1.00  0.00           C  
 ATOM    493  C   ASP B  19      13.346 -20.225  -6.264  1.00  0.00           C  
@@ -6883,9 +6627,6 @@ ATOM    945  OXT GLY B  44      -3.490  15.426  -6.577  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.436  13.853  -4.775  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -4.425  13.163  -6.871  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -5.970  13.878  -7.331  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL        8                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -7375,7 +7116,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19       2.417 -19.359  -6.978  1.00  0.00           N  
 ATOM    492  CA  ASP B  19       3.704 -19.930  -7.468  1.00  0.00           C  
 ATOM    493  C   ASP B  19       4.748 -19.918  -6.348  1.00  0.00           C  
@@ -7834,9 +7574,6 @@ ATOM    945  OXT GLY B  44      -5.215  15.947  -7.204  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.465  13.749  -4.616  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -4.611  13.103  -6.832  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -6.223  13.665  -7.276  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL        9                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -8326,7 +8063,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      19.400 -14.530  -6.395  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      19.893 -15.602  -5.482  1.00  0.00           C  
 ATOM    493  C   ASP B  19      18.950 -15.751  -4.285  1.00  0.00           C  
@@ -8785,9 +8521,6 @@ ATOM    945  OXT GLY B  44      -6.146  16.425  -5.265  1.00  0.00           O
 ATOM    946  H   GLY B  44      -7.089  13.701  -3.364  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -4.914  14.339  -4.807  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -5.857  13.507  -6.043  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       10                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -9277,7 +9010,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      21.850 -16.203  -2.032  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      20.769 -16.147  -3.058  1.00  0.00           C  
 ATOM    493  C   ASP B  19      19.397 -16.112  -2.378  1.00  0.00           C  
@@ -9736,9 +9468,6 @@ ATOM    945  OXT GLY B  44      -4.605  13.392  -8.351  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.825   9.987  -6.766  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -6.184  11.167  -8.699  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -7.027  12.515  -7.936  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       11                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -10228,7 +9957,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      13.901 -21.947  -1.385  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      15.158 -21.265  -1.809  1.00  0.00           C  
 ATOM    493  C   ASP B  19      14.833 -20.053  -2.687  1.00  0.00           C  
@@ -10687,9 +10415,6 @@ ATOM    945  OXT GLY B  44      -3.549  16.229  -5.989  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.013  13.993  -4.104  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -4.263  13.890  -6.504  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -5.868  14.599  -6.678  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       12                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -11179,7 +10904,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      14.740 -14.258  -3.370  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      15.935 -14.928  -3.958  1.00  0.00           C  
 ATOM    493  C   ASP B  19      15.918 -14.800  -5.483  1.00  0.00           C  
@@ -11638,9 +11362,6 @@ ATOM    945  OXT GLY B  44      -7.365  14.092  -8.223  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.150  11.337  -6.306  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -5.234  14.120  -6.906  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -4.542  12.729  -7.741  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       13                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -12130,7 +11851,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      21.497  -9.748  -5.953  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      21.316 -11.228  -5.920  1.00  0.00           C  
 ATOM    493  C   ASP B  19      20.367 -11.621  -4.784  1.00  0.00           C  
@@ -12589,9 +12309,6 @@ ATOM    945  OXT GLY B  44      -7.759  12.172  -9.830  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.148  10.358  -7.413  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -4.909  12.766  -8.593  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -5.432  11.335  -9.480  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       14                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -13081,7 +12798,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      15.761 -19.963  -3.437  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      15.975 -18.708  -4.215  1.00  0.00           C  
 ATOM    493  C   ASP B  19      14.830 -18.502  -5.211  1.00  0.00           C  
@@ -13540,9 +13256,6 @@ ATOM    945  OXT GLY B  44      -1.712  12.931  -5.532  1.00  0.00           O
 ATOM    946  H   GLY B  44      -5.555  13.347  -4.067  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -3.979  13.136  -6.487  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -4.310  14.626  -5.603  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       15                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -14032,7 +13745,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19       4.203 -26.282  -6.580  1.00  0.00           N  
 ATOM    492  CA  ASP B  19       4.782 -24.991  -6.107  1.00  0.00           C  
 ATOM    493  C   ASP B  19       3.967 -23.815  -6.652  1.00  0.00           C  
@@ -14491,9 +14203,6 @@ ATOM    945  OXT GLY B  44      -2.717  14.084  -6.307  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.251  12.812  -5.293  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -3.951  12.091  -7.067  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -5.296  13.102  -7.595  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       16                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -14983,7 +14692,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      16.374 -20.065  -5.023  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      14.886 -20.149  -4.971  1.00  0.00           C  
 ATOM    493  C   ASP B  19      14.265 -19.172  -5.974  1.00  0.00           C  
@@ -15442,9 +15150,6 @@ ATOM    945  OXT GLY B  44      -4.799  15.890  -6.248  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.580  13.121  -4.460  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -3.803  13.376  -5.459  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -5.092  13.382  -6.663  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       17                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -15934,7 +15639,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      17.037  -7.539  -5.721  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      17.600  -7.640  -4.344  1.00  0.00           C  
 ATOM    493  C   ASP B  19      18.323  -8.978  -4.166  1.00  0.00           C  
@@ -16393,9 +16097,6 @@ ATOM    945  OXT GLY B  44      -7.654  13.542  -7.725  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.294  10.424  -5.854  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -5.577  13.268  -6.421  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -5.046  11.897  -7.392  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       18                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -16885,7 +16586,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      20.501 -10.963  -4.626  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      19.038 -11.227  -4.519  1.00  0.00           C  
 ATOM    493  C   ASP B  19      18.770 -12.735  -4.537  1.00  0.00           C  
@@ -17344,9 +17044,6 @@ ATOM    945  OXT GLY B  44      -6.505  14.936  -7.871  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.809  13.284  -4.628  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -4.472  13.868  -5.955  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -5.348  12.882  -7.126  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       19                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -17836,7 +17533,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19      17.105 -18.910  -1.720  1.00  0.00           N  
 ATOM    492  CA  ASP B  19      17.596 -18.048  -2.835  1.00  0.00           C  
 ATOM    493  C   ASP B  19      16.486 -17.840  -3.870  1.00  0.00           C  
@@ -18295,9 +17991,6 @@ ATOM    945  OXT GLY B  44      -4.272  13.520  -7.842  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.607  13.216  -4.286  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -5.366  14.797  -5.515  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -3.960  13.746  -5.347  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MODEL       20                                                                  
 ATOM      1  P     G A   1      14.668 -18.262   1.923  1.00  1.31           P  
 ATOM      2  OP1   G A   1      14.537 -19.083   3.153  1.00  1.51           O  
 ATOM      3  OP2   G A   1      15.457 -18.779   0.777  1.00  1.52           O  
@@ -18787,7 +18480,6 @@ ATOM    486  H41   C A  15       8.001 -13.427  10.588  1.00  0.75           H
 ATOM    487  H42   C A  15       8.223 -12.736  12.185  1.00  0.76           H  
 ATOM    488  H5    C A  15       6.420 -12.950  13.854  1.00  0.66           H  
 ATOM    489  H6    C A  15       4.557 -14.318  14.567  1.00  0.68           H  
-TER     490        C A  15                                                      
 ATOM    491  N   ASP B  19       9.750 -24.553  -4.928  1.00  0.00           N  
 ATOM    492  CA  ASP B  19       9.263 -23.355  -4.186  1.00  0.00           C  
 ATOM    493  C   ASP B  19       7.953 -22.849  -4.797  1.00  0.00           C  
@@ -19246,7 +18938,3 @@ ATOM    945  OXT GLY B  44      -7.671  13.646  -9.218  1.00  0.00           O
 ATOM    946  H   GLY B  44      -6.865  10.839  -6.604  1.00  0.00           H  
 ATOM    947  HA2 GLY B  44      -5.730  13.386  -7.691  1.00  0.00           H  
 ATOM    948  HA3 GLY B  44      -5.457  11.831  -8.478  1.00  0.00           H  
-TER     949      GLY B  44                                                      
-ENDMDL                                                                          
-MASTER      177    0    0    1    0    0    0    6  548    2    0    4          
-END                                                                             

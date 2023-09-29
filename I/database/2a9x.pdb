@@ -1,268 +1,3 @@
-HEADER    RNA BINDING PROTEIN/RNA                 12-JUL-05   2A9X              
-TITLE     TAR RNA RECOGNITION BY A CYCLIC PEPTIDOMIMETIC OF TAT PROTEIN         
-CAVEAT     2A9X    CHIRALITY ERROR AT CA CENTER OF PRO 13                       
-COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: BIV TAR RNA;                                               
-COMPND   3 CHAIN: 2;                                                            
-COMPND   4 ENGINEERED: YES;                                                     
-COMPND   5 MOL_ID: 2;                                                           
-COMPND   6 MOLECULE: BIV-2 CYCLIC PEPTIDE;                                      
-COMPND   7 CHAIN: 1;                                                            
-COMPND   8 ENGINEERED: YES                                                      
-SOURCE    MOL_ID: 1;                                                            
-SOURCE   2 SYNTHETIC: YES;                                                      
-SOURCE   3 OTHER_DETAILS: RNA WAS TRANSCRIBED IN VITRO FROM DNA OLIGONUCLEOTIDE 
-SOURCE   4 TEMPLATES WITH T7 RNA POLYMERASE PURIFIED IN HOUSE WITH UNLABELED OR 
-SOURCE   5 13C/15N ENRICHED NTPS (SILANTES) AND PURIFIED BY DENATURING PAGE.;   
-SOURCE   6 MOL_ID: 2;                                                           
-SOURCE   7 SYNTHETIC: YES;                                                      
-SOURCE   8 OTHER_DETAILS: THE BIV-2 PEPTIDE WAS SYNTHESIZED BY SOLID PHASE      
-SOURCE   9 SYNTHESIS AND PURIFIED BY REVERSE PHASE HPLC                         
-KEYWDS    NMR; PEPTIDOMIMETICS; PEPTIDE STRUCTURE, RNA RECOGNITION;             
-KEYWDS   2 IMMUNODEFICIENCY VIRUS; TAR RNA;, RNA BINDING PROTEIN-RNA COMPLEX    
-EXPDTA    SOLUTION NMR                                                          
-NUMMDL    10                                                                    
-AUTHOR    T.C.LEEPER,Z.ATHANASSIOU,R.L.DIAS,J.A.ROBINSON,G.VARANI               
-REVDAT   3   09-MAR-22 2A9X    1       REMARK LINK                              
-REVDAT   2   24-FEB-09 2A9X    1       VERSN                                    
-REVDAT   1   01-NOV-05 2A9X    0                                                
-JRNL        AUTH   T.C.LEEPER,Z.ATHANASSIOU,R.L.DIAS,J.A.ROBINSON,G.VARANI      
-JRNL        TITL   TAR RNA RECOGNITION BY A CYCLIC PEPTIDOMIMETIC OF TAT        
-JRNL        TITL 2 PROTEIN.                                                     
-JRNL        REF    BIOCHEMISTRY                  V.  44 12362 2005              
-JRNL        REFN                   ISSN 0006-2960                               
-JRNL        PMID   16156649                                                     
-JRNL        DOI    10.1021/BI0510532                                            
-REMARK   2                                                                      
-REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
-REMARK   3                                                                      
-REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : XWINNMR 3.0, X-PLOR 2.9                              
-REMARK   3   AUTHORS     : BRUKER (XWINNMR), SCHWIETERS ET AL (X-PLOR)          
-REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
-REMARK   4                                                                      
-REMARK   4 2A9X COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
-REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 26-JUL-05.                  
-REMARK 100 THE DEPOSITION ID IS D_1000033668.                                   
-REMARK 210                                                                      
-REMARK 210 EXPERIMENTAL DETAILS                                                 
-REMARK 210  EXPERIMENT TYPE                : NMR                                
-REMARK 210  TEMPERATURE           (KELVIN) : 298; 275                           
-REMARK 210  PH                             : 5; 5                               
-REMARK 210  IONIC STRENGTH                 : 20 MM NA+; 20 MM NA+               
-REMARK 210  PRESSURE                       : 1 ATM; 1 ATM                       
-REMARK 210  SAMPLE CONTENTS                : 0.8 MM BIV-2 PEPTIDE PLUS          
-REMARK 210                                   UNLABELED 0.8 MM BIV TAR RNA, 20   
-REMARK 210                                   MM SODIUM ACETATE, D3, PH 5.0,     
-REMARK 210                                   100% D2O; 0.8 MM BIV-2 PEPTIDE     
-REMARK 210                                   PLUS UNLABELED 0.8 MM BIV TAR      
-REMARK 210                                   RNA, 20 MM SODIUM ACETATE, D3,     
-REMARK 210                                   PH 5.0, 90% H2O, 10% D2O; 0.6 MM   
-REMARK 210                                   BIV-2 PEPTIDE PLUS 13C/15N         
-REMARK 210                                   LABELED 0.6 MM BIV TAR RNA, 20     
-REMARK 210                                   MM SODIUM ACETATE, D3, PH 5.0,     
-REMARK 210                                   100% D2O; 0.6 MM BIV-2 PEPTIDE     
-REMARK 210                                   PLUS 13C/15N LABELED 0.6 MM BIV    
-REMARK 210                                   TAR RNA, 20 MM SODIUM ACETATE,     
-REMARK 210                                   D3, PH 5.0, 90% H2O, 10% D2O       
-REMARK 210                                                                      
-REMARK 210  NMR EXPERIMENTS CONDUCTED      : 2D NOESY; HCCH-COSY; HCCH-TOCSY;   
-REMARK 210                                   HNN-COSY; F1FF2F-TYPE 2D TOCSY;    
-REMARK 210                                   F1FF2F-TYPE 2D NOESY; 3D 31P       
-REMARK 210                                   HETCOR ETC; IPAP-HSQC              
-REMARK 210  SPECTROMETER FIELD STRENGTH    : 500 MHZ; 750 MHZ                   
-REMARK 210  SPECTROMETER MODEL             : DRX; DMX                           
-REMARK 210  SPECTROMETER MANUFACTURER      : BRUKER                             
-REMARK 210                                                                      
-REMARK 210  STRUCTURE DETERMINATION.                                            
-REMARK 210   SOFTWARE USED                 : NMRPIPE 2.3, X-PLOR 2.9, SPARKY    
-REMARK 210                                   3.110                              
-REMARK 210   METHOD USED                   : TORSION ANGLE MOLECULAR DYNAMICS   
-REMARK 210                                                                      
-REMARK 210 CONFORMERS, NUMBER CALCULATED   : 100                                
-REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 10                                 
-REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LEAST          
-REMARK 210                                   RESTRAINT VIOLATIONS               
-REMARK 210                                                                      
-REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
-REMARK 210                                                                      
-REMARK 210 REMARK: NULL                                                         
-REMARK 215                                                                      
-REMARK 215 NMR STUDY                                                            
-REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
-REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
-REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
-REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
-REMARK 300                                                                      
-REMARK 300 BIOMOLECULE: 1                                                       
-REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
-REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
-REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 350                                                                      
-REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
-REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
-REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
-REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
-REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
-REMARK 350                                                                      
-REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: 2, 1                                  
-REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
-REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
-REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CLOSE CONTACTS                                             
-REMARK 500                                                                      
-REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
-REMARK 500                                                                      
-REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   O2     U 2    16     H5     C 2    17              1.11            
-REMARK 500   O2'    G 2     4     H8     G 2     5              1.33            
-REMARK 500   O4     U 2    16    HH12  ARG 1     5              1.40            
-REMARK 500   O2'    G 2    11    H5''    A 2    13              1.57            
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: COVALENT BOND LENGTHS                                      
-REMARK 500                                                                      
-REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
-REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
-REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,2(A3,1X,A1,I4,A1,1X,A4,3X),1X,F6.3)               
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
-REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI ATM1   RES CSSEQI ATM2   DEVIATION                     
-REMARK 500  2   C 2  26   C4'     C 2  26   C3'     0.067                       
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
-REMARK 500                                                                      
-REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
-REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
-REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
-REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500  1   G 2  11   C5' -  C4' -  C3' ANGL. DEV. =  -9.2 DEGREES          
-REMARK 500  1   A 2  21   C5' -  C4' -  C3' ANGL. DEV. =  -9.1 DEGREES          
-REMARK 500  3   G 2  11   C5' -  C4' -  C3' ANGL. DEV. =  -8.9 DEGREES          
-REMARK 500  3   U 2  16   C5' -  C4' -  C3' ANGL. DEV. =  -8.9 DEGREES          
-REMARK 500  3   A 2  21   C5' -  C4' -  C3' ANGL. DEV. =  -8.8 DEGREES          
-REMARK 500  4   U 2  10   C5' -  C4' -  C3' ANGL. DEV. =  -8.6 DEGREES          
-REMARK 500  4   A 2  21   C5' -  C4' -  C3' ANGL. DEV. =  -9.2 DEGREES          
-REMARK 500  5   G 2  11   C5' -  C4' -  C3' ANGL. DEV. =  -9.7 DEGREES          
-REMARK 500  5   A 2  18   C5' -  C4' -  C3' ANGL. DEV. = -10.2 DEGREES          
-REMARK 500  5   A 2  21   C5' -  C4' -  C3' ANGL. DEV. =  -9.8 DEGREES          
-REMARK 500  6   G 2  11   C5' -  C4' -  C3' ANGL. DEV. =  -8.8 DEGREES          
-REMARK 500  6   A 2  13   C5' -  C4' -  C3' ANGL. DEV. =  -9.0 DEGREES          
-REMARK 500  6   U 2  16   C5' -  C4' -  C3' ANGL. DEV. =  -8.6 DEGREES          
-REMARK 500  6   A 2  21   C5' -  C4' -  C3' ANGL. DEV. =  -9.9 DEGREES          
-REMARK 500  6   G 2  22   C5' -  C4' -  C3' ANGL. DEV. =  -8.4 DEGREES          
-REMARK 500  7   G 2  11   C5' -  C4' -  C3' ANGL. DEV. =  -8.6 DEGREES          
-REMARK 500  8   A 2  13   C5' -  C4' -  C3' ANGL. DEV. =  -8.6 DEGREES          
-REMARK 500  8   U 2  16   C5' -  C4' -  C3' ANGL. DEV. =  -8.6 DEGREES          
-REMARK 500  8   A 2  18   C5' -  C4' -  C3' ANGL. DEV. =  -9.2 DEGREES          
-REMARK 500  8   A 2  21   C5' -  C4' -  C3' ANGL. DEV. =  -9.5 DEGREES          
-REMARK 500  9   G 2  11   C5' -  C4' -  C3' ANGL. DEV. =  -8.4 DEGREES          
-REMARK 500  9   U 2  16   C5' -  C4' -  C3' ANGL. DEV. =  -9.4 DEGREES          
-REMARK 500 10   U 2  16   C5' -  C4' -  C3' ANGL. DEV. =  -9.0 DEGREES          
-REMARK 500 10   A 2  21   C5' -  C4' -  C3' ANGL. DEV. =  -9.0 DEGREES          
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: TORSION ANGLES                                             
-REMARK 500                                                                      
-REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
-REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        PSI       PHI                                   
-REMARK 500  1 ARG 1   3        1.18    -64.87                                   
-REMARK 500  1 THR 1   4       71.35     26.38                                   
-REMARK 500  1 ARG 1   5      149.54    -37.97                                   
-REMARK 500  1 LYS 1   7      -43.30   -141.18                                   
-REMARK 500  1 ARG 1   8     -159.01    -92.08                                   
-REMARK 500  1 PRO 1  13     -122.46     77.65                                   
-REMARK 500  2 VAL 1   2       60.91   -150.75                                   
-REMARK 500  2 ARG 1   5      101.18    -40.73                                   
-REMARK 500  2 PRO 1  13     -126.06     77.15                                   
-REMARK 500  3 THR 1   4       54.75    -63.62                                   
-REMARK 500  3 PRO 1  13     -121.59     73.67                                   
-REMARK 500  4 ARG 1   3       81.30    -55.51                                   
-REMARK 500  4 THR 1   4       81.41    -60.90                                   
-REMARK 500  4 ARG 1   5      -92.12    -39.34                                   
-REMARK 500  4 ARG 1   9      112.63   -165.10                                   
-REMARK 500  4 PRO 1  13     -102.38     48.88                                   
-REMARK 500  5 ARG 1   3       41.90   -101.90                                   
-REMARK 500  5 ARG 1   8     -158.30   -101.00                                   
-REMARK 500  5 PRO 1  13     -124.19     80.63                                   
-REMARK 500  6 VAL 1   2       84.73   -171.56                                   
-REMARK 500  6 ARG 1   8     -152.24   -134.92                                   
-REMARK 500  6 PRO 1  13     -127.84     82.58                                   
-REMARK 500  7 THR 1   4       85.02    -69.16                                   
-REMARK 500  7 ARG 1   5     -168.66    -58.68                                   
-REMARK 500  7 ARG 1   9      106.91   -161.29                                   
-REMARK 500  7 PRO 1  13     -128.84     84.93                                   
-REMARK 500  8 THR 1   4       89.78    -45.09                                   
-REMARK 500  8 ARG 1   5     -153.42    -64.80                                   
-REMARK 500  8 ARG 1   8     -155.42    -97.92                                   
-REMARK 500  8 ARG 1   9       91.87   -176.88                                   
-REMARK 500  8 VAL 1  12       86.79   -152.22                                   
-REMARK 500  8 PRO 1  13     -131.12     84.96                                   
-REMARK 500  9 ARG 1   3       53.37   -145.68                                   
-REMARK 500  9 ARG 1   8     -145.88    -94.73                                   
-REMARK 500  9 ARG 1   9      100.76   -165.73                                   
-REMARK 500  9 VAL 1  12       87.73   -154.42                                   
-REMARK 500  9 PRO 1  13     -135.32     81.30                                   
-REMARK 500 10 THR 1   4        2.25    -57.67                                   
-REMARK 500 10 ARG 1   5       23.62     39.13                                   
-REMARK 500 10 ARG 1   8     -155.66    -59.79                                   
-REMARK 500 10 ARG 1   9      113.63   -170.42                                   
-REMARK 500 10 PRO 1  13     -128.64     85.55                                   
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-DBREF  2A9X 2    4    31  PDB    2A9X     2A9X             4     31             
-DBREF  2A9X 1    1    14  PDB    2A9X     2A9X             1     14             
-SEQRES   1 2   28    G   G   C   U   C   G   U   G   U   A   G   C   U          
-SEQRES   2 2   28    C   A   U   U   A   G   C   U   C   C   G   A   G          
-SEQRES   3 2   28    C   C                                                      
-SEQRES   1 1   14  ARG VAL ARG THR ARG GLY LYS ARG ARG ILE ARG VAL PRO          
-SEQRES   2 1   14  PRO                                                          
-LINK         N   ARG 1   1                 C   PRO 1  14     1555   1555  1.31  
-CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
-ORIGX1      1.000000  0.000000  0.000000        0.00000                         
-ORIGX2      0.000000  1.000000  0.000000        0.00000                         
-ORIGX3      0.000000  0.000000  1.000000        0.00000                         
-SCALE1      1.000000  0.000000  0.000000        0.00000                         
-SCALE2      0.000000  1.000000  0.000000        0.00000                         
-SCALE3      0.000000  0.000000  1.000000        0.00000                         
-MODEL        1                                                                  
 ATOM      1  OP3   G 2   4     -10.442 -12.161   2.118  1.00  0.00           O  
 ATOM      2  P     G 2   4      -9.391 -12.955   3.043  1.00  0.00           P  
 ATOM      3  OP1   G 2   4      -8.155 -13.172   2.258  1.00  0.00           O  
@@ -1103,7 +838,6 @@ ATOM    837  H41   C 2  31      -3.212 -18.706  -1.211  1.00  0.00           H
 ATOM    838  H42   C 2  31      -2.385 -19.070  -2.708  1.00  0.00           H  
 ATOM    839  H5    C 2  31      -0.544 -20.608  -2.858  1.00  0.00           H  
 ATOM    840  H6    C 2  31       0.906 -22.140  -1.607  1.00  0.00           H  
-TER     841        C 2  31                                                      
 ATOM    842  N   ARG 1   1       5.469  -3.855   5.209  1.00  0.00           N  
 ATOM    843  CA  ARG 1   1       5.974  -3.328   3.906  1.00  0.00           C  
 ATOM    844  C   ARG 1   1       5.682  -1.829   3.813  1.00  0.00           C  
@@ -1370,9 +1104,6 @@ ATOM   1104  HG2 PRO 1  14       4.814  -7.700   5.707  1.00  0.00           H
 ATOM   1105  HG3 PRO 1  14       4.144  -8.164   7.278  1.00  0.00           H  
 ATOM   1106  HD2 PRO 1  14       3.256  -6.049   5.526  1.00  0.00           H  
 ATOM   1107  HD3 PRO 1  14       2.562  -6.545   7.084  1.00  0.00           H  
-TER    1108      PRO 1  14                                                      
-ENDMDL                                                                          
-MODEL        2                                                                  
 ATOM      1  OP3   G 2   4      -8.071 -13.079   1.835  1.00  0.00           O  
 ATOM      2  P     G 2   4      -9.389 -12.775   2.708  1.00  0.00           P  
 ATOM      3  OP1   G 2   4      -8.960 -12.255   4.026  1.00  0.00           O  
@@ -2213,7 +1944,6 @@ ATOM    837  H41   C 2  31      -3.392 -18.702  -1.211  1.00  0.00           H
 ATOM    838  H42   C 2  31      -2.553 -19.048  -2.708  1.00  0.00           H  
 ATOM    839  H5    C 2  31      -0.789 -20.671  -2.887  1.00  0.00           H  
 ATOM    840  H6    C 2  31       0.557 -22.323  -1.673  1.00  0.00           H  
-TER     841        C 2  31                                                      
 ATOM    842  N   ARG 1   1       3.663  -4.241   5.037  1.00  0.00           N  
 ATOM    843  CA  ARG 1   1       4.337  -3.426   3.984  1.00  0.00           C  
 ATOM    844  C   ARG 1   1       4.468  -1.979   4.461  1.00  0.00           C  
@@ -2480,9 +2210,6 @@ ATOM   1104  HG2 PRO 1  14       3.415  -8.070   4.675  1.00  0.00           H
 ATOM   1105  HG3 PRO 1  14       2.557  -8.969   5.936  1.00  0.00           H  
 ATOM   1106  HD2 PRO 1  14       1.642  -6.650   4.522  1.00  0.00           H  
 ATOM   1107  HD3 PRO 1  14       0.819  -7.507   5.841  1.00  0.00           H  
-TER    1108      PRO 1  14                                                      
-ENDMDL                                                                          
-MODEL        3                                                                  
 ATOM      1  OP3   G 2   4      -9.974 -13.131   1.739  1.00  0.00           O  
 ATOM      2  P     G 2   4      -9.367 -13.504   3.182  1.00  0.00           P  
 ATOM      3  OP1   G 2   4      -7.900 -13.640   3.046  1.00  0.00           O  
@@ -3323,7 +3050,6 @@ ATOM    837  H41   C 2  31      -2.843 -18.939  -0.983  1.00  0.00           H
 ATOM    838  H42   C 2  31      -1.960 -19.270  -2.457  1.00  0.00           H  
 ATOM    839  H5    C 2  31      -0.082 -20.765  -2.562  1.00  0.00           H  
 ATOM    840  H6    C 2  31       1.362 -22.277  -1.280  1.00  0.00           H  
-TER     841        C 2  31                                                      
 ATOM    842  N   ARG 1   1       3.113  -4.832   5.717  1.00  0.00           N  
 ATOM    843  CA  ARG 1   1       3.890  -4.348   4.537  1.00  0.00           C  
 ATOM    844  C   ARG 1   1       3.578  -2.873   4.287  1.00  0.00           C  
@@ -3590,9 +3316,6 @@ ATOM   1104  HG2 PRO 1  14       2.047  -8.464   5.970  1.00  0.00           H
 ATOM   1105  HG3 PRO 1  14       1.090  -8.987   7.363  1.00  0.00           H  
 ATOM   1106  HD2 PRO 1  14       0.575  -6.754   5.658  1.00  0.00           H  
 ATOM   1107  HD3 PRO 1  14      -0.306  -7.207   7.132  1.00  0.00           H  
-TER    1108      PRO 1  14                                                      
-ENDMDL                                                                          
-MODEL        4                                                                  
 ATOM      1  OP3   G 2   4      -7.698 -13.080   3.157  1.00  0.00           O  
 ATOM      2  P     G 2   4      -9.283 -12.801   3.140  1.00  0.00           P  
 ATOM      3  OP1   G 2   4      -9.642 -12.094   4.390  1.00  0.00           O  
@@ -4433,7 +4156,6 @@ ATOM    837  H41   C 2  31      -3.252 -18.783  -0.940  1.00  0.00           H
 ATOM    838  H42   C 2  31      -2.432 -19.101  -2.453  1.00  0.00           H  
 ATOM    839  H5    C 2  31      -0.601 -20.644  -2.664  1.00  0.00           H  
 ATOM    840  H6    C 2  31       0.844 -22.226  -1.471  1.00  0.00           H  
-TER     841        C 2  31                                                      
 ATOM    842  N   ARG 1   1       3.789  -3.626   5.738  1.00  0.00           N  
 ATOM    843  CA  ARG 1   1       4.515  -3.054   4.567  1.00  0.00           C  
 ATOM    844  C   ARG 1   1       4.237  -1.553   4.475  1.00  0.00           C  
@@ -4700,9 +4422,6 @@ ATOM   1104  HG2 PRO 1  14       2.851  -7.401   5.812  1.00  0.00           H
 ATOM   1105  HG3 PRO 1  14       1.916  -7.956   7.208  1.00  0.00           H  
 ATOM   1106  HD2 PRO 1  14       1.414  -5.654   5.554  1.00  0.00           H  
 ATOM   1107  HD3 PRO 1  14       0.477  -6.216   6.951  1.00  0.00           H  
-TER    1108      PRO 1  14                                                      
-ENDMDL                                                                          
-MODEL        5                                                                  
 ATOM      1  OP3   G 2   4     -10.224 -11.215   2.752  1.00  0.00           O  
 ATOM      2  P     G 2   4      -9.280 -12.339   3.411  1.00  0.00           P  
 ATOM      3  OP1   G 2   4      -8.913 -13.311   2.357  1.00  0.00           O  
@@ -5543,7 +5262,6 @@ ATOM    837  H41   C 2  31      -3.153 -18.626  -1.138  1.00  0.00           H
 ATOM    838  H42   C 2  31      -2.301 -19.026  -2.613  1.00  0.00           H  
 ATOM    839  H5    C 2  31      -0.478 -20.590  -2.701  1.00  0.00           H  
 ATOM    840  H6    C 2  31       0.925 -22.122  -1.397  1.00  0.00           H  
-TER     841        C 2  31                                                      
 ATOM    842  N   ARG 1   1       6.077  -3.985   4.652  1.00  0.00           N  
 ATOM    843  CA  ARG 1   1       6.552  -3.413   3.357  1.00  0.00           C  
 ATOM    844  C   ARG 1   1       6.311  -1.903   3.346  1.00  0.00           C  
@@ -5810,9 +5528,6 @@ ATOM   1104  HG2 PRO 1  14       5.625  -8.110   5.264  1.00  0.00           H
 ATOM   1105  HG3 PRO 1  14       4.931  -8.336   6.876  1.00  0.00           H  
 ATOM   1106  HD2 PRO 1  14       4.223  -6.354   4.816  1.00  0.00           H  
 ATOM   1107  HD3 PRO 1  14       3.295  -6.876   6.237  1.00  0.00           H  
-TER    1108      PRO 1  14                                                      
-ENDMDL                                                                          
-MODEL        6                                                                  
 ATOM      1  OP3   G 2   4     -10.657 -12.513   2.535  1.00  0.00           O  
 ATOM      2  P     G 2   4      -9.616 -13.101   3.612  1.00  0.00           P  
 ATOM      3  OP1   G 2   4      -8.738 -14.073   2.924  1.00  0.00           O  
@@ -6653,7 +6368,6 @@ ATOM    837  H41   C 2  31      -3.048 -18.807  -0.941  1.00  0.00           H
 ATOM    838  H42   C 2  31      -2.158 -19.095  -2.420  1.00  0.00           H  
 ATOM    839  H5    C 2  31      -0.270 -20.574  -2.557  1.00  0.00           H  
 ATOM    840  H6    C 2  31       1.181 -22.108  -1.307  1.00  0.00           H  
-TER     841        C 2  31                                                      
 ATOM    842  N   ARG 1   1       2.762  -4.577   6.296  1.00  0.00           N  
 ATOM    843  CA  ARG 1   1       3.766  -4.197   5.258  1.00  0.00           C  
 ATOM    844  C   ARG 1   1       4.091  -2.709   5.381  1.00  0.00           C  
@@ -6920,9 +6634,6 @@ ATOM   1104  HG2 PRO 1  14       1.840  -8.288   6.843  1.00  0.00           H
 ATOM   1105  HG3 PRO 1  14       0.597  -8.654   8.049  1.00  0.00           H  
 ATOM   1106  HD2 PRO 1  14       0.460  -6.727   5.928  1.00  0.00           H  
 ATOM   1107  HD3 PRO 1  14      -0.761  -7.056   7.172  1.00  0.00           H  
-TER    1108      PRO 1  14                                                      
-ENDMDL                                                                          
-MODEL        7                                                                  
 ATOM      1  OP3   G 2   4      -9.892 -12.836   1.796  1.00  0.00           O  
 ATOM      2  P     G 2   4      -9.574 -13.176   3.336  1.00  0.00           P  
 ATOM      3  OP1   G 2   4      -8.104 -13.178   3.516  1.00  0.00           O  
@@ -7763,7 +7474,6 @@ ATOM    837  H41   C 2  31      -2.956 -18.913  -1.282  1.00  0.00           H
 ATOM    838  H42   C 2  31      -2.024 -19.306  -2.710  1.00  0.00           H  
 ATOM    839  H5    C 2  31      -0.166 -20.830  -2.695  1.00  0.00           H  
 ATOM    840  H6    C 2  31       1.206 -22.317  -1.309  1.00  0.00           H  
-TER     841        C 2  31                                                      
 ATOM    842  N   ARG 1   1       5.192  -3.694   5.740  1.00  0.00           N  
 ATOM    843  CA  ARG 1   1       5.902  -3.272   4.496  1.00  0.00           C  
 ATOM    844  C   ARG 1   1       5.636  -1.790   4.231  1.00  0.00           C  
@@ -8030,9 +7740,6 @@ ATOM   1104  HG2 PRO 1  14       4.944  -7.553   6.751  1.00  0.00           H
 ATOM   1105  HG3 PRO 1  14       3.987  -7.858   8.206  1.00  0.00           H  
 ATOM   1106  HD2 PRO 1  14       3.314  -6.184   5.939  1.00  0.00           H  
 ATOM   1107  HD3 PRO 1  14       2.313  -6.583   7.348  1.00  0.00           H  
-TER    1108      PRO 1  14                                                      
-ENDMDL                                                                          
-MODEL        8                                                                  
 ATOM      1  OP3   G 2   4      -9.965 -13.543   3.968  1.00  0.00           O  
 ATOM      2  P     G 2   4      -9.685 -14.128   2.496  1.00  0.00           P  
 ATOM      3  OP1   G 2   4     -10.526 -13.381   1.533  1.00  0.00           O  
@@ -8873,7 +8580,6 @@ ATOM    837  H41   C 2  31      -2.804 -19.186  -2.156  1.00  0.00           H
 ATOM    838  H42   C 2  31      -1.730 -19.537  -3.492  1.00  0.00           H  
 ATOM    839  H5    C 2  31       0.103 -21.085  -3.339  1.00  0.00           H  
 ATOM    840  H6    C 2  31       1.308 -22.641  -1.875  1.00  0.00           H  
-TER     841        C 2  31                                                      
 ATOM    842  N   ARG 1   1       4.840  -4.102   5.717  1.00  0.00           N  
 ATOM    843  CA  ARG 1   1       5.546  -3.678   4.472  1.00  0.00           C  
 ATOM    844  C   ARG 1   1       5.362  -2.173   4.266  1.00  0.00           C  
@@ -9140,9 +8846,6 @@ ATOM   1104  HG2 PRO 1  14       4.409  -7.917   6.583  1.00  0.00           H
 ATOM   1105  HG3 PRO 1  14       3.500  -8.283   8.057  1.00  0.00           H  
 ATOM   1106  HD2 PRO 1  14       2.755  -6.498   5.923  1.00  0.00           H  
 ATOM   1107  HD3 PRO 1  14       1.844  -6.872   7.401  1.00  0.00           H  
-TER    1108      PRO 1  14                                                      
-ENDMDL                                                                          
-MODEL        9                                                                  
 ATOM      1  OP3   G 2   4      -9.496 -13.941   1.720  1.00  0.00           O  
 ATOM      2  P     G 2   4      -9.809 -12.992   2.982  1.00  0.00           P  
 ATOM      3  OP1   G 2   4      -8.537 -12.737   3.696  1.00  0.00           O  
@@ -9983,7 +9686,6 @@ ATOM    837  H41   C 2  31      -3.035 -19.180  -1.968  1.00  0.00           H
 ATOM    838  H42   C 2  31      -2.025 -19.561  -3.345  1.00  0.00           H  
 ATOM    839  H5    C 2  31      -0.214 -21.140  -3.256  1.00  0.00           H  
 ATOM    840  H6    C 2  31       1.025 -22.703  -1.830  1.00  0.00           H  
-TER     841        C 2  31                                                      
 ATOM    842  N   ARG 1   1       4.797  -4.664   5.365  1.00  0.00           N  
 ATOM    843  CA  ARG 1   1       5.352  -4.424   4.000  1.00  0.00           C  
 ATOM    844  C   ARG 1   1       5.600  -2.929   3.803  1.00  0.00           C  
@@ -10250,9 +9952,6 @@ ATOM   1104  HG2 PRO 1  14       4.195  -8.425   6.690  1.00  0.00           H
 ATOM   1105  HG3 PRO 1  14       3.432  -8.484   8.286  1.00  0.00           H  
 ATOM   1106  HD2 PRO 1  14       2.685  -6.867   5.990  1.00  0.00           H  
 ATOM   1107  HD3 PRO 1  14       1.835  -7.050   7.536  1.00  0.00           H  
-TER    1108      PRO 1  14                                                      
-ENDMDL                                                                          
-MODEL       10                                                                  
 ATOM      1  OP3   G 2   4      -8.164 -14.591   1.827  1.00  0.00           O  
 ATOM      2  P     G 2   4      -9.621 -14.568   2.513  1.00  0.00           P  
 ATOM      3  OP1   G 2   4      -9.483 -14.001   3.873  1.00  0.00           O  
@@ -11093,7 +10792,6 @@ ATOM    837  H41   C 2  31      -2.689 -19.504  -2.475  1.00  0.00           H
 ATOM    838  H42   C 2  31      -1.629 -19.824  -3.830  1.00  0.00           H  
 ATOM    839  H5    C 2  31       0.240 -21.331  -3.714  1.00  0.00           H  
 ATOM    840  H6    C 2  31       1.501 -22.868  -2.277  1.00  0.00           H  
-TER     841        C 2  31                                                      
 ATOM    842  N   ARG 1   1       3.240  -4.436   5.255  1.00  0.00           N  
 ATOM    843  CA  ARG 1   1       3.986  -3.882   4.086  1.00  0.00           C  
 ATOM    844  C   ARG 1   1       4.461  -2.464   4.407  1.00  0.00           C  
@@ -11360,9 +11058,3 @@ ATOM   1104  HG2 PRO 1  14       2.485  -8.227   5.470  1.00  0.00           H
 ATOM   1105  HG3 PRO 1  14       1.539  -8.787   6.856  1.00  0.00           H  
 ATOM   1106  HD2 PRO 1  14       0.938  -6.598   5.097  1.00  0.00           H  
 ATOM   1107  HD3 PRO 1  14       0.014  -7.138   6.513  1.00  0.00           H  
-TER    1108      PRO 1  14                                                      
-ENDMDL                                                                          
-CONECT  842 1096                                                                
-CONECT 1096  842                                                                
-MASTER      214    0    0    0    0    0    0    6  715    2    2    5          
-END                                                                             
