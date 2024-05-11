@@ -1,317 +1,3 @@
-HEADER    VIRAL PROTEIN                           29-MAR-16   5J1O              
-TITLE     EXCITED STATE (BOUND-LIKE) SAMPLED DURING RDC RESTRAINED REPLICA-     
-TITLE    2 AVERAGED METADYNAMICS (RAM) SIMULATIONS OF THE HIV-1 TAR COMPLEXED   
-TITLE    3 WITH CYCLIC PEPTIDE MIMETIC OF TAT                                   
-COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: CYCLIC PEPTIDE MIMETIC OF TAT;                             
-COMPND   3 CHAIN: A;                                                            
-COMPND   4 ENGINEERED: YES;                                                     
-COMPND   5 MOL_ID: 2;                                                           
-COMPND   6 MOLECULE: APICAL REGION (29MER) OF THE HIV-1 TAR ELEMENT;            
-COMPND   7 CHAIN: B;                                                            
-COMPND   8 ENGINEERED: YES;                                                     
-COMPND   9 OTHER_DETAILS: HIV-1 TAR RNA                                         
-SOURCE    MOL_ID: 1;                                                            
-SOURCE   2 SYNTHETIC: YES;                                                      
-SOURCE   3 ORGANISM_SCIENTIFIC: HUMAN IMMUNODEFICIENCY VIRUS 1;                 
-SOURCE   4 ORGANISM_TAXID: 11676;                                               
-SOURCE   5 MOL_ID: 2;                                                           
-SOURCE   6 ORGANISM_SCIENTIFIC: HUMAN IMMUNODEFICIENCY VIRUS 1;                 
-SOURCE   7 ORGANISM_TAXID: 11676;                                               
-SOURCE   8 EXPRESSION_SYSTEM: IN VITRO TRANSCRIPTION VECTOR PT7-TP(DELTAI);     
-SOURCE   9 EXPRESSION_SYSTEM_TAXID: 905931                                      
-KEYWDS    TAR:TAT COMPLEX, RAM SIMULATIONS, RESIDUAL DIPOLAR COUPLINGS, EXCITED 
-KEYWDS   2 STATE, VIRAL PROTEIN                                                 
-EXPDTA    SOLUTION NMR                                                          
-NUMMDL    10                                                                    
-AUTHOR    A.N.BORKAR,M.F.BARDARO,G.VARANI,M.VENDRUSCOLO                         
-REVDAT   5   23-OCT-19 5J1O    1       REMARK                                   
-REVDAT   4   01-FEB-17 5J1O    1       AUTHOR                                   
-REVDAT   3   06-JUL-16 5J1O    1       JRNL                                     
-REVDAT   2   22-JUN-16 5J1O    1       JRNL                                     
-REVDAT   1   08-JUN-16 5J1O    0                                                
-JRNL        AUTH   A.N.BORKAR,M.F.BARDARO,C.CAMILLONI,F.A.APRILE,G.VARANI,      
-JRNL        AUTH 2 M.VENDRUSCOLO                                                
-JRNL        TITL   STRUCTURE OF A LOW-POPULATION BINDING INTERMEDIATE IN        
-JRNL        TITL 2 PROTEIN-RNA RECOGNITION.                                     
-JRNL        REF    PROC.NATL.ACAD.SCI.USA        V. 113  7171 2016              
-JRNL        REFN                   ESSN 1091-6490                               
-JRNL        PMID   27286828                                                     
-JRNL        DOI    10.1073/PNAS.1521349113                                      
-REMARK   2                                                                      
-REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
-REMARK   3                                                                      
-REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : GROMACS AND PLUMED                                   
-REMARK   3   AUTHORS     : VENDRUSCOLO, CAMILLONI AND BORKAR                    
-REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: RDC RESTRAINED RAM SIMULATIONS            
-REMARK   4                                                                      
-REMARK   4 5J1O COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
-REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 29-MAR-16.                  
-REMARK 100 THE DEPOSITION ID IS D_1000219779.                                   
-REMARK 210                                                                      
-REMARK 210 EXPERIMENTAL DETAILS                                                 
-REMARK 210  EXPERIMENT TYPE                : NMR                                
-REMARK 210  TEMPERATURE           (KELVIN) : 298.15                             
-REMARK 210  PH                             : 6.6                                
-REMARK 210  IONIC STRENGTH                 : 150                                
-REMARK 210  PRESSURE                       : 1 ATM                              
-REMARK 210  SAMPLE CONTENTS                : 2 UM [U-99% 13C; U-99% 15N] RNA    
-REMARK 210                                   AND PEPTIDE, 100% D2O              
-REMARK 210                                                                      
-REMARK 210  NMR EXPERIMENTS CONDUCTED      : NOT APPLICABLE                     
-REMARK 210  SPECTROMETER FIELD STRENGTH    : 800 MHZ                            
-REMARK 210  SPECTROMETER MODEL             : INOVA                              
-REMARK 210  SPECTROMETER MANUFACTURER      : VARIAN                             
-REMARK 210                                                                      
-REMARK 210  STRUCTURE DETERMINATION.                                            
-REMARK 210   SOFTWARE USED                 : NULL                               
-REMARK 210   METHOD USED                   : MOLECULAR DYNAMICS                 
-REMARK 210                                                                      
-REMARK 210 CONFORMERS, NUMBER CALCULATED   : 7790                               
-REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 10                                 
-REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LOWEST         
-REMARK 210                                   ENERGY                             
-REMARK 210                                                                      
-REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
-REMARK 210                                                                      
-REMARK 210 REMARK: NULL                                                         
-REMARK 215                                                                      
-REMARK 215 NMR STUDY                                                            
-REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
-REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
-REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
-REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
-REMARK 300                                                                      
-REMARK 300 BIOMOLECULE: 1                                                       
-REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
-REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
-REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 350                                                                      
-REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
-REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
-REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
-REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
-REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
-REMARK 350                                                                      
-REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: DIMERIC                    
-REMARK 350 SOFTWARE USED: PISA                                                  
-REMARK 350 TOTAL BURIED SURFACE AREA: 1370 ANGSTROM**2                          
-REMARK 350 SURFACE AREA OF THE COMPLEX: 5970 ANGSTROM**2                        
-REMARK 350 CHANGE IN SOLVENT FREE ENERGY: 4.0 KCAL/MOL                          
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B                                  
-REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
-REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
-REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CLOSE CONTACTS                                             
-REMARK 500                                                                      
-REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
-REMARK 500                                                                      
-REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   N    ARG A     1     C    PRO A    14              1.34            
-REMARK 500   N    ARG A     1     O    PRO A    14              2.17            
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
-REMARK 500                                                                      
-REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
-REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
-REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
-REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500  1 ARG A   1   NE  -  CZ  -  NH1 ANGL. DEV. =   4.3 DEGREES          
-REMARK 500  1 ARG A   3   NH1 -  CZ  -  NH2 ANGL. DEV. =  -7.0 DEGREES          
-REMARK 500  1 ARG A   3   NE  -  CZ  -  NH1 ANGL. DEV. =   4.9 DEGREES          
-REMARK 500  1 ARG A   5   CD  -  NE  -  CZ  ANGL. DEV. =   8.6 DEGREES          
-REMARK 500  1 ARG A   8   NE  -  CZ  -  NH2 ANGL. DEV. =  -4.7 DEGREES          
-REMARK 500  1 ARG A   9   NE  -  CZ  -  NH1 ANGL. DEV. =   4.6 DEGREES          
-REMARK 500  1 ARG A   9   NE  -  CZ  -  NH2 ANGL. DEV. =  -5.0 DEGREES          
-REMARK 500  1   G B  17   C5' -  C4' -  O4' ANGL. DEV. =   7.6 DEGREES          
-REMARK 500  1   G B  17   O4' -  C1' -  N9  ANGL. DEV. =   6.7 DEGREES          
-REMARK 500  1   G B  17   C5  -  C6  -  N1  ANGL. DEV. =   3.8 DEGREES          
-REMARK 500  1   G B  17   N1  -  C6  -  O6  ANGL. DEV. =  -5.4 DEGREES          
-REMARK 500  1   G B  18   C5' -  C4' -  O4' ANGL. DEV. =   5.7 DEGREES          
-REMARK 500  1   G B  18   C6  -  N1  -  C2  ANGL. DEV. =  -4.8 DEGREES          
-REMARK 500  1   G B  18   C5  -  C6  -  N1  ANGL. DEV. =   5.4 DEGREES          
-REMARK 500  1   G B  18   N7  -  C8  -  N9  ANGL. DEV. =   3.1 DEGREES          
-REMARK 500  1   G B  18   C8  -  N9  -  C4  ANGL. DEV. =  -3.4 DEGREES          
-REMARK 500  1   G B  18   N9  -  C4  -  C5  ANGL. DEV. =   2.6 DEGREES          
-REMARK 500  1   G B  18   N1  -  C6  -  O6  ANGL. DEV. =  -5.7 DEGREES          
-REMARK 500  1   C B  19   O5' -  C5' -  C4' ANGL. DEV. =  -5.3 DEGREES          
-REMARK 500  1   C B  19   C6  -  N1  -  C2  ANGL. DEV. =  -2.7 DEGREES          
-REMARK 500  1   C B  19   N1  -  C2  -  N3  ANGL. DEV. =   5.0 DEGREES          
-REMARK 500  1   C B  19   C4  -  C5  -  C6  ANGL. DEV. =   3.2 DEGREES          
-REMARK 500  1   C B  19   N1  -  C2  -  O2  ANGL. DEV. =   6.7 DEGREES          
-REMARK 500  1   C B  19   N3  -  C2  -  O2  ANGL. DEV. = -11.8 DEGREES          
-REMARK 500  1   A B  20   C5' -  C4' -  O4' ANGL. DEV. =   7.3 DEGREES          
-REMARK 500  1   A B  20   N1  -  C2  -  N3  ANGL. DEV. =  -3.1 DEGREES          
-REMARK 500  1   A B  20   C2  -  N3  -  C4  ANGL. DEV. =   3.9 DEGREES          
-REMARK 500  1   A B  20   N1  -  C6  -  N6  ANGL. DEV. =  -9.7 DEGREES          
-REMARK 500  1   A B  20   C5  -  C6  -  N6  ANGL. DEV. =   7.1 DEGREES          
-REMARK 500  1   G B  21   C5' -  C4' -  O4' ANGL. DEV. =  -9.4 DEGREES          
-REMARK 500  1   G B  21   C1' -  O4' -  C4' ANGL. DEV. =  -6.0 DEGREES          
-REMARK 500  1   G B  21   C3' -  C2' -  C1' ANGL. DEV. =  -4.3 DEGREES          
-REMARK 500  1   G B  21   O4' -  C1' -  C2' ANGL. DEV. =   6.4 DEGREES          
-REMARK 500  1   G B  21   C2  -  N3  -  C4  ANGL. DEV. =  -3.3 DEGREES          
-REMARK 500  1   A B  22   C5' -  C4' -  O4' ANGL. DEV. =   7.1 DEGREES          
-REMARK 500  1   A B  22   C1' -  O4' -  C4' ANGL. DEV. =   5.8 DEGREES          
-REMARK 500  1   A B  22   C2  -  N3  -  C4  ANGL. DEV. =   3.4 DEGREES          
-REMARK 500  1   A B  22   C4  -  C5  -  C6  ANGL. DEV. =  -3.0 DEGREES          
-REMARK 500  1   A B  22   C5  -  C6  -  N1  ANGL. DEV. =   3.9 DEGREES          
-REMARK 500  1   A B  22   N1  -  C6  -  N6  ANGL. DEV. =  -7.4 DEGREES          
-REMARK 500  1   U B  23   C3' -  C2' -  C1' ANGL. DEV. =   5.4 DEGREES          
-REMARK 500  1   U B  23   N1  -  C2  -  N3  ANGL. DEV. =   6.4 DEGREES          
-REMARK 500  1   U B  23   C2  -  N3  -  C4  ANGL. DEV. =  -4.0 DEGREES          
-REMARK 500  1   U B  23   C4  -  C5  -  C6  ANGL. DEV. =   6.9 DEGREES          
-REMARK 500  1   U B  23   C5  -  C6  -  N1  ANGL. DEV. =  -3.6 DEGREES          
-REMARK 500  1   U B  23   N3  -  C2  -  O2  ANGL. DEV. =  -6.3 DEGREES          
-REMARK 500  1   U B  23   C5  -  C4  -  O4  ANGL. DEV. =   4.2 DEGREES          
-REMARK 500  1   C B  24   O4' -  C1' -  N1  ANGL. DEV. =   6.0 DEGREES          
-REMARK 500  1   U B  25   O4' -  C1' -  N1  ANGL. DEV. =   5.1 DEGREES          
-REMARK 500  1   U B  25   N3  -  C4  -  C5  ANGL. DEV. =  -4.5 DEGREES          
-REMARK 500                                                                      
-REMARK 500 THIS ENTRY HAS    1286 ANGLE DEVIATIONS.                             
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: TORSION ANGLES                                             
-REMARK 500                                                                      
-REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
-REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        PSI       PHI                                   
-REMARK 500  3 LYS A   6       43.27     39.85                                   
-REMARK 500  7 LYS A   6       18.96     48.80                                   
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: NON-CIS, NON-TRANS                                         
-REMARK 500                                                                      
-REMARK 500 THE FOLLOWING PEPTIDE BONDS DEVIATE SIGNIFICANTLY FROM BOTH          
-REMARK 500 CIS AND TRANS CONFORMATION.  CIS BONDS, IF ANY, ARE LISTED           
-REMARK 500 ON CISPEP RECORDS.  TRANS IS DEFINED AS 180 +/- 30 AND               
-REMARK 500 CIS IS DEFINED AS 0 +/- 30 DEGREES.                                  
-REMARK 500                                 MODEL     OMEGA                      
-REMARK 500 ILE A   12     DPR A   13          3      -149.90                    
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: PLANAR GROUPS                                              
-REMARK 500                                                                      
-REMARK 500 PLANAR GROUPS IN THE FOLLOWING RESIDUES HAVE A TOTAL                 
-REMARK 500 RMS DISTANCE OF ALL ATOMS FROM THE BEST-FIT PLANE                    
-REMARK 500 BY MORE THAN AN EXPECTED VALUE OF 6*RMSD, WITH AN                    
-REMARK 500 RMSD 0.02 ANGSTROMS, OR AT LEAST ONE ATOM HAS                        
-REMARK 500 AN RMSD GREATER THAN THIS VALUE                                      
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500  1 ARG A   9         0.11    SIDE CHAIN                              
-REMARK 500  1   G B  17         0.08    SIDE CHAIN                              
-REMARK 500  1   C B  19         0.07    SIDE CHAIN                              
-REMARK 500  1   A B  20         0.07    SIDE CHAIN                              
-REMARK 500  1   G B  21         0.13    SIDE CHAIN                              
-REMARK 500  1   C B  24         0.07    SIDE CHAIN                              
-REMARK 500  1   G B  26         0.08    SIDE CHAIN                              
-REMARK 500  1   G B  28         0.12    SIDE CHAIN                              
-REMARK 500  1   C B  30         0.10    SIDE CHAIN                              
-REMARK 500  1   G B  33         0.10    SIDE CHAIN                              
-REMARK 500  1   A B  35         0.13    SIDE CHAIN                              
-REMARK 500  1   C B  37         0.11    SIDE CHAIN                              
-REMARK 500  1   U B  38         0.06    SIDE CHAIN                              
-REMARK 500  1   G B  43         0.10    SIDE CHAIN                              
-REMARK 500  1   C B  45         0.07    SIDE CHAIN                              
-REMARK 500  2 ARG A   9         0.10    SIDE CHAIN                              
-REMARK 500  2   A B  20         0.06    SIDE CHAIN                              
-REMARK 500  2   G B  21         0.11    SIDE CHAIN                              
-REMARK 500  2   U B  23         0.10    SIDE CHAIN                              
-REMARK 500  2   C B  24         0.06    SIDE CHAIN                              
-REMARK 500  2   U B  25         0.11    SIDE CHAIN                              
-REMARK 500  2   G B  26         0.09    SIDE CHAIN                              
-REMARK 500  2   A B  27         0.07    SIDE CHAIN                              
-REMARK 500  2   C B  29         0.09    SIDE CHAIN                              
-REMARK 500  2   G B  32         0.10    SIDE CHAIN                              
-REMARK 500  2   C B  39         0.08    SIDE CHAIN                              
-REMARK 500  2   C B  41         0.11    SIDE CHAIN                              
-REMARK 500  2   U B  42         0.08    SIDE CHAIN                              
-REMARK 500  2   G B  43         0.08    SIDE CHAIN                              
-REMARK 500  2   C B  44         0.10    SIDE CHAIN                              
-REMARK 500  3 ARG A   1         0.12    SIDE CHAIN                              
-REMARK 500  3 ARG A   3         0.09    SIDE CHAIN                              
-REMARK 500  3   G B  17         0.07    SIDE CHAIN                              
-REMARK 500  3   G B  18         0.11    SIDE CHAIN                              
-REMARK 500  3   A B  20         0.07    SIDE CHAIN                              
-REMARK 500  3   U B  23         0.08    SIDE CHAIN                              
-REMARK 500  3   C B  24         0.07    SIDE CHAIN                              
-REMARK 500  3   U B  25         0.11    SIDE CHAIN                              
-REMARK 500  3   A B  27         0.07    SIDE CHAIN                              
-REMARK 500  3   G B  28         0.10    SIDE CHAIN                              
-REMARK 500  3   G B  32         0.09    SIDE CHAIN                              
-REMARK 500  3   G B  33         0.12    SIDE CHAIN                              
-REMARK 500  3   G B  36         0.12    SIDE CHAIN                              
-REMARK 500  3   U B  38         0.08    SIDE CHAIN                              
-REMARK 500  3   C B  39         0.07    SIDE CHAIN                              
-REMARK 500  3   C B  44         0.09    SIDE CHAIN                              
-REMARK 500  4   G B  17         0.11    SIDE CHAIN                              
-REMARK 500  4   C B  19         0.07    SIDE CHAIN                              
-REMARK 500  4   A B  20         0.08    SIDE CHAIN                              
-REMARK 500  4   G B  21         0.09    SIDE CHAIN                              
-REMARK 500                                                                      
-REMARK 500 THIS ENTRY HAS     162 PLANE DEVIATIONS.                             
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 900                                                                      
-REMARK 900 RELATED ENTRIES                                                      
-REMARK 900 RELATED ID: 30049   RELATED DB: BMRB                                 
-DBREF  5J1O A    1    14  PDB    5J1O     5J1O             1     14             
-DBREF  5J1O B   17    45  PDB    5J1O     5J1O            17     45             
-SEQRES   1 A   14  ARG VAL ARG THR ARG LYS GLY ARG ARG ILE ARG ILE DPR          
-SEQRES   2 A   14  PRO                                                          
-SEQRES   1 B   29    G   G   C   A   G   A   U   C   U   G   A   G   C          
-SEQRES   2 B   29    C   U   G   G   G   A   G   C   U   C   U   C   U          
-SEQRES   3 B   29    G   C   C                                                  
-HET    DPR  A  13      14                                                       
-HETNAM     DPR D-PROLINE                                                        
-FORMUL   1  DPR    C5 H9 N O2                                                   
-SHEET    1 AA1 2 VAL A   2  ARG A   5  0                                        
-SHEET    2 AA1 2 ARG A   8  ARG A  11 -1  O  ILE A  10   N  ARG A   3           
-LINK         C   ILE A  12                 N   DPR A  13     1555   1555  1.34  
-LINK         C   DPR A  13                 N   PRO A  14     1555   1555  1.33  
-CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
-ORIGX1      1.000000  0.000000  0.000000        0.00000                         
-ORIGX2      0.000000  1.000000  0.000000        0.00000                         
-ORIGX3      0.000000  0.000000  1.000000        0.00000                         
-SCALE1      0.012803 -0.004526  0.007839        0.00000                         
-SCALE2      0.000000  0.013579 -0.007839        0.00000                         
-SCALE3      0.000000  0.000000  0.015680        0.00000                         
-MODEL        1                                                                  
 ATOM      1  N   ARG A   1      31.325  54.458  41.743  1.00  0.00           N  
 ATOM      2  CA  ARG A   1      32.305  53.604  42.387  1.00  0.00           C  
 ATOM      3  C   ARG A   1      33.673  53.583  41.715  1.00  0.00           C  
@@ -553,20 +239,6 @@ ATOM    238 HG23 ILE A  12      32.464  52.230  35.031  1.00  0.00           H
 ATOM    239 HD11 ILE A  12      34.496  51.754  34.396  1.00  0.00           H  
 ATOM    240 HD12 ILE A  12      35.340  53.282  34.822  1.00  0.00           H  
 ATOM    241 HD13 ILE A  12      36.254  51.812  34.691  1.00  0.00           H  
-HETATM  242  N   DPR A  13      31.553  55.523  37.212  1.00  0.00           N  
-HETATM  243  CA  DPR A  13      30.267  55.896  37.753  1.00  0.00           C  
-HETATM  244  CB  DPR A  13      29.682  56.919  36.779  1.00  0.00           C  
-HETATM  245  CG  DPR A  13      30.895  57.550  36.106  1.00  0.00           C  
-HETATM  246  CD  DPR A  13      31.953  56.449  36.164  1.00  0.00           C  
-HETATM  247  C   DPR A  13      30.327  56.287  39.227  1.00  0.00           C  
-HETATM  248  O   DPR A  13      31.231  57.036  39.551  1.00  0.00           O  
-HETATM  249  HA  DPR A  13      29.623  55.037  37.527  1.00  0.00           H  
-HETATM  250  HB2 DPR A  13      29.176  57.690  37.363  1.00  0.00           H  
-HETATM  251  HB3 DPR A  13      29.078  56.393  36.043  1.00  0.00           H  
-HETATM  252  HG2 DPR A  13      30.652  57.711  35.055  1.00  0.00           H  
-HETATM  253  HG3 DPR A  13      31.201  58.463  36.632  1.00  0.00           H  
-HETATM  254  HD2 DPR A  13      31.949  55.985  35.180  1.00  0.00           H  
-HETATM  255  HD3 DPR A  13      32.916  56.920  36.349  1.00  0.00           H  
 ATOM    256  N   PRO A  14      29.417  55.803  40.067  1.00  0.00           N  
 ATOM    257  CA  PRO A  14      29.413  56.007  41.509  1.00  0.00           C  
 ATOM    258  C   PRO A  14      30.420  55.238  42.343  1.00  0.00           C  
@@ -581,7 +253,6 @@ ATOM    266  HG2 PRO A  14      27.839  53.710  41.568  1.00  0.00           H
 ATOM    267  HG3 PRO A  14      26.503  54.647  40.840  1.00  0.00           H  
 ATOM    268  HD2 PRO A  14      28.932  53.943  39.533  1.00  0.00           H  
 ATOM    269  HD3 PRO A  14      27.734  55.178  38.964  1.00  0.00           H  
-TER     270      PRO A  14                                                      
 ATOM    271  O5'   G B  17      16.970  47.616  32.129  1.00  0.00           O  
 ATOM    272  C5'   G B  17      16.857  48.992  32.447  1.00  0.00           C  
 ATOM    273  C4'   G B  17      15.870  49.253  33.589  1.00  0.00           C  
@@ -1511,9 +1182,6 @@ ATOM   1196  H41   C B  45      17.313  41.196  38.522  1.00  0.00           H
 ATOM   1197  H42   C B  45      17.587  39.601  39.171  1.00  0.00           H  
 ATOM   1198  H5    C B  45      17.592  39.060  41.662  1.00  0.00           H  
 ATOM   1199  H6    C B  45      16.667  39.835  43.698  1.00  0.00           H  
-TER    1200        C B  45                                                      
-ENDMDL                                                                          
-MODEL        2                                                                  
 ATOM      1  N   ARG A   1      32.049  54.989  40.902  1.00  0.00           N  
 ATOM      2  CA  ARG A   1      32.742  53.714  40.910  1.00  0.00           C  
 ATOM      3  C   ARG A   1      34.190  53.768  40.438  1.00  0.00           C  
@@ -1755,20 +1423,6 @@ ATOM    238 HG23 ILE A  12      35.788  55.238  34.579  1.00  0.00           H
 ATOM    239 HD11 ILE A  12      35.643  53.231  35.437  1.00  0.00           H  
 ATOM    240 HD12 ILE A  12      35.577  53.576  37.094  1.00  0.00           H  
 ATOM    241 HD13 ILE A  12      34.451  52.331  36.446  1.00  0.00           H  
-HETATM  242  N   DPR A  13      32.689  58.220  37.704  1.00  0.00           N  
-HETATM  243  CA  DPR A  13      31.601  58.694  38.533  1.00  0.00           C  
-HETATM  244  CB  DPR A  13      31.603  60.226  38.505  1.00  0.00           C  
-HETATM  245  CG  DPR A  13      32.331  60.544  37.200  1.00  0.00           C  
-HETATM  246  CD  DPR A  13      33.304  59.378  37.078  1.00  0.00           C  
-HETATM  247  C   DPR A  13      31.785  58.118  39.926  1.00  0.00           C  
-HETATM  248  O   DPR A  13      32.883  58.152  40.471  1.00  0.00           O  
-HETATM  249  HA  DPR A  13      30.639  58.467  38.079  1.00  0.00           H  
-HETATM  250  HB2 DPR A  13      32.176  60.690  39.297  1.00  0.00           H  
-HETATM  251  HB3 DPR A  13      30.592  60.633  38.467  1.00  0.00           H  
-HETATM  252  HG2 DPR A  13      31.643  60.415  36.361  1.00  0.00           H  
-HETATM  253  HG3 DPR A  13      32.860  61.487  37.206  1.00  0.00           H  
-HETATM  254  HD2 DPR A  13      33.521  59.358  36.011  1.00  0.00           H  
-HETATM  255  HD3 DPR A  13      34.192  59.596  37.668  1.00  0.00           H  
 ATOM    256  N   PRO A  14      30.780  57.551  40.594  1.00  0.00           N  
 ATOM    257  CA  PRO A  14      30.918  56.942  41.900  1.00  0.00           C  
 ATOM    258  C   PRO A  14      31.835  55.724  41.997  1.00  0.00           C  
@@ -1783,7 +1437,6 @@ ATOM    266  HG2 PRO A  14      27.646  57.004  41.335  1.00  0.00           H
 ATOM    267  HG3 PRO A  14      28.358  58.457  42.110  1.00  0.00           H  
 ATOM    268  HD2 PRO A  14      29.131  57.127  39.477  1.00  0.00           H  
 ATOM    269  HD3 PRO A  14      29.239  58.857  39.998  1.00  0.00           H  
-TER     270      PRO A  14                                                      
 ATOM    271  O5'   G B  17      15.887  47.932  33.487  1.00  0.00           O  
 ATOM    272  C5'   G B  17      14.557  48.306  33.188  1.00  0.00           C  
 ATOM    273  C4'   G B  17      13.691  48.596  34.412  1.00  0.00           C  
@@ -2713,9 +2366,6 @@ ATOM   1196  H41   C B  45      15.904  41.595  40.508  1.00  0.00           H
 ATOM   1197  H42   C B  45      16.838  40.281  41.120  1.00  0.00           H  
 ATOM   1198  H5    C B  45      17.574  40.384  43.649  1.00  0.00           H  
 ATOM   1199  H6    C B  45      17.704  41.868  45.464  1.00  0.00           H  
-TER    1200        C B  45                                                      
-ENDMDL                                                                          
-MODEL        3                                                                  
 ATOM      1  N   ARG A   1      30.827  52.965  40.362  1.00  0.00           N  
 ATOM      2  CA  ARG A   1      31.621  51.758  40.512  1.00  0.00           C  
 ATOM      3  C   ARG A   1      33.091  51.902  40.170  1.00  0.00           C  
@@ -2957,20 +2607,6 @@ ATOM    238 HG23 ILE A  12      33.978  53.382  33.831  1.00  0.00           H
 ATOM    239 HD11 ILE A  12      33.249  49.875  35.279  1.00  0.00           H  
 ATOM    240 HD12 ILE A  12      33.368  49.382  36.897  1.00  0.00           H  
 ATOM    241 HD13 ILE A  12      31.735  50.024  36.311  1.00  0.00           H  
-HETATM  242  N   DPR A  13      30.941  55.658  36.323  1.00  0.00           N  
-HETATM  243  CA  DPR A  13      29.879  56.085  37.219  1.00  0.00           C  
-HETATM  244  CB  DPR A  13      29.726  57.578  36.926  1.00  0.00           C  
-HETATM  245  CG  DPR A  13      31.174  58.032  36.726  1.00  0.00           C  
-HETATM  246  CD  DPR A  13      31.749  56.819  36.011  1.00  0.00           C  
-HETATM  247  C   DPR A  13      30.168  55.759  38.675  1.00  0.00           C  
-HETATM  248  O   DPR A  13      31.141  56.181  39.292  1.00  0.00           O  
-HETATM  249  HA  DPR A  13      29.018  55.491  36.938  1.00  0.00           H  
-HETATM  250  HB2 DPR A  13      29.295  58.135  37.754  1.00  0.00           H  
-HETATM  251  HB3 DPR A  13      29.097  57.682  36.044  1.00  0.00           H  
-HETATM  252  HG2 DPR A  13      31.214  58.910  36.081  1.00  0.00           H  
-HETATM  253  HG3 DPR A  13      31.673  58.292  37.657  1.00  0.00           H  
-HETATM  254  HD2 DPR A  13      31.588  56.889  34.939  1.00  0.00           H  
-HETATM  255  HD3 DPR A  13      32.805  56.779  36.270  1.00  0.00           H  
 ATOM    256  N   PRO A  14      29.295  55.114  39.453  1.00  0.00           N  
 ATOM    257  CA  PRO A  14      29.420  54.866  40.882  1.00  0.00           C  
 ATOM    258  C   PRO A  14      30.490  53.864  41.295  1.00  0.00           C  
@@ -2985,7 +2621,6 @@ ATOM    266  HG2 PRO A  14      27.623  52.716  40.331  1.00  0.00           H
 ATOM    267  HG3 PRO A  14      26.350  54.014  40.187  1.00  0.00           H  
 ATOM    268  HD2 PRO A  14      28.326  53.622  38.327  1.00  0.00           H  
 ATOM    269  HD3 PRO A  14      27.517  55.143  38.371  1.00  0.00           H  
-TER     270      PRO A  14                                                      
 ATOM    271  O5'   G B  17      17.130  51.030  33.287  1.00  0.00           O  
 ATOM    272  C5'   G B  17      15.757  51.042  33.605  1.00  0.00           C  
 ATOM    273  C4'   G B  17      15.578  51.502  35.049  1.00  0.00           C  
@@ -3915,9 +3550,6 @@ ATOM   1196  H41   C B  45      16.935  43.739  39.899  1.00  0.00           H
 ATOM   1197  H42   C B  45      17.591  42.167  40.392  1.00  0.00           H  
 ATOM   1198  H5    C B  45      17.928  41.598  42.749  1.00  0.00           H  
 ATOM   1199  H6    C B  45      17.514  42.386  45.027  1.00  0.00           H  
-TER    1200        C B  45                                                      
-ENDMDL                                                                          
-MODEL        4                                                                  
 ATOM      1  N   ARG A   1      30.989  53.674  39.778  1.00  0.00           N  
 ATOM      2  CA  ARG A   1      31.717  52.614  40.454  1.00  0.00           C  
 ATOM      3  C   ARG A   1      33.223  52.668  40.304  1.00  0.00           C  
@@ -4159,20 +3791,6 @@ ATOM    238 HG23 ILE A  12      36.371  53.719  34.615  1.00  0.00           H
 ATOM    239 HD11 ILE A  12      32.968  51.040  35.980  1.00  0.00           H  
 ATOM    240 HD12 ILE A  12      34.024  50.478  37.192  1.00  0.00           H  
 ATOM    241 HD13 ILE A  12      33.452  52.191  37.301  1.00  0.00           H  
-HETATM  242  N   DPR A  13      31.965  55.780  35.655  1.00  0.00           N  
-HETATM  243  CA  DPR A  13      30.600  56.045  36.059  1.00  0.00           C  
-HETATM  244  CB  DPR A  13      30.139  57.331  35.382  1.00  0.00           C  
-HETATM  245  CG  DPR A  13      31.484  58.043  35.183  1.00  0.00           C  
-HETATM  246  CD  DPR A  13      32.486  56.925  34.941  1.00  0.00           C  
-HETATM  247  C   DPR A  13      30.529  56.142  37.575  1.00  0.00           C  
-HETATM  248  O   DPR A  13      31.389  56.749  38.209  1.00  0.00           O  
-HETATM  249  HA  DPR A  13      29.951  55.233  35.757  1.00  0.00           H  
-HETATM  250  HB2 DPR A  13      29.515  57.994  35.977  1.00  0.00           H  
-HETATM  251  HB3 DPR A  13      29.820  57.182  34.352  1.00  0.00           H  
-HETATM  252  HG2 DPR A  13      31.454  58.745  34.346  1.00  0.00           H  
-HETATM  253  HG3 DPR A  13      31.693  58.637  36.074  1.00  0.00           H  
-HETATM  254  HD2 DPR A  13      32.562  56.755  33.863  1.00  0.00           H  
-HETATM  255  HD3 DPR A  13      33.417  57.306  35.369  1.00  0.00           H  
 ATOM    256  N   PRO A  14      29.456  55.603  38.166  1.00  0.00           N  
 ATOM    257  CA  PRO A  14      29.367  55.545  39.612  1.00  0.00           C  
 ATOM    258  C   PRO A  14      30.203  54.551  40.401  1.00  0.00           C  
@@ -4187,7 +3805,6 @@ ATOM    266  HG2 PRO A  14      27.935  53.190  38.960  1.00  0.00           H
 ATOM    267  HG3 PRO A  14      26.532  54.221  38.526  1.00  0.00           H  
 ATOM    268  HD2 PRO A  14      28.776  54.065  36.967  1.00  0.00           H  
 ATOM    269  HD3 PRO A  14      27.604  55.413  37.113  1.00  0.00           H  
-TER     270      PRO A  14                                                      
 ATOM    271  O5'   G B  17      12.670  53.056  34.596  1.00  0.00           O  
 ATOM    272  C5'   G B  17      14.036  53.122  34.924  1.00  0.00           C  
 ATOM    273  C4'   G B  17      14.289  52.175  36.100  1.00  0.00           C  
@@ -5117,9 +4734,6 @@ ATOM   1196  H41   C B  45      17.042  42.695  39.161  1.00  0.00           H
 ATOM   1197  H42   C B  45      17.424  41.062  39.568  1.00  0.00           H  
 ATOM   1198  H5    C B  45      17.742  40.511  41.855  1.00  0.00           H  
 ATOM   1199  H6    C B  45      17.316  41.119  44.153  1.00  0.00           H  
-TER    1200        C B  45                                                      
-ENDMDL                                                                          
-MODEL        5                                                                  
 ATOM      1  N   ARG A   1      31.688  54.673  41.004  1.00  0.00           N  
 ATOM      2  CA  ARG A   1      32.410  53.489  41.424  1.00  0.00           C  
 ATOM      3  C   ARG A   1      33.869  53.573  41.026  1.00  0.00           C  
@@ -5361,20 +4975,6 @@ ATOM    238 HG23 ILE A  12      34.561  53.391  33.606  1.00  0.00           H
 ATOM    239 HD11 ILE A  12      34.663  51.284  36.891  1.00  0.00           H  
 ATOM    240 HD12 ILE A  12      35.699  52.408  36.071  1.00  0.00           H  
 ATOM    241 HD13 ILE A  12      35.146  52.791  37.701  1.00  0.00           H  
-HETATM  242  N   DPR A  13      32.263  57.251  37.006  1.00  0.00           N  
-HETATM  243  CA  DPR A  13      31.223  57.867  37.808  1.00  0.00           C  
-HETATM  244  CB  DPR A  13      31.396  59.373  37.588  1.00  0.00           C  
-HETATM  245  CG  DPR A  13      31.888  59.437  36.154  1.00  0.00           C  
-HETATM  246  CD  DPR A  13      32.897  58.290  36.230  1.00  0.00           C  
-HETATM  247  C   DPR A  13      31.276  57.510  39.291  1.00  0.00           C  
-HETATM  248  O   DPR A  13      32.316  57.630  39.921  1.00  0.00           O  
-HETATM  249  HA  DPR A  13      30.240  57.640  37.407  1.00  0.00           H  
-HETATM  250  HB2 DPR A  13      32.138  59.857  38.227  1.00  0.00           H  
-HETATM  251  HB3 DPR A  13      30.488  59.946  37.756  1.00  0.00           H  
-HETATM  252  HG2 DPR A  13      31.092  59.158  35.463  1.00  0.00           H  
-HETATM  253  HG3 DPR A  13      32.395  60.381  35.947  1.00  0.00           H  
-HETATM  254  HD2 DPR A  13      33.046  57.882  35.231  1.00  0.00           H  
-HETATM  255  HD3 DPR A  13      33.766  58.744  36.707  1.00  0.00           H  
 ATOM    256  N   PRO A  14      30.193  56.975  39.852  1.00  0.00           N  
 ATOM    257  CA  PRO A  14      30.107  56.558  41.234  1.00  0.00           C  
 ATOM    258  C   PRO A  14      31.005  55.480  41.821  1.00  0.00           C  
@@ -5389,7 +4989,6 @@ ATOM    266  HG2 PRO A  14      26.843  56.740  40.272  1.00  0.00           H
 ATOM    267  HG3 PRO A  14      27.961  58.029  40.727  1.00  0.00           H  
 ATOM    268  HD2 PRO A  14      28.708  56.009  38.692  1.00  0.00           H  
 ATOM    269  HD3 PRO A  14      28.633  57.801  38.697  1.00  0.00           H  
-TER     270      PRO A  14                                                      
 ATOM    271  O5'   G B  17      15.209  47.898  32.484  1.00  0.00           O  
 ATOM    272  C5'   G B  17      14.125  48.596  33.040  1.00  0.00           C  
 ATOM    273  C4'   G B  17      14.079  48.330  34.542  1.00  0.00           C  
@@ -6319,9 +5918,6 @@ ATOM   1196  H41   C B  45      16.963  40.811  40.190  1.00  0.00           H
 ATOM   1197  H42   C B  45      17.634  39.464  41.097  1.00  0.00           H  
 ATOM   1198  H5    C B  45      18.089  39.384  43.316  1.00  0.00           H  
 ATOM   1199  H6    C B  45      17.869  40.496  45.483  1.00  0.00           H  
-TER    1200        C B  45                                                      
-ENDMDL                                                                          
-MODEL        6                                                                  
 ATOM      1  N   ARG A   1      30.964  53.832  40.045  1.00  0.00           N  
 ATOM      2  CA  ARG A   1      31.785  52.689  40.371  1.00  0.00           C  
 ATOM      3  C   ARG A   1      33.269  52.871  40.048  1.00  0.00           C  
@@ -6563,20 +6159,6 @@ ATOM    238 HG23 ILE A  12      35.785  54.043  34.391  1.00  0.00           H
 ATOM    239 HD11 ILE A  12      35.549  51.582  35.531  1.00  0.00           H  
 ATOM    240 HD12 ILE A  12      35.309  52.318  37.168  1.00  0.00           H  
 ATOM    241 HD13 ILE A  12      34.540  50.869  36.763  1.00  0.00           H  
-HETATM  242  N   DPR A  13      31.582  56.569  36.394  1.00  0.00           N  
-HETATM  243  CA  DPR A  13      30.309  56.967  36.986  1.00  0.00           C  
-HETATM  244  CB  DPR A  13      30.177  58.468  36.771  1.00  0.00           C  
-HETATM  245  CG  DPR A  13      31.568  58.989  36.446  1.00  0.00           C  
-HETATM  246  CD  DPR A  13      32.199  57.741  35.828  1.00  0.00           C  
-HETATM  247  C   DPR A  13      30.287  56.614  38.466  1.00  0.00           C  
-HETATM  248  O   DPR A  13      31.190  57.033  39.190  1.00  0.00           O  
-HETATM  249  HA  DPR A  13      29.549  56.381  36.484  1.00  0.00           H  
-HETATM  250  HB2 DPR A  13      29.827  59.043  37.632  1.00  0.00           H  
-HETATM  251  HB3 DPR A  13      29.548  58.730  35.922  1.00  0.00           H  
-HETATM  252  HG2 DPR A  13      31.463  59.768  35.692  1.00  0.00           H  
-HETATM  253  HG3 DPR A  13      32.063  59.469  37.289  1.00  0.00           H  
-HETATM  254  HD2 DPR A  13      32.034  57.800  34.753  1.00  0.00           H  
-HETATM  255  HD3 DPR A  13      33.238  57.674  36.159  1.00  0.00           H  
 ATOM    256  N   PRO A  14      29.397  55.763  38.982  1.00  0.00           N  
 ATOM    257  CA  PRO A  14      29.222  55.510  40.398  1.00  0.00           C  
 ATOM    258  C   PRO A  14      30.102  54.374  40.907  1.00  0.00           C  
@@ -6591,7 +6173,6 @@ ATOM    266  HG2 PRO A  14      27.211  53.702  39.235  1.00  0.00           H
 ATOM    267  HG3 PRO A  14      26.198  55.228  39.213  1.00  0.00           H  
 ATOM    268  HD2 PRO A  14      28.403  54.851  37.472  1.00  0.00           H  
 ATOM    269  HD3 PRO A  14      27.748  56.443  37.988  1.00  0.00           H  
-TER     270      PRO A  14                                                      
 ATOM    271  O5'   G B  17      17.109  48.538  33.837  1.00  0.00           O  
 ATOM    272  C5'   G B  17      15.884  49.221  33.683  1.00  0.00           C  
 ATOM    273  C4'   G B  17      15.240  49.793  34.940  1.00  0.00           C  
@@ -7521,9 +7102,6 @@ ATOM   1196  H41   C B  45      16.643  41.521  40.136  1.00  0.00           H
 ATOM   1197  H42   C B  45      17.512  40.195  40.831  1.00  0.00           H  
 ATOM   1198  H5    C B  45      17.617  39.845  43.464  1.00  0.00           H  
 ATOM   1199  H6    C B  45      17.568  41.163  45.393  1.00  0.00           H  
-TER    1200        C B  45                                                      
-ENDMDL                                                                          
-MODEL        7                                                                  
 ATOM      1  N   ARG A   1      30.797  53.629  39.893  1.00  0.00           N  
 ATOM      2  CA  ARG A   1      31.566  52.417  40.070  1.00  0.00           C  
 ATOM      3  C   ARG A   1      33.068  52.603  39.914  1.00  0.00           C  
@@ -7765,20 +7343,6 @@ ATOM    238 HG23 ILE A  12      34.849  52.948  35.162  1.00  0.00           H
 ATOM    239 HD11 ILE A  12      34.157  50.725  35.553  1.00  0.00           H  
 ATOM    240 HD12 ILE A  12      32.591  49.947  36.148  1.00  0.00           H  
 ATOM    241 HD13 ILE A  12      32.968  50.393  34.452  1.00  0.00           H  
-HETATM  242  N   DPR A  13      31.052  56.318  36.137  1.00  0.00           N  
-HETATM  243  CA  DPR A  13      29.970  56.819  36.947  1.00  0.00           C  
-HETATM  244  CB  DPR A  13      29.902  58.314  36.669  1.00  0.00           C  
-HETATM  245  CG  DPR A  13      30.604  58.497  35.319  1.00  0.00           C  
-HETATM  246  CD  DPR A  13      31.654  57.396  35.386  1.00  0.00           C  
-HETATM  247  C   DPR A  13      30.244  56.611  38.436  1.00  0.00           C  
-HETATM  248  O   DPR A  13      31.358  56.966  38.836  1.00  0.00           O  
-HETATM  249  HA  DPR A  13      29.002  56.400  36.676  1.00  0.00           H  
-HETATM  250  HB2 DPR A  13      30.527  58.779  37.438  1.00  0.00           H  
-HETATM  251  HB3 DPR A  13      28.919  58.779  36.686  1.00  0.00           H  
-HETATM  252  HG2 DPR A  13      29.934  58.179  34.514  1.00  0.00           H  
-HETATM  253  HG3 DPR A  13      30.956  59.507  35.109  1.00  0.00           H  
-HETATM  254  HD2 DPR A  13      31.855  57.003  34.386  1.00  0.00           H  
-HETATM  255  HD3 DPR A  13      32.534  57.681  35.974  1.00  0.00           H  
 ATOM    256  N   PRO A  14      29.346  56.076  39.272  1.00  0.00           N  
 ATOM    257  CA  PRO A  14      29.612  55.729  40.652  1.00  0.00           C  
 ATOM    258  C   PRO A  14      30.478  54.495  40.856  1.00  0.00           C  
@@ -7793,7 +7357,6 @@ ATOM    266  HG2 PRO A  14      27.230  54.182  40.100  1.00  0.00           H
 ATOM    267  HG3 PRO A  14      26.350  55.772  40.137  1.00  0.00           H  
 ATOM    268  HD2 PRO A  14      27.916  55.036  38.085  1.00  0.00           H  
 ATOM    269  HD3 PRO A  14      27.450  56.706  38.529  1.00  0.00           H  
-TER     270      PRO A  14                                                      
 ATOM    271  O5'   G B  17      14.910  50.279  32.618  1.00  0.00           O  
 ATOM    272  C5'   G B  17      15.559  51.109  33.537  1.00  0.00           C  
 ATOM    273  C4'   G B  17      15.205  50.971  35.013  1.00  0.00           C  
@@ -8723,9 +8286,6 @@ ATOM   1196  H41   C B  45      16.839  43.046  40.115  1.00  0.00           H
 ATOM   1197  H42   C B  45      17.407  41.502  40.476  1.00  0.00           H  
 ATOM   1198  H5    C B  45      17.623  40.775  42.885  1.00  0.00           H  
 ATOM   1199  H6    C B  45      17.169  41.411  45.145  1.00  0.00           H  
-TER    1200        C B  45                                                      
-ENDMDL                                                                          
-MODEL        8                                                                  
 ATOM      1  N   ARG A   1      31.057  53.970  40.908  1.00  0.00           N  
 ATOM      2  CA  ARG A   1      31.676  52.692  41.183  1.00  0.00           C  
 ATOM      3  C   ARG A   1      33.093  52.624  40.635  1.00  0.00           C  
@@ -8967,20 +8527,6 @@ ATOM    238 HG23 ILE A  12      34.711  52.558  34.095  1.00  0.00           H
 ATOM    239 HD11 ILE A  12      33.191  50.305  36.597  1.00  0.00           H  
 ATOM    240 HD12 ILE A  12      32.608  51.112  35.215  1.00  0.00           H  
 ATOM    241 HD13 ILE A  12      34.432  50.842  35.430  1.00  0.00           H  
-HETATM  242  N   DPR A  13      31.937  56.621  37.083  1.00  0.00           N  
-HETATM  243  CA  DPR A  13      30.844  57.155  37.872  1.00  0.00           C  
-HETATM  244  CB  DPR A  13      30.750  58.637  37.508  1.00  0.00           C  
-HETATM  245  CG  DPR A  13      32.240  58.972  37.362  1.00  0.00           C  
-HETATM  246  CD  DPR A  13      32.778  57.729  36.669  1.00  0.00           C  
-HETATM  247  C   DPR A  13      30.989  56.735  39.322  1.00  0.00           C  
-HETATM  248  O   DPR A  13      32.055  56.960  39.898  1.00  0.00           O  
-HETATM  249  HA  DPR A  13      29.978  56.632  37.460  1.00  0.00           H  
-HETATM  250  HB2 DPR A  13      30.310  59.177  38.349  1.00  0.00           H  
-HETATM  251  HB3 DPR A  13      30.240  58.765  36.553  1.00  0.00           H  
-HETATM  252  HG2 DPR A  13      32.203  59.868  36.744  1.00  0.00           H  
-HETATM  253  HG3 DPR A  13      32.741  59.156  38.314  1.00  0.00           H  
-HETATM  254  HD2 DPR A  13      32.755  57.868  35.585  1.00  0.00           H  
-HETATM  255  HD3 DPR A  13      33.786  57.618  37.060  1.00  0.00           H  
 ATOM    256  N   PRO A  14      29.896  56.430  40.034  1.00  0.00           N  
 ATOM    257  CA  PRO A  14      29.836  56.034  41.423  1.00  0.00           C  
 ATOM    258  C   PRO A  14      30.640  54.817  41.840  1.00  0.00           C  
@@ -8995,7 +8541,6 @@ ATOM    266  HG2 PRO A  14      26.616  56.450  40.510  1.00  0.00           H
 ATOM    267  HG3 PRO A  14      27.657  57.655  41.311  1.00  0.00           H  
 ATOM    268  HD2 PRO A  14      28.245  55.996  38.806  1.00  0.00           H  
 ATOM    269  HD3 PRO A  14      28.382  57.707  39.118  1.00  0.00           H  
-TER     270      PRO A  14                                                      
 ATOM    271  O5'   G B  17      15.933  46.621  32.595  1.00  0.00           O  
 ATOM    272  C5'   G B  17      15.711  48.015  32.619  1.00  0.00           C  
 ATOM    273  C4'   G B  17      15.088  48.362  33.963  1.00  0.00           C  
@@ -9925,9 +9470,6 @@ ATOM   1196  H41   C B  45      17.216  41.639  39.893  1.00  0.00           H
 ATOM   1197  H42   C B  45      17.801  40.156  40.719  1.00  0.00           H  
 ATOM   1198  H5    C B  45      17.865  39.825  43.041  1.00  0.00           H  
 ATOM   1199  H6    C B  45      17.445  40.838  45.225  1.00  0.00           H  
-TER    1200        C B  45                                                      
-ENDMDL                                                                          
-MODEL        9                                                                  
 ATOM      1  N   ARG A   1      31.938  53.561  41.876  1.00  0.00           N  
 ATOM      2  CA  ARG A   1      32.757  52.412  42.190  1.00  0.00           C  
 ATOM      3  C   ARG A   1      34.193  52.583  41.719  1.00  0.00           C  
@@ -10169,20 +9711,6 @@ ATOM    238 HG23 ILE A  12      34.966  54.185  34.417  1.00  0.00           H
 ATOM    239 HD11 ILE A  12      34.441  50.363  35.824  1.00  0.00           H  
 ATOM    240 HD12 ILE A  12      34.224  49.974  37.503  1.00  0.00           H  
 ATOM    241 HD13 ILE A  12      32.978  50.925  36.773  1.00  0.00           H  
-HETATM  242  N   DPR A  13      32.139  56.003  37.371  1.00  0.00           N  
-HETATM  243  CA  DPR A  13      31.076  56.381  38.281  1.00  0.00           C  
-HETATM  244  CB  DPR A  13      30.599  57.800  38.003  1.00  0.00           C  
-HETATM  245  CG  DPR A  13      31.883  58.404  37.458  1.00  0.00           C  
-HETATM  246  CD  DPR A  13      32.587  57.245  36.760  1.00  0.00           C  
-HETATM  247  C   DPR A  13      31.532  56.256  39.726  1.00  0.00           C  
-HETATM  248  O   DPR A  13      32.687  56.589  40.002  1.00  0.00           O  
-HETATM  249  HA  DPR A  13      30.288  55.647  38.098  1.00  0.00           H  
-HETATM  250  HB2 DPR A  13      30.425  58.280  38.971  1.00  0.00           H  
-HETATM  251  HB3 DPR A  13      29.767  57.889  37.310  1.00  0.00           H  
-HETATM  252  HG2 DPR A  13      31.672  59.206  36.753  1.00  0.00           H  
-HETATM  253  HG3 DPR A  13      32.539  58.785  38.243  1.00  0.00           H  
-HETATM  254  HD2 DPR A  13      32.235  57.385  35.742  1.00  0.00           H  
-HETATM  255  HD3 DPR A  13      33.647  57.494  36.856  1.00  0.00           H  
 ATOM    256  N   PRO A  14      30.698  55.803  40.660  1.00  0.00           N  
 ATOM    257  CA  PRO A  14      30.986  55.805  42.073  1.00  0.00           C  
 ATOM    258  C   PRO A  14      31.813  54.659  42.626  1.00  0.00           C  
@@ -10197,7 +9725,6 @@ ATOM    266  HG2 PRO A  14      28.778  54.071  42.031  1.00  0.00           H
 ATOM    267  HG3 PRO A  14      27.720  55.558  41.758  1.00  0.00           H  
 ATOM    268  HD2 PRO A  14      29.214  54.457  39.784  1.00  0.00           H  
 ATOM    269  HD3 PRO A  14      28.887  56.204  39.922  1.00  0.00           H  
-TER     270      PRO A  14                                                      
 ATOM    271  O5'   G B  17      13.814  50.823  31.512  1.00  0.00           O  
 ATOM    272  C5'   G B  17      15.042  51.218  32.087  1.00  0.00           C  
 ATOM    273  C4'   G B  17      14.933  51.619  33.560  1.00  0.00           C  
@@ -11127,9 +10654,6 @@ ATOM   1196  H41   C B  45      17.210  43.632  38.278  1.00  0.00           H
 ATOM   1197  H42   C B  45      17.747  42.078  39.064  1.00  0.00           H  
 ATOM   1198  H5    C B  45      17.495  41.527  41.181  1.00  0.00           H  
 ATOM   1199  H6    C B  45      17.328  42.360  43.474  1.00  0.00           H  
-TER    1200        C B  45                                                      
-ENDMDL                                                                          
-MODEL       10                                                                  
 ATOM      1  N   ARG A   1      31.830  53.960  40.922  1.00  0.00           N  
 ATOM      2  CA  ARG A   1      32.745  52.892  41.245  1.00  0.00           C  
 ATOM      3  C   ARG A   1      34.129  53.034  40.624  1.00  0.00           C  
@@ -11371,20 +10895,6 @@ ATOM    238 HG23 ILE A  12      35.189  52.143  34.273  1.00  0.00           H
 ATOM    239 HD11 ILE A  12      35.785  52.604  37.497  1.00  0.00           H  
 ATOM    240 HD12 ILE A  12      34.973  51.167  38.048  1.00  0.00           H  
 ATOM    241 HD13 ILE A  12      35.870  51.202  36.460  1.00  0.00           H  
-HETATM  242  N   DPR A  13      32.099  56.404  36.892  1.00  0.00           N  
-HETATM  243  CA  DPR A  13      30.943  56.694  37.721  1.00  0.00           C  
-HETATM  244  CB  DPR A  13      30.914  58.221  37.652  1.00  0.00           C  
-HETATM  245  CG  DPR A  13      31.639  58.614  36.364  1.00  0.00           C  
-HETATM  246  CD  DPR A  13      32.735  57.557  36.282  1.00  0.00           C  
-HETATM  247  C   DPR A  13      30.962  56.332  39.199  1.00  0.00           C  
-HETATM  248  O   DPR A  13      32.007  56.613  39.799  1.00  0.00           O  
-HETATM  249  HA  DPR A  13      30.071  56.367  37.161  1.00  0.00           H  
-HETATM  250  HB2 DPR A  13      31.448  58.732  38.445  1.00  0.00           H  
-HETATM  251  HB3 DPR A  13      29.921  58.659  37.763  1.00  0.00           H  
-HETATM  252  HG2 DPR A  13      30.985  58.587  35.495  1.00  0.00           H  
-HETATM  253  HG3 DPR A  13      31.959  59.653  36.460  1.00  0.00           H  
-HETATM  254  HD2 DPR A  13      32.922  57.427  35.218  1.00  0.00           H  
-HETATM  255  HD3 DPR A  13      33.604  57.914  36.821  1.00  0.00           H  
 ATOM    256  N   PRO A  14      29.955  55.719  39.808  1.00  0.00           N  
 ATOM    257  CA  PRO A  14      29.945  55.514  41.243  1.00  0.00           C  
 ATOM    258  C   PRO A  14      31.046  54.611  41.789  1.00  0.00           C  
@@ -11399,7 +10909,6 @@ ATOM    266  HG2 PRO A  14      28.437  53.526  40.232  1.00  0.00           H
 ATOM    267  HG3 PRO A  14      26.911  54.480  40.136  1.00  0.00           H  
 ATOM    268  HD2 PRO A  14      28.958  54.697  38.300  1.00  0.00           H  
 ATOM    269  HD3 PRO A  14      28.108  56.114  38.735  1.00  0.00           H  
-TER     270      PRO A  14                                                      
 ATOM    271  O5'   G B  17      15.949  48.297  33.103  1.00  0.00           O  
 ATOM    272  C5'   G B  17      15.165  49.459  33.306  1.00  0.00           C  
 ATOM    273  C4'   G B  17      14.468  49.612  34.660  1.00  0.00           C  
@@ -12329,23 +11838,3 @@ ATOM   1196  H41   C B  45      16.569  42.015  39.721  1.00  0.00           H
 ATOM   1197  H42   C B  45      17.507  40.477  40.145  1.00  0.00           H  
 ATOM   1198  H5    C B  45      17.381  39.630  42.525  1.00  0.00           H  
 ATOM   1199  H6    C B  45      16.785  40.290  44.644  1.00  0.00           H  
-TER    1200        C B  45                                                      
-ENDMDL                                                                          
-CONECT  225  242                                                                
-CONECT  242  225  243  246                                                      
-CONECT  243  242  244  247  249                                                 
-CONECT  244  243  245  250  251                                                 
-CONECT  245  244  246  252  253                                                 
-CONECT  246  242  245  254  255                                                 
-CONECT  247  243  248  256                                                      
-CONECT  248  247                                                                
-CONECT  249  243                                                                
-CONECT  250  244                                                                
-CONECT  251  244                                                                
-CONECT  252  245                                                                
-CONECT  253  245                                                                
-CONECT  254  246                                                                
-CONECT  255  246                                                                
-CONECT  256  247                                                                
-MASTER      252    0    1    0    2    0    0    6  738    2   16    5          
-END                                                                             
